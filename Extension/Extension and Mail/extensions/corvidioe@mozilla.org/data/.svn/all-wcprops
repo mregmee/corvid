@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/corvidioe/!svn/ver/24/extension/corvidioe@mozilla.org/data
+END
+hamMap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/hamMap.txt
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/stopwords.txt
+END
+neuralnet.dat
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/neuralnet.dat
+END
+stfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/stfile.txt
+END
+documentcounter.dat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/corvidioe/!svn/ver/24/extension/corvidioe@mozilla.org/data/documentcounter.dat
+END
+tagmap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/tagmap.txt
+END
+knowledgebase.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/knowledgebase.txt
+END
+spamMap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/spamMap.txt
+END
+counter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/counter.txt
+END

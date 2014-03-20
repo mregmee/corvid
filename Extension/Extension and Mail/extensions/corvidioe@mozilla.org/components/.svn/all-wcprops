@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components
+END
+Classification.dll
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/Classification.dll
+END
+Filtration.dll
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/Filtration.dll
+END
+ISummarization.xpt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/ISummarization.xpt
+END
+Summarization.dll
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/Summarization.dll
+END
+IClassification.xpt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/IClassification.xpt
+END
+IFiltration.xpt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/components/IFiltration.xpt
+END

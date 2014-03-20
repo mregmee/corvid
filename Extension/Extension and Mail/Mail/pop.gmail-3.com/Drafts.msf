@@ -1,0 +1,57 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=current-view)(B9=retainBy)(BA=daysToKeepHdrs)(BB=numHdrsToKeep)
+  (BC=daysToKeepBodies)(BD=keepUnreadOnly)(BE=useServerDefaults)
+  (BF=cleanupBodies)(C0=LastPurgeTime)(C1=keywords)(C2=imageSize)
+  (C3=junkscore)(C4=spamstatus)(C5=spamvalue)(C6=notAPhishMessage)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=numRefs)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=charSet)
+  (B0=charSetOverride)(B1=MRUTime)(B2=sortType)(B3=sortOrder)
+  (B4=viewFlags)(B5=viewType)(B6=customSortCol)(B7=current-view-tag)>
+<(84=0)(85=47ad6036)(80=1)>[1:m(^9C=0)(^8F=0)(^91^85)(^92=1)(^93=0)]
+
+<(86=21)(87=maheshregmee <maheshregmee@gmail.com>)(88=)(89
+    =47AD6036.5010609@gmail.com)(8A=a634)(8B=2bd)(8C=ffffffff)(90= )
+  (91=0.0005132165388204157)>
+{0:^80 {(k^98:c)(s=9)1:m } [0(^88=1)(^8A=0)(^8B=21)(^82^87)(^85^87)(^81=)
+    (^83^89)(^86^85)(^89=1)(^87^8A)(^8C^8B)(^9B^8C)(^8E=0)(^C4= )(^C5^91)]}
+{1:^80 {(k^97:c)(s=9)} 0 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} 
+  [0(^94=)]}
+
+<(82=404)(83=Drafts)(92=47ad6046)(8D=1202544708)(8E=12)(8F
+    =Sat Feb 09 13:56:48 2008)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AC=1)(^AD=1)(^88^82)(^A7^83)(^A3^8A)(^A5^92)(^AE^83)(^A1=1)(^A2=0)
+    (^B1^8D)(^B2=12)(^B3=1)(^B4=0)(^B5=0)(^C0^8F)]}
+
+@$${1{@
+<(93=1202544831)>[1:^9F(^B1^93)]
+@$$}1}@
+
+@$${2{@
+<(94=Sat Feb 09 13:58:51 2008)>[1:^9F(^C0^94)]
+@$$}2}@
+
+@$${3{@
+@$$}3}@
+
+@$${5{@
+<(95=Mon Feb 11 13:56:39 2008)>[1:^9F(^C0^95)]
+@$$}5}@
+
+@$${6{@
+@$$}6}@

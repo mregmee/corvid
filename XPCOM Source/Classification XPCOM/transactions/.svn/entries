@@ -1,0 +1,76 @@
+8
+
+dir
+11
+http://dev.d2labs.org/svn/corvidioe/Classification/transactions
+http://dev.d2labs.org/svn/corvidioe
+
+
+
+2007-12-22T08:29:43.404011Z
+11
+lekhnathbhusal
+
+
+svn:special svn:externals svn:needs-lock
+
+index.txt
+file
+
+
+
+
+2007-12-20T04:35:38.000000Z
+17a492a93cfa828acbdb9c4935141520
+2007-12-22T08:29:43.404011Z
+11
+lekhnathbhusal
+
+rules.txt
+file
+16
+
+
+
+2007-12-23T07:34:17.859375Z
+637e6e1897ec43b542cd9dba1c5796af
+2007-12-23T08:09:34.118071Z
+16
+lekhnathbhusal
+
+itemSupport.txt
+file
+16
+
+
+
+2007-12-23T07:34:22.015625Z
+5a2dd744f1d70cdf9efa98aa7db19286
+2007-12-23T08:09:34.118071Z
+16
+lekhnathbhusal
+
+tokenmap.txt
+file
+16
+
+
+
+2007-12-23T07:34:21.906250Z
+88b10698edc2409b3d65e513890eb746
+2007-12-23T08:09:34.118071Z
+16
+lekhnathbhusal
+
+counter.txt
+file
+
+
+
+
+2007-12-20T04:00:20.000000Z
+75be138a16d731480f5c020e875deb61
+2007-12-22T08:29:43.404011Z
+11
+lekhnathbhusal
+

@@ -1,0 +1,731 @@
+From - Fri Oct 26 09:54:05 2007
+X-Account-Key: account3
+X-UIDL: GmailId115da7cc635df62b
+X-Mozilla-Status: 0000
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Delivered-To: maheshregmee@gmail.com
+Received: by 10.82.117.17 with SMTP id p17cs54248buc;
+        Thu, 25 Oct 2007 21:05:53 -0700 (PDT)
+Received: by 10.65.43.5 with SMTP id v5mr5426302qbj.1193371551293;
+        Thu, 25 Oct 2007 21:05:51 -0700 (PDT)
+Return-Path: <noreply@maillist.codeproject.com>
+Received: from mail5.maillist.codeproject.com (mail5.maillist.codeproject.com [69.10.233.35])
+        by mx.google.com with ESMTP id e14si1806011qbe.2007.10.25.21.05.50;
+        Thu, 25 Oct 2007 21:05:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@maillist.codeproject.com designates 69.10.233.35 as permitted sender) client-ip=69.10.233.35;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of noreply@maillist.codeproject.com designates 69.10.233.35 as permitted sender) smtp.mail=noreply@maillist.codeproject.com
+Received: from localhost ([192.168.5.50]) by mail5.maillist.codeproject.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Fri, 26 Oct 2007 00:05:26 -0400
+From: CodeProject <noreply@maillist.codeproject.com>
+To: maheshregmee@gmail.com
+Subject: [CodeProject] Newsletter (22 Oct 2007)
+Date: Fri, 26 Oct 2007 00:05:26 -0400
+MIME-Version: 1.0
+Content-Type: Multipart/Alternative;
+	boundary="Mark=_200710264526688ApcG4Hzu"
+Reply-To: newsletter@codeproject.com
+X-Mailer: CodeProject Mailer 1.3
+Return-Path: noreply@maillist.codeproject.com
+Message-ID: <MAIL5fY0rbhbKY6zlCm0020f6e3@mail5.maillist.codeproject.com>
+X-OriginalArrivalTime: 26 Oct 2007 04:05:26.0717 (UTC) FILETIME=[70982ED0:01C81785]
+
+This is a multi-part message in MIME format.
+
+--Mark=_200710264526688ApcG4Hzu
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: Quoted-Printable
+
+
+--Mark=_200710264526688ApcG4Hzu
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: Quoted-Printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">=0D=0A<html=
+ xmlns=3D"http://www.w3.org/1999/xhtml">=0D=0A<head>=0D=0A<title>The Code=
+ Project Newsletter</title>=0D=0A<meta http-equiv=3D"Content-Type" conten=
+t=3D"text/html; charset=3Dus-ascii" />=0D=0A<style type=3D"text/css">=0D=0A=
+body, p, td { font-family: Verdana, Arial, san serif; font-size:9pt; }=0D=
+=0Ah2 {font-size: 13pt; font-weight:bold;}=0D=0Ah3 {font-size: 11pt; font=
+-weight:bold;}=0D=0Aa {text-decoration:none;}=0D=0Aa:hover {text-decorati=
+on:underline;}=0D=0A.desc { color:#333333; font-size:8pt;}=0D=0A.tiny {fo=
+nt-size:8pt;}=0D=0A</style>=0D=0A</head>=0D=0A<!--4002238-->=0D=0A<body>=0D=
+=0A<basefont face=3D"Verdana" size=3D"2" />=0D=0A<table cellspacing=3D"1"=
+ cellpadding=3D"3" width=3D"100%" bgcolor=3D"#ff9900" border=3D"0"><tr><t=
+d><a href=3D'http://www.codeproject.com/'>=0D=0A<img height=3D"60" src=3D=
+'http://www.codeproject.com/ShowImg.aspx?T=3D1&M=3D4002238&id=3D2102&file=
+=3D%2Fimages%2Fnewsletter_header.gif'=0D=0A	 width=3D"500" border=3D"0" a=
+lt=3D"The Code Project" /></a></td></tr>=0D=0A</table>=0D=0A=0D=0A<table =
+border=3D"0" width=3D"100%"><tr><td class=3D"tiny"><i>For comments or enq=
+uiries please contact =0D=0A<a href=3D"mailto:webmaster@codeproject.com">=
+webmaster@codeproject.com</a></i></td>=0D=0A<td class=3D"tiny" nowrap><a =
+href=3D"http://www.codeproject.com/script/Newsletter/view.asp?id=3D433">V=
+iew online</a></td>=0D=0A<td align=3D"right" class=3D"tiny" nowrap>Monday=
+ 22nd October, 2007</td></tr></table>=0D=0A=0D=0A<p>Welcome to this week'=
+s Code Project newsletter.</p>=0D=0A=0D=0A<p><i>To ensure that future new=
+sletters you receive from CodeProject=0D=0Aaren't mistakenly blocked by a=
+ntispam software, be sure to add the=0D=0Amaillist.codeproject.com domain=
+ to your list of allowed senders.</i></p>=0D=0A=0D=0A=0D=0A<h2><a href=3D=
+"http://www.codeproject.com/">Site News</a></h2>=0D=0A<p>The winners of t=
+he best articles from September have been decided. A big congratulations =
+to the following authors:</p>=0D=0A<table border=3D"0">=0D=0A	<tr vAlign=3D=
+"top">=0D=0A		<td noWrap><b>MFC/C++=A0</b>=A0</td>=0D=0A		<td><b>=0D=0A		=
+<a href=3D"http://www.codeproject.com/script/profile/whos_who.asp?id=3D15=
+759">=0D=0A		Hans Dietrich</a> -=0D=0A		<a href=3D"http://www.codeproject=
+.com/useritems/XHtmlTree.asp">XHtmlTree - =0D=0A		Tree control with suppo=
+rt for HTML, XML and Smart Checkboxes</a></b></td>=0D=0A	</tr>=0D=0A	<tr =
+vAlign=3D"top">=0D=0A		<td align=3D"left">Prize pool </td>=0D=0A		<td><a =
+href=3D"http://www.apress.com">The latest C++ books from Apress</a> =0D=0A=
+		- <a href=3D"http://www.apress.com">Apress</a><br />=0D=0A		<a href=3D"=
+http://www.indigorose.com/setup-factory-for-windows-installer">=0D=0A		Se=
+tup Factory for Windows Installer</a> -=0D=0A		<a href=3D"http://www.indi=
+gorose.com/">Indigo Rose Corporation</a><br />=0D=0A		<a href=3D"https://=
+secure.smartoutline.com/Pages/Topics/Products/Business/BusinessOverview.a=
+sp">=0D=0A		SmartOutline Professional Edition</a> -=0D=0A		<a href=3D"htt=
+p://www.SmartOutline.com">SmartOutline</a><br />=0D=0A		<br />=0D=0A		</t=
+d>=0D=0A	</tr>=0D=0A	<tr vAlign=3D"top">=0D=0A		<td noWrap><b>C#=A0</b>=A0=
+</td>=0D=0A		<td><b>=0D=0A		<a href=3D"http://www.codeproject.com/script/=
+profile/whos_who.asp?id=3D3324571">=0D=0A		SlickEdit Inc.</a> -=0D=0A		<a=
+ href=3D"http://www.codeproject.com/csharp/cpbrowser.asp">The Code =0D=0A=
+		Project Browser Add-in for VS 2005</a></b></td>=0D=0A	</tr>=0D=0A	<tr v=
+Align=3D"top">=0D=0A		<td align=3D"left">Prize pool </td>=0D=0A		<td><a h=
+ref=3D"http://www.apress.com">The latest C# books from Apress</a> =0D=0A	=
+	- <a href=3D"http://www.apress.com">Apress</a><br />=0D=0A		<a href=3D"h=
+ttp://www.dundas.com/index.aspx?Section=3DCharting">Dundas Chart =0D=0A		=
+for .NET Pro</a> - <a href=3D"http://www.dundas.com/">Dundas Software</a>=
+<br />=0D=0A		<a href=3D"http://www.kliksoft.com/?S=3D2&SS=3D14">Klik! En=
+tryLib.Net (WinForms)</a> =0D=0A		- <a href=3D"http://www.kliksoft.com/">=
+Klik! Software </a><br />=0D=0A		<a href=3D"http://www.ssware.com/megapac=
+k.htm">Shell MegaPack.Net </a>-=0D=0A		<a href=3D"http://www.ssware.com">=
+Sky Software</a><br />=0D=0A		<a href=3D"https://secure.smartoutline.com/=
+Pages/Topics/Products/Business/BusinessOverview.asp">=0D=0A		SmartOutline=
+ Professional Edition</a> -=0D=0A		<a href=3D"http://www.SmartOutline.com=
+">SmartOutline</a><br />=0D=0A		<br />=0D=0A		</td>=0D=0A	</tr>=0D=0A	<tr=
+ vAlign=3D"top">=0D=0A		<td noWrap><b>ASP.NET=A0</b>=A0</td>=0D=0A		<td><=
+b>=0D=0A		<a href=3D"http://www.codeproject.com/script/profile/whos_who.a=
+sp?id=3D1044648">=0D=0A		Dmitry Khudorozhkov</a> -=0D=0A		<a href=3D"http=
+://www.codeproject.com/jscript/AutoSuggestControl.asp">=0D=0A		Auto-sugge=
+st Control</a></b></td>=0D=0A	</tr>=0D=0A	<tr vAlign=3D"top">=0D=0A		<td =
+align=3D"left">Prize pool </td>=0D=0A		<td><a href=3D"http://www.apress.c=
+om">The latest ASP.NET books from Apress</a> =0D=0A		- <a href=3D"http://=
+www.apress.com">Apress</a><br />=0D=0A		<a href=3D"http://www.dundas.com/=
+index.aspx?Section=3DCharting">Dundas Chart =0D=0A		for .NET Pro</a> - <a=
+ href=3D"http://www.dundas.com/">Dundas Software</a><br />=0D=0A		<a href=
+=3D"https://secure.smartoutline.com/Pages/Topics/Products/Business/Busine=
+ssOverview.asp">=0D=0A		SmartOutline Professional Edition</a> -=0D=0A		<a=
+ href=3D"http://www.SmartOutline.com">SmartOutline</a><br />=0D=0A		<br /=
+>=0D=0A		</td>=0D=0A	</tr>=0D=0A	<tr vAlign=3D"top">=0D=0A		<td noWrap><b=
+>VB.NET=A0</b>=A0</td>=0D=0A		<td><b>=0D=0A		<a href=3D"http://www.codepr=
+oject.com/script/profile/whos_who.asp?id=3D4440977">=0D=0A		WPKF</a> -=0D=
+=0A		<a href=3D"http://www.codeproject.com/useritems/Send_Inline_Image_Em=
+ail.asp">=0D=0A		Send Inline Image Email (VB.NET 2.0)</a></b></td>=0D=0A	=
+</tr>=0D=0A	<tr vAlign=3D"top">=0D=0A		<td align=3D"left">Prize pool </td=
+>=0D=0A		<td><a href=3D"http://www.apress.com">The latest VB books from A=
+press</a> =0D=0A		- <a href=3D"http://www.apress.com">Apress</a><br />=0D=
+=0A		<a href=3D"http://www.kliksoft.com/?S=3D2&SS=3D14">Klik! EntryLib.Ne=
+t (WinForms)</a> =0D=0A		- <a href=3D"http://www.kliksoft.com/">Klik! Sof=
+tware </a><br />=0D=0A		<a href=3D"http://www.ssware.com/megapack.htm">Sh=
+ell MegaPack.Net </a>-=0D=0A		<a href=3D"http://www.ssware.com">Sky Softw=
+are</a><br />=0D=0A		<a href=3D"https://secure.smartoutline.com/Pages/Top=
+ics/Products/Business/BusinessOverview.asp">=0D=0A		SmartOutline Professi=
+onal Edition</a> -=0D=0A		<a href=3D"http://www.SmartOutline.com">SmartOu=
+tline</a></td>=0D=0A	</tr>=0D=0A</table>=0D=0A=0D=0A<p><strong>Our </stro=
+ng><a href=3D"http://www.codeproject.com/feature/vs2008/">=0D=0A<strong>V=
+isual Studio=AE 2008 Beta Competition</strong></a><strong> prize pool has=
+ increased=0D=0Ato $25,000 worth of prizes! </strong>=0D=0A</p>=0D=0A<p>W=
+rite a great article about VS 2008 for a chance to win the largest cash p=
+rize (and pool of goodies) =0D=0Ain The Code Project=92s history! Startin=
+g November =0D=0A5, we=92ll be awarding $1000 cash prizes to the top arti=
+cle every two weeks, and =0D=0Athe best article as the clock strikes midn=
+ight on New Year=92s Eve wins $10,000. =0D=0AWe'll be adding even more pr=
+izes to the packages so keep checking back.=0D=0A<a href=3D"http://www.co=
+deproject.com/feature/vs2008">Get started today</a></p>=0D=0A=0D=0A=0D=0A=
+<h2><a href=3D"http://www.codeproject.com/info/MediaKit/">CodeProject Off=
+ers</a></h2>=0D=0A<table cellSpacing=3D"0" cellPadding=3D"2" width=3D"90%=
+" align=3D"center" border=3D"0">=0D=0A<tr><td><a href=3D"http://www.codep=
+roject.com/redir.aspx?id=3D4359"><img border=3D"0" src=3D"http://www.code=
+project.com/script/admentor/images/infragistics_60x60.gif" width=3D"60" h=
+eight=3D"60" /></a></td>=0D=0A<td valign=3Dtop><b><a href=3D"http://www.c=
+odeproject.com/redir.aspx?id=3D4359">Rapidly Build & Style Office 2007 Ap=
+ps & More</a></b>=0D=0A<br>AJAX Webgrid, charts, gauges, schedule, naviga=
+tion etc.=0D=0A<br>WinForms with Ribbon, plus Vista style and navigation=0D=
+=0A<br>Full Featured Trial: NetAdvantage for .NET=0D=0A<br>URL: <a href=3D=
+"http://infragistics.com/adcounter/webads.aspx?adid=3DCPAUG06N_trial">www=
+.infragistics.com/redirects/CPOct07WNL</a></td></tr>=0D=0A=0D=0A<TR><TD c=
+olSpan=3D"2" height=3D"7"></TD></TR>=0D=0A<tr><td><a href=3D"http://www.c=
+odeproject.com/redir.aspx?id=3D4412"><img border=3D"0" src=3D"http://www.=
+codeproject.com/script/admentor/images/xoreax_808_60X60.gif" width=3D"60"=
+ height=3D"60" /></a></td>=0D=0A<td valign=3Dtop><b><a href=3D"http://www=
+.codeproject.com/redir.aspx?id=3D4412">Speed up Builds, Scripts and Appli=
+cations using Distributed Computing</a></b> IncrediBuild is an easy-to-us=
+e platform for accelerating Windows-based processes through advanced Grid=
+ Computing technology. Accelerate MSVC builds, make-based builds, scripts=
+ and custom tools. <a href=3D"http://www.codeproject.com/redir.aspx?id=3D=
+4412">Free 30-day trial version!</a></td></tr>=0D=0A=0D=0A<TR><TD colSpan=
+=3D"2" height=3D"7"></TD></TR>=0D=0A<tr><td><a href=3D"http://www.codepro=
+ject.com/redir.aspx?id=3D4398"><img border=3D"0" src=3D"http://www.codepr=
+oject.com/script/admentor/images/installaware_60x60.jpg" width=3D"60" hei=
+ght=3D"60" /></a></td>=0D=0A<td valign=3Dtop><b><a href=3D"http://www.cod=
+eproject.com/redir.aspx?id=3D4398">Windows Installer without Rocket Scien=
+ce </a></b><br>Easily produce bullet proof Vista certified MSI files with=
+out having to learn the internals of MSI.  Our MSIcode allows runtime bra=
+nching, setup chaining, conditional compilation, interactive Flash billbo=
+ards, and more.<br><a href=3D"http://www.codeproject.com/redir.aspx?id=3D=
+4398">Download FREE Trial</a></td></tr>=0D=0A=0D=0A<TR><TD colSpan=3D"2" =
+height=3D"7"></TD></TR>=0D=0A<tr><td><a href=3D"http://www.codeproject.co=
+m/redir.aspx?id=3D4350"><img border=3D"0" src=3D"http://www.codeproject.c=
+om/script/admentor/images/Dundas-Gauge-60x60.png" width=3D"61" height=3D"=
+61" /></a></td>=0D=0A<td valign=3Dtop><b><a href=3D"http://www.codeprojec=
+t.com/redir.aspx?id=3D4350">Dundas Gauge for SharePoint 2007 is here</a><=
+/b> =96 The perfect solution for those working with SharePoint 2007 and l=
+ooking to build Scorecards or display Key Performance Indicators (KPI=92s=
+).  Available for MOSS and WSS, as well as in 64-bit. <a href=3D"http://w=
+ww.codeproject.com/redir.aspx?id=3D4350">Download a full evaluation copy =
+today</a>.</td></tr>=0D=0A</table>=0D=0A =0D=0A=0D=0A<h2><a href=3D"http:=
+//www.codeproject.com/script/survey/detail.asp?survey=3D732">Weekly Poll =
+Results</a></h2><p>Which Microsoft patterns and practices frameworks do y=
+ou use?</p><blockquote><table cellspacing=3D0 cellpadding=3D2><TR bgColor=
+=3D#ff9900>=0D=0A<TD class=3DsmallText vAlign=3Dcenter><B>Option</B></TD>=
+=0D=0A<TD class=3DsmallText vAlign=3Dcenter width=3D"10%"><B>Votes</B></T=
+D>=0D=0A<td valign=3Dmiddle align=3Dcenter class=3DsmallText width=3D"10%=
+"><b>%</b></td>=0D=0A</TR><TR bgColor=3D#fafafa><TD class=3DsmallText vAl=
+ign=3Dcenter width=3D"100%">Enterprise Library</td>=0D=0A<td valign=3Dmid=
+dle align=3Dright class=3DsmallText>413</td><td valign=3Dmiddle align=3Dr=
+ight class=3DsmallText><b>61.4</b></td>=0D=0A<TR bgColor=3D#fafafa><TD cl=
+ass=3DsmallText vAlign=3Dcenter width=3D"100%">CAB (CompositeUI Applicati=
+on Block)</td>=0D=0A<td valign=3Dmiddle align=3Dright class=3DsmallText>8=
+6</td><td valign=3Dmiddle align=3Dright class=3DsmallText><b>12.8</b></td=
+>=0D=0A<TR bgColor=3D#fafafa><TD class=3DsmallText vAlign=3Dcenter width=3D=
+"100%">SCSF (Smart Client Software Factory)</td>=0D=0A<td valign=3Dmiddle=
+ align=3Dright class=3DsmallText>61</td><td valign=3Dmiddle align=3Dright=
+ class=3DsmallText><b>9.1</b></td>=0D=0A<TR bgColor=3D#fafafa><TD class=3D=
+smallText vAlign=3Dcenter width=3D"100%">Web Client Software Factory</td>=
+=0D=0A<td valign=3Dmiddle align=3Dright class=3DsmallText>87</td><td vali=
+gn=3Dmiddle align=3Dright class=3DsmallText><b>12.9</b></td>=0D=0A<TR bgC=
+olor=3D#fafafa><TD class=3DsmallText vAlign=3Dcenter width=3D"100%">Web S=
+ervice Software Factory</td>=0D=0A<td valign=3Dmiddle align=3Dright class=
+=3DsmallText>89</td><td valign=3Dmiddle align=3Dright class=3DsmallText><=
+b>13.2</b></td>=0D=0A<TR bgColor=3D#fafafa><TD class=3DsmallText vAlign=3D=
+center width=3D"100%">Mobile Client Software Factory</td>=0D=0A<td valign=
+=3Dmiddle align=3Dright class=3DsmallText>26</td><td valign=3Dmiddle alig=
+n=3Dright class=3DsmallText><b>3.9</b></td>=0D=0A<TR bgColor=3D#85bc4c>=0D=
+=0A<TD class=3DsmallText vAlign=3Dcenter><B>Responses</B></TD>=0D=0A<TD c=
+lass=3DsmallText vAlign=3Dcenter align=3Dright><B>673</B></TD>=0D=0A<TD c=
+lass=3DsmallText vAlign=3Dcenter align=3Dright>=A0</TD></TR>=0D=0A</table=
+></blockquote>=0D=0A(<i>Respondents were allowed to choose more than one =
+answer; totals may not add up to 100%</i>)=0D=0A=0D=0A=0D=0A<h2>Most popu=
+lar new articles 15 Oct 2007 - 22 Oct 2007</h2>=0D=0A<ul>=0D=0A<li><a hre=
+f=3D"http://www.codeproject.com/article.asp?tag=3D23154510308739381">Wind=
+owsVistaRenderer: A new button generation</a> - Jose M. Menendez Poo=0D=0A=
+<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D2315451031093=
+9381">WPF  : The Classic Snakes WPF'ed</a> - Sacha Barber=0D=0A<li><a hre=
+f=3D"http://www.codeproject.com/article.asp?tag=3D23154510309239381">Intr=
+oducing The LinFu Framework, Part I - LinFu.DynamicProxy: A Lightweight P=
+roxy Generator</a> - Philip Laureano=0D=0A<li><a href=3D"http://www.codep=
+roject.com/article.asp?tag=3D23154510313839381">The complete guide to STL=
+. Part 1 - vector</a> - cristitomi=0D=0A<li><a href=3D"http://www.codepro=
+ject.com/article.asp?tag=3D23154510312939381">RunSharp - Reflection.Emit =
+has never been easier</a> - Stefan Simek=0D=0A</ul>=0D=0A=0D=0A=0D=0A<h2>=
+<a href=3D"http://www.codeproject.com/info/latest.asp" target=3DCP>Latest=
+ Additions</a></h2>=0D=0A<p>76 articles overall. 41 new, 36 updated, 2 mo=
+ved. 22 articles were edited, 54 unedited.<br>Article types listed: New, =
+Updated, edited, unedited=0D=0A<br>Article categories listed: General, MF=
+C/C++, C#, ASP.NET, .NET, VB.NET=0D=0A<h3><i>Articles posted in the last =
+week</i></h3>=0D=0A<h3><a href=3D"http://www.codeproject.com/WPF/">Window=
+s Presentation Foundation</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://w=
+ww.codeproject.com/article.asp?tag=3D23154510311939381">Validizor - A Val=
+idation Control for WPF</a> - Buzz Weetman <img src=3D"http://www.codepro=
+ject.com/images/moved.gif" height=3D12 /><div class=3Ddesc>A WPF validati=
+on control for validating your data objects.<br />C# (C# 3.0); Windows, .=
+NET (.NET 3.0); Win32, VS, WPF; Dev</div><br></li>=0D=0A<li><a href=3D"ht=
+tp://www.codeproject.com/article.asp?tag=3D23154510313039381">Quick Overv=
+iew of Exression Blend & WPF</a> - Manish Pansiniya<div class=3Ddesc>Simp=
+le and Quick overview of Expression Blend for WPF (Unedited)<br />C# (C# =
+3.0); Windows, .NET (.NET 3.5); Win32, VS (VS2008), WPF; Arch, Dev, Desig=
+n</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.a=
+sp?tag=3D23154510310839381">Using EntitySpaces Business Objects in XAML</=
+a> - dakeefer<div class=3Ddesc>An exploration of how to use the EntitySpa=
+ces business object framework within a WPF application. (Unedited)<br />C=
+# (C# 3.0); Windows (Win2K, WinXP, Win2003, Vista), .NET (.NET 3.0); Win3=
+2, SQL (SQL 2000, SQL 2005), VS (VS2005), ADO.NET, XAML, WPF; DB, Dev</di=
+v><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/vb/=
+net/">VB.NET</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeprojec=
+t.com/article.asp?tag=3D23154510313439381">Extending Menu Items With Exte=
+nder Component</a> - BloodyCool<div class=3Ddesc>This article will help y=
+ou to extend menu items with properties represented by any objects you li=
+ke.<br />VB; Windows, .NET (.NET 1.1); Win32, VS, GDI+; Dev</div><br></li=
+>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D231545=
+10316439381">Visual Studio 2005 Auto-versioning Addin</a> - ]Whatever[<di=
+v class=3Ddesc>An add-in that handles incrementing assembly and file vers=
+ion numbers under certain conditions. (Unedited)<br />VB (VB 8.0); Window=
+s (Win2K, WinXP, Win2003), .NET (.NET 2.0); Win32, VS (VS2005); Dev, Desi=
+gn</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.=
+asp?tag=3D23154510315039381">A Screen Capture Utility</a> - Ken.Huang<div=
+ class=3Ddesc>Screen Capture Utility for Developer and Generic (Unedited)=
+<br />VB (VB 8.0); Windows (Win2K, WinXP), .NET; Win32, VS (VS2005); Dev,=
+ QA, Design</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com=
+/article.asp?tag=3D23154510312539381">Creating a Custom Settings Provider=
+</a> - CodeChimp<div class=3Ddesc>Demonstration of how to write custom se=
+ttings providers (Unedited)<br />VB (VB 8.0); Windows (Win2K, WinXP, Win2=
+003, Vista), .NET (.NET 2.0, .NET 3.0, .NET 3.5); Win32, VS (VS2005), Win=
+Forms; Arch, Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeprojec=
+t.com/article.asp?tag=3D23154510311539381">Hierarchical Xml Data Builder =
+from SQL Query</a> - asithangae<div class=3Ddesc>XML Data builder from th=
+e sql query in hierarchical format (Unedited)<br />VB (VB 8.0); Windows, =
+.NET (.NET 2.0); ASP.NET, Win32, SQL (SQL 2005), VS (VS2005), WebForms; D=
+B, Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproje=
+ct.com/vb/interop/">VB6 Interop</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"ht=
+tp://www.codeproject.com/article.asp?tag=3D23154510316139381">Add to rece=
+nt - automatic create recent items</a> - Ivan0001<div class=3Ddesc>Automa=
+tic create recent menu items, it's wery easy and usefull. You just need t=
+o define file to save, and menu button (class will automaticaly create al=
+l items). (Unedited)<br />VB (VB 6); Windows (Win95, Win98, WinME, NT4, W=
+in2K, WinXP, Win2003, Vista), .NET; Win32, VS (VS6); Dev</div><br></li>=0D=
+=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/dotnet/">.NET</a>=
+</h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.as=
+p?tag=3D23154510315839381">Using RSA Public Key Encryption in a Shared We=
+bhosting Environment</a> - Paul Sanders (AlpineSoft)<div class=3Ddesc>Thi=
+s article provides a way to use RSA public key encryption in scripts runn=
+ing on a webserver hosted by a shared hosting company. It also demonstrat=
+es how to use RSA in .Net to solve the 'real world' problem of signing li=
+cense codes so that they cannot be forged. (Unedited)<br />C# (C# 2.0); W=
+indows (WinXP, Win2003, Vista), .NET (.NET 1.1, .NET 2.0); ASP.NET, Win32=
+, IIS (IIS 5, IIS 5.1, IIS 6, IIS 7), VS (VS.NET2003, VS2005), WebForms; =
+Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article=
+.asp?tag=3D23154510313639381">Dynamic Console App for Invoking .NET Assem=
+blies</a> - yang yu 1799999<div class=3Ddesc>This Application demonstrate=
+s how .NET Reflection can be used to Query and Invoke Any Assemblies Meth=
+ods. (Unedited)<br />C# (C# 2.0); Windows (WinXP), .NET (.NET 2.0); Win32=
+, VS (VS2005); Arch, Dev</div><br></li>=0D=0A<li><a href=3D"http://www.co=
+deproject.com/article.asp?tag=3D23154510312939381">RunSharp - Reflection.=
+Emit has never been easier</a> - Stefan Simek<div class=3Ddesc>RunSharp (=
+or Run#) is a high-level wrapper around the Reflection.Emit API, allowing=
+ you to generate code at runtime quickly and easily. (Unedited)<br />C# (=
+C# 2.0), MSIL; Windows, .NET (.NET 2.0); Win32, VS (VS2005); Dev</div><br=
+></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/aspnet/"=
+>ASP.NET</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.co=
+m/article.asp?tag=3D23154510311139381">Printing a GridView with Paging</a=
+> - Cassio Alves <img src=3D"http://www.codeproject.com/images/updated.gi=
+f" height=3D12 /> <img src=3D"http://www.codeproject.com/images/moved.gif=
+" height=3D12 /><div class=3Ddesc>This is a WebControl that provides an e=
+asy way to prepare an ASP.NET GridView to be paged and printed in the bro=
+wser.<br />C#; Windows, .NET (.NET 2.0); ASP.NET, Win32, VS, WebForms; De=
+v</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.a=
+sp?tag=3D23154510316739381">Amazon-esque Pager</a> - Daniel Vaughan<div c=
+lass=3Ddesc>Yet another list pager, but this one can use LinkButtons or s=
+imple hyperlinks, provides scrolling within an ASP.NET Ajax UpdatePanel, =
+and behaves similarly to the paging found on Amazon.com. (Unedited)<br />=
+C# (C# 2.0), JScript, XML; Windows, .NET (.NET 2.0); ASP.NET, Win32, VS (=
+VS2005), WebForms, AJAX; Dev</div><br></li>=0D=0A<li><a href=3D"http://ww=
+w.codeproject.com/article.asp?tag=3D23154510315939381">prevent a goback t=
+o the previous page and refresh the current page in asp.net 1.0 app</a> -=
+ Mack Ait-Aoudia<div class=3Ddesc>This article describe a solution to pre=
+vent some browser's functionnalities (Unedited)<br />C# (C# 1.0); .NET (.=
+NET 1.1), Windows; Win32, VS (VS.NET2003), WebForms, ASP.NET; Dev</div><b=
+r></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D=
+23154510312039381">DataGrid - Master/Child Details in ASP.NET, C# - Expan=
+d/Collapse DataGrid Rows (Master/Detail View)</a> - Rajib Ahmed<div class=
+=3Ddesc>Using ASP.NET, C#, Framework 1.1 to show a master/detail grid wit=
+h javascript to expand & collapse. (Unedited)<br />C#, JScript, HTML; Win=
+dows (WinXP, Win2003), .NET (.NET 1.1, .NET 2.0); ASP.NET, Win32, SQL (SQ=
+L 2000), VS (VS.NET2002, VS.NET2003), WebForms; DB, Dev</div><br></li>=0D=
+=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/Ajax/">AJAX / Atl=
+as</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/arti=
+cle.asp?tag=3D23154510314339381">Light Speed Inline Editing Using ASP.NET=
+ AJAX and Web Services</a> - Andrew Golik<div class=3Ddesc>javascript+AJA=
+X solution for inline edititng in grid. (Unedited)<br />JScript, XML, HTM=
+L; Windows, .NET (.NET 2.0); ASP.NET, Win32, VS, WebForms, AJAX; Dev, Des=
+ign</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.=
+com/cs/algorithms/">C# Algorithms</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"=
+http://www.codeproject.com/article.asp?tag=3D23154510316339381">Squeezing=
+ more performance from SortedList</a> - itaifrenkel<div class=3Ddesc>A So=
+rtedList implementations using a cyclic algorithm and C# IDictionary twea=
+ks (Unedited)<br />C# (C# 3.0); Windows, .NET (.NET 3.5); Win32, VS (VS20=
+08); Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codepro=
+ject.com/cs/miscctrl/">C# Controls</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D=
+"http://www.codeproject.com/article.asp?tag=3D23154510313139381">Mouse Po=
+sition over Image in a PictueBox</a> - bambitlaw<div class=3Ddesc>A custo=
+m control derived from the PictureBox control that demonstrates how to ob=
+tain the position of the mouse relative to the Image (Unedited)<br />C# (=
+C# 2.0); Windows, .NET (.NET 2.0); Win32, VS (VS2005); Dev</div><br></li>=
+=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/cs/library/">C=
+# Libraries</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject=
+.com/article.asp?tag=3D23154510309239381">Introducing The LinFu Framework=
+, Part I - LinFu.DynamicProxy: A Lightweight Proxy Generator</a> - Philip=
+ Laureano<div class=3Ddesc>A fast dynamic proxy library with support for =
+.NET Generics<br />C#; Windows, .NET (.NET 2.0, .NET 3.0, .NET 3.5); Win3=
+2, VS (VS2005, VS2008); Dev</div><br></li>=0D=0A<li><a href=3D"http://www=
+.codeproject.com/article.asp?tag=3D23154510310039381">Password Safe Datab=
+ase Reader Library in C# for .NET</a> - Svante Seleborg<div class=3Ddesc>=
+An independent library implementation to read Password Safe Password Mana=
+ger V3 database files. (Unedited)<br />C# (C# 2.0, C# 3.0); Windows, .NET=
+ (.NET 2.0, .NET 3.0, .NET 3.5); Win32, VS (VS2005); Dev</div><br></li>=0D=
+=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/csharp/">C# Progr=
+amming</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/=
+article.asp?tag=3D23154510310739381">Tips to Make ASP.NET Talk to ASP, PH=
+P, RAILS and JAVA (Part 1)</a> - Vijayaraghavan A Iyengar<div class=3Ddes=
+c>Tips to integrate ASP.NET app with legacy ASP, PHP, RAILS, JAVA apps<br=
+ />C#; Windows, .NET (.NET 2.0); ASP.NET, Win32, VS, WebForms; Dev</div><=
+br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D=
+23154510311839381">Generic Gap Buffer</a> - Jacob Slusser<div class=3Ddes=
+c>A list-style collection for fast insert and remove operations.<br />C# =
+(C# 2.0); Windows, .NET (.NET 2.0); Win32; Dev</div><br></li>=0D=0A<li><a=
+ href=3D"http://www.codeproject.com/article.asp?tag=3D23154510313739381">=
+Simple Modbus Protocol in C# / .Net 2.0</a> - distantcity<div class=3Ddes=
+c>A simple implementation of .Net 2.0's SerialPort class for Modbus commu=
+nications (Unedited)<br />C# (C# 2.0); Windows, .NET (.NET 2.0); Win32, V=
+S (VS2005); Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject=
+.com/article.asp?tag=3D23154510313539381">Arabic Data Convert & Query usi=
+ng LINQ</a> - Alawi Alkaf<div class=3Ddesc>Arabic Data Convert & Query us=
+ing LINQ (Unedited)<br />C# (C# 3.0); Windows (Win95, Win98, WinME, NT4, =
+Win2K, WinXP, Win2003, Vista, TabletPC), .NET (.NET 3.5); Win32, VS (VS20=
+08); DB, Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.co=
+m/article.asp?tag=3D23154510310339381">Delegates for Dummies</a> - Andrew=
+ D. Weiss<div class=3Ddesc>Primer - The basics about delegates, how to de=
+fine them and use them. (Unedited)<br />C# (C# 1.0, C# 2.0, C# 3.0); .NET=
+ (.NET 1.0, .NET 1.1, .NET 2.0, .NET 3.0, .NET 3.5), Windows; Win32, VS (=
+VS.NET2002, VS.NET2003, VS2005); Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><=
+a href=3D"http://www.codeproject.com/cs/samples/">C# Samples</a></h3>=0D=0A=
+<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D231=
+54510312839381">.Net Resource file to Excel file converter</a> - cool_man=
+u07<div class=3Ddesc>This application reads a .Net resource file and writ=
+e its contents to microsoft excel file. (Unedited)<br />C# (C# 2.0); Wind=
+ows, .NET (.NET 2.0); Win32, VS (VS2005); Dev</div><br></li>=0D=0A</ul>=0D=
+=0A<h3><a href=3D"http://www.codeproject.com/cpp/">C++ / MFC</a></h3>=0D=0A=
+<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D231=
+54510314539381">The forgotten problems of 64-bit programs development</a>=
+ - Karpov Andrey<div class=3Ddesc>In the article there are considered som=
+e mistakes connected with 64-bit C/C++ code development to Windows. (Uned=
+ited)<br />C++, C; Windows; Win32, Win64, VS; Dev, QA</div><br></li>=0D=0A=
+</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/database/">Database<=
+/a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article=
+.asp?tag=3D23154510308539381">SQLServer2000 Deadlock Analaysis</a> - Tijo=
+y<div class=3Ddesc>SQLServer2000 deadlock  analysis. (Unedited)<br />C++,=
+ SQL; Windows (WinXP, Win2003); Win32, SQL (SQL 2000), VS; DB, Dev</div><=
+br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/showca=
+se/">Product Showcase</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.c=
+odeproject.com/article.asp?tag=3D23154510309139381">A Story About Bob and=
+ How He Saved the Day with SlickEdit=AE Tools for Microsoft=AE Visual Stu=
+dio=AE 2005</a> - SlickEdit Inc.<div class=3Ddesc>Bob wows the software d=
+evelopment team by showing them the powerful and time saving features of =
+SlickEdit Tools. SlickEdit Tools is a collection of add-ins for Microsoft=
+ Visual Studio that provide a developer with greater capabilities directl=
+y within Visual Studio.<br />C++; Windows, .NET; Win32, VS; Dev</div><br>=
+</li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D23=
+154510308939381">Developing innovative manageability applications for Int=
+el=AE vPro=99 Processor Technology and Intel=AE Centrino=AE Pro Processor=
+ Technology</a> - Ajay Mungara<div class=3Ddesc>How software developers c=
+an take advantage of development tools/APIs provided by Intel to support =
+the software development efforts for Intel=AE Active Management Technolog=
+y (Intel=AE AMT), a component of Intel=AE vPro=99 Processor Technology an=
+d Intel=AE Centrino=AE Pro Processor Technology<br />C++, C#; Windows, .N=
+ET; Win32, VS; Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproj=
+ect.com/article.asp?tag=3D23154510314839381">Using Barcodes in Documents =
+=96 Best Practices</a> - Paul Firth<div class=3Ddesc>This article advises=
+ application developers and end users on the basic standards of implement=
+ing document barcode solutions. Discover how size and dpi affect accuracy=
+, actions users can take at scan stations to optimize success, ways to in=
+crease recognition speed, and more.<br />Windows; Win32, VS; Dev</div><br=
+></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/vcpp/stl=
+/">STL</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/=
+article.asp?tag=3D23154510317339381">The complete guide to STL. Part 3 - =
+deque</a> - cristitomi<div class=3Ddesc>An introduction to STL deque (Une=
+dited)<br />C++ (VC6, VC7, VC7.1, VC8.0); Windows (Win95, Win98, WinME, N=
+T4, Win2K, WinXP, Win2003); Win32, VS (VS.NET2002, VS.NET2003, VS2005, VS=
+6), STL; Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.co=
+m/article.asp?tag=3D23154510316839381">The complete guide to STL. Part 2 =
+- list</a> - cristitomi<div class=3Ddesc>An introduction to STL list (Une=
+dited)<br />C++ (VC6, VC7, VC7.1, VC8.0); Windows (Win95, Win98, WinME, N=
+T4, Win2K, WinXP, Win2003); Win32, VS (VS.NET2002, VS.NET2003, VS2005, VS=
+6), STL; Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.co=
+m/article.asp?tag=3D23154510313839381">The complete guide to STL. Part 1 =
+- vector</a> - cristitomi<div class=3Ddesc>An introduction to STL vector =
+(Unedited)<br />C++ (VC6); Windows (Win95, Win98, NT4, Win2K, WinXP, Win2=
+003); Win32, VS (VS6), STL; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a hre=
+f=3D"http://www.codeproject.com/bitmap/">Bitmaps &amp; Palettes</a></h3>=0D=
+=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D=
+23154510315739381">Embedded Zerotree Image Codec with Bior97 SSE Optimize=
+d Wavelet-transform</a> - Chesnokov Yuriy<div class=3Ddesc>The article de=
+monstrating the use of Embedded zero tree still image codec with JPEG 200=
+0 wavelet-filter. (Unedited)<br />C++ (VC8.0); Windows (WinXP, Vista); Wi=
+n32, VS (VS2005), MFC, GDI+; Dev</div><br></li>=0D=0A<li><a href=3D"http:=
+//www.codeproject.com/article.asp?tag=3D23154510313339381">Fast Dyadic Im=
+age Scaling with Haar Transform</a> - Chesnokov Yuriy<div class=3Ddesc>Th=
+e article demonstrating the use of Haar transform for dyadic image scalin=
+g with MMX optimization (Unedited)<br />C++ (VC8.0); Windows; Win32, VS (=
+VS2005), MFC; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://ww=
+w.codeproject.com/ce/">PDA / Embedded</a></h3>=0D=0A<ul>=0D=0A<li><a href=
+=3D"http://www.codeproject.com/article.asp?tag=3D23154510313239381">A lis=
+t-based form for Windows Mobile</a> - Joao Paulo Figueira<div class=3Ddes=
+c>Implementing a Pocket Outlook-like list-based form with a few extras (U=
+nedited)<br />C++ (VC8.0); Windows, WinCE (CE .NET 4.2); Win32, VS (VS200=
+5), PDA (WinMobile2003, WinMobile5), MFC; Dev</div><br></li>=0D=0A</ul>=0D=
+=0A<h3><a href=3D"http://www.codeproject.com/win32/">Win32 / SDK</a></h3>=
+=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=
+=3D23154510315139381">How to Retrieve EMC Centera Cluster/Pool Capabiliti=
+es</a> - adel s eddin at adrdweb.com<div class=3Ddesc>This article shows =
+you how to connect to a Centera Storage appliance and get the Centera Clu=
+ster Capabilities.<br />C++, C#; Windows, .NET; Win32, VS; Dev</div><br><=
+/li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/w2k/">Wind=
+ows 2000 / XP</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproje=
+ct.com/article.asp?tag=3D23154510312139381">How to conduct an SMS survey =
+using a cellphone connected SMS Gateway and MS Access.</a> - Adam Page<di=
+v class=3Ddesc>Setting up an SMS Gateway to conduct an SMS survey and sto=
+ring the survey results in an MS Access database, from which you can gene=
+rate/print out reports. (Unedited)<br />SQL, C++; Windows (NT4, Win2K, Wi=
+nXP, Win2003, TabletPC); Win32, SQL (SQL 2000, SQL 2005); DB, Dev</div><b=
+r></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/gen/wor=
+k/">Work Issues</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codepro=
+ject.com/article.asp?tag=3D23154510317439381">Why Are Small Software Proj=
+ects So Hard to Track</a> - ijese<div class=3Ddesc>Problems are common wh=
+en organizing work on small software projects. Self invented systems are =
+usually inadequate, while specialized software packages seem to be exclus=
+ively focused on corporations. So what can be done? (Unedited)<br />Windo=
+ws; Win32, VS; Arch, Dev, QA, Design</div><br></li>=0D=0A</ul>=0D=0A<h3><=
+i>Updated Articles</i></h3>=0D=0A<h3><a href=3D"http://www.codeproject.co=
+m/vista/">Vista</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codepro=
+ject.com/article.asp?tag=3D23154510307539381">Build a PowerShell cmdlet</=
+a> - Shahar Gvirtz <img src=3D"http://www.codeproject.com/images/updated.=
+gif" height=3D12 /><div class=3Ddesc>Learn how to build a simple Windows =
+PowerShell cmdlet, use parameters, wildcards, CustomPSSnapin and the Exte=
+nded Type System (Unedited)<br />Windows (WinXP, Win2003, Vista), .NET (.=
+NET 2.0); Win32, IIS (IIS 7), VS; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3>=
+<a href=3D"http://www.codeproject.com/WPF/">Windows Presentation Foundati=
+on</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/arti=
+cle.asp?tag=3D23154510333239381">A WPF SplitButton</a> - alrh <img src=3D=
+"http://www.codeproject.com/images/updated.gif" height=3D12 /><div class=3D=
+desc>A Themed Wpf SplitButton (Unedited)<br />C# (C# 3.0); Windows, .NET =
+(.NET 3.0); Win32, VS (VS2005, VS2008), WPF; Dev</div><br></li>=0D=0A</ul=
+>=0D=0A<h3><a href=3D"http://www.codeproject.com/vb/net/">VB.NET</a></h3>=
+=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=
+=3D23154510315239381">Computer Controlled Watering System</a> - Troy Simp=
+son <img src=3D"http://www.codeproject.com/images/updated.gif" height=3D1=
+2 /><div class=3Ddesc>Setup a simple and cheap computer controlled wateri=
+ng system using VB.Net and a parallel port relay controller. (Unedited)<b=
+r />VB (VB 8.0); Windows, .NET (.NET 2.0); Win32, VS (VS2005); Dev</div><=
+br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D=
+23154510329139381">The *Easy Dump Oracle*  is a tool to import/export Ora=
+cle database's dumps and schemes.</a> - _DmR_ <img src=3D"http://www.code=
+project.com/images/updated.gif" height=3D12 /><div class=3Ddesc>I've writ=
+ten this tool to allow easy import/export for Oracle databases dumps and =
+schemes. (Unedited)<br />VB (VB 8.0); Windows (WinXP, Win2003), .NET; Win=
+32, VS (VS2005); DB, Dev, QA, Design</div><br></li>=0D=0A<li><a href=3D"h=
+ttp://www.codeproject.com/article.asp?tag=3D23154510569939381">Analog Clo=
+ck Control</a> - VBDT <img src=3D"http://www.codeproject.com/images/updat=
+ed.gif" height=3D12 /><div class=3Ddesc>The Analog Clock control is a con=
+trol that has almost all functionality that clock control can have and it=
+ is fully modifiable. (Unedited)<br />VB (VB 8.0); Windows, .NET (.NET 2.=
+0); Win32, VS (VS2005); Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D=
+"http://www.codeproject.com/dotnet/">.NET</a></h3>=0D=0A<ul>=0D=0A<li><a =
+href=3D"http://www.codeproject.com/article.asp?tag=3D23154510331839381">S=
+ource Control with Visual Studio.NET</a> - Ruslan Sudentas <img src=3D"ht=
+tp://www.codeproject.com/images/updated.gif" height=3D12 /><div class=3Dd=
+esc>How to integrate TortoiseSVN =96 a Subversion Source Control system w=
+ith Visual Studio.NET (Unedited)<br />Windows, .NET; Win32, VS (VS.NET200=
+3, VS2005, VS2008); Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"htt=
+p://www.codeproject.com/aspnet/">ASP.NET</a></h3>=0D=0A<ul>=0D=0A<li><a h=
+ref=3D"http://www.codeproject.com/article.asp?tag=3D23154512577839381">Mo=
+del View Presenter with ASP.NET</a> - Billy McCafferty <img src=3D"http:/=
+/www.codeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>=
+This article describes using the Model-View-Presenter pattern within ASP.=
+NET 2.0 to encourage proper separation of concerns between presentation a=
+nd business logic<br />C# (C# 2.0); Windows, .NET (.NET 2.0); ASP.NET, Wi=
+n32, VS (VS2005), WebForms; Dev</div><br></li>=0D=0A<li><a href=3D"http:/=
+/www.codeproject.com/article.asp?tag=3D23154510338239381">A FREE and SIMP=
+LE .NET weather control you can customize</a> - Leon Amarant <img src=3D"=
+http://www.codeproject.com/images/updated.gif" height=3D12 /><div class=3D=
+desc>A free, simple, fully customizable weather control that provides cur=
+rent weather and forecast data from weather.com. Includes caching. (Unedi=
+ted)<br />VB (VB 8.0), VBScript; Windows, .NET (.NET 2.0); ASP.NET, Win32=
+, VS (VS2005), WebForms; Dev</div><br></li>=0D=0A<li><a href=3D"http://ww=
+w.codeproject.com/article.asp?tag=3D23154510457739381">AJAX Stock Symbol =
+Drop-down List</a> - Thanh Huu Nguyen (Tony) <img src=3D"http://www.codep=
+roject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>Look up a =
+huge list of  stock symbols from MS SQL database (Unedited)<br />VB (VB 8=
+.0), JScript, XML; Windows, .NET (.NET 2.0); ASP.NET, Win32, SQL (SQL 200=
+0, SQL 2005), VS (VS2005), WebForms, AJAX; DB, Dev</div><br></li>=0D=0A<l=
+i><a href=3D"http://www.codeproject.com/article.asp?tag=3D231545125265393=
+81">Using Ajax to simply read from and write to a database</a> - Dahan Ab=
+do <img src=3D"http://www.codeproject.com/images/updated.gif" height=3D12=
+ /><div class=3Ddesc>Use Ajax to retrieve data from a SQL Server database=
+ and then update that database using Ajax (Unedited)<br />Windows, .NET; =
+ASP.NET, Win32, VS, WebForms; Dev</div><br></li>=0D=0A<li><a href=3D"http=
+://www.codeproject.com/article.asp?tag=3D23154510325039381">Building ASP.=
+NET Bot protection (CAPTCHA-like)</a> - Dmitry Salko <img src=3D"http://w=
+ww.codeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>Sh=
+ows how to build captcha like protection from spam and other bots. (Unedi=
+ted)<br />C# (C# 2.0); Windows, .NET (.NET 2.0); ASP.NET, Win32, VS (VS20=
+05), WebForms; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://w=
+ww.codeproject.com/managedcpp/">Managed C++</a></h3>=0D=0A<ul>=0D=0A<li><=
+a href=3D"http://www.codeproject.com/article.asp?tag=3D23154512779539381"=
+>Hosting of MFC MDI Applications from Within WinForms and WPF Application=
+s</a> - Alexey Shalnov <img src=3D"http://www.codeproject.com/images/upda=
+ted.gif" height=3D12 /><div class=3Ddesc>Demonstrates the concept of how =
+to build an old MFC application in a .NET application, to replace the MFC=
+ MDI Framework with the modern WinForms or the WPF Framework and to integ=
+rate MFC Views and Dialogs in it.<br />C++, C++/CLI, C#; Windows, .NET (.=
+NET 1.0, .NET 1.1); Win32, VS (VS.NET2002, VS.NET2003), MFC, XAML, WPF, W=
+inForms; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.cod=
+eproject.com/jscript/">JavaScript</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"=
+http://www.codeproject.com/article.asp?tag=3D23154510320539381">custom ja=
+vascript  sorting using generic function</a> - Rohith K Rajan <img src=3D=
+"http://www.codeproject.com/images/updated.gif" height=3D12 /><div class=3D=
+desc>custom client side javascript  sorting using generic function (Unedi=
+ted)<br />JScript; Windows; Win32, VS; Dev</div><br></li>=0D=0A</ul>=0D=0A=
+<h3><a href=3D"http://www.codeproject.com/tabctrl/">Tab Controls</a></h3>=
+=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=
+=3D23154510321639381">OutlookTabCtrl, like CBCGPOutlookBar (in Mode2003)<=
+/a> - Borodenko Oleg <img src=3D"http://www.codeproject.com/images/update=
+d.gif" height=3D12 /><div class=3Ddesc>Control with modern design for mul=
+tiple uses<br />C++ (VC6, VC7.1, VC8.0); Windows (WinXP, Win2003); Win32,=
+ VS, MFC; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.co=
+deproject.com/treectrl/">Tree Controls</a></h3>=0D=0A<ul>=0D=0A<li><a hre=
+f=3D"http://www.codeproject.com/article.asp?tag=3D23154510420039381">XHtm=
+lTree - Tree control with support for HTML, XML and Smart Checkboxes</a> =
+- Hans Dietrich <img src=3D"http://www.codeproject.com/images/updated.gif=
+" height=3D12 /><div class=3Ddesc>XHtmlTree is an MFC control based on CT=
+reeCtrl, with support for HTML text, web links, APP: links, XML load/save=
+ and Smart Checkboxes. (Unedited)<br />C++ (VC6, VC8.0); Windows (WinXP, =
+Vista); Win32, VS (VS2005, VS6), MFC; Dev</div><br></li>=0D=0A</ul>=0D=0A=
+<h3><a href=3D"http://www.codeproject.com/cs/miscctrl/">C# Controls</a></=
+h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.asp?=
+tag=3D23154510472039381">A Simple Label-like Control with Border Effect</=
+a> - cesarsouza <img src=3D"http://www.codeproject.com/images/updated.gif=
+" height=3D12 /><div class=3Ddesc>An article presenting a control capable=
+ of adding a border-like effect to any desired text<br />C# (C# 2.0); Win=
+dows, .NET (.NET 2.0); Win32, VS, WinForms; Dev</div><br></li>=0D=0A</ul>=
+=0D=0A<h3><a href=3D"http://www.codeproject.com/cs/library/">C# Libraries=
+</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/articl=
+e.asp?tag=3D23154510701039381">Howto: (Almost) Everything In WMI via C# P=
+art 2: Processes</a> - thund3rstruck <img src=3D"http://www.codeproject.c=
+om/images/updated.gif" height=3D12 /><div class=3Ddesc>A C# Wrapper for W=
+MI Win32_Process Class (Unedited)<br />C# (C# 2.0); Windows, .NET (.NET 2=
+.0); Win32, VS (VS2005); Dev</div><br></li>=0D=0A<li><a href=3D"http://ww=
+w.codeproject.com/article.asp?tag=3D23154510348439381">Tree Chart Generat=
+or</a> - Rotem Sapir <img src=3D"http://www.codeproject.com/images/update=
+d.gif" height=3D12 /><div class=3Ddesc>An Article on the development of a=
+ Tree Chart Generator (Unedited)<br />C# (C# 2.0); Windows, .NET (.NET 2.=
+0); ASP.NET, Win32, VS (VS2005), WebForms; Dev</div><br></li>=0D=0A<li><a=
+ href=3D"http://www.codeproject.com/article.asp?tag=3D23154510328739381">=
+Barcode Image Generation Library</a> - bbarnhill <img src=3D"http://www.c=
+odeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>This l=
+ibrary was designed to give an easy class for developers to use when they=
+ need to generate barcode images from a string of data. (Unedited)<br />C=
+# (C# 2.0); Windows (Win2K, WinXP, Win2003), .NET (.NET 2.0); Win32, VS (=
+VS2005), WinForms; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http=
+://www.codeproject.com/csharp/">C# Programming</a></h3>=0D=0A<ul>=0D=0A<l=
+i><a href=3D"http://www.codeproject.com/article.asp?tag=3D231545104209393=
+81">Localizing .NET Enums</a> - Grant Frisken <img src=3D"http://www.code=
+project.com/images/updated.gif" height=3D12 /><div class=3Ddesc>Describes=
+ a technique for displaying localized text for enums<br />C# (C# 2.0); Wi=
+ndows, .NET (.NET 2.0); Win32, VS (VS2005); Arch, Dev</div><br></li>=0D=0A=
+<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D2315451049463=
+9381">Draw with Mouse</a> - Giorgi Dalakishvili <img src=3D"http://www.co=
+deproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>An arti=
+cle showing how to draw on screen<br />C# (C# 2.0); Windows, .NET (.NET 3=
+.0); Win32, VS, GDI+; Dev, Design</div><br></li>=0D=0A<li><a href=3D"http=
+://www.codeproject.com/article.asp?tag=3D23154513182439381">C# Script: Th=
+e Missing Puzzle Piece</a> - Oleg Shilo <img src=3D"http://www.codeprojec=
+t.com/images/updated.gif" height=3D12 /><div class=3Ddesc>An article on a=
+ &quot;scripting engine&quot; for the C# language<br />C#; Windows, .NET =
+(.NET 1.1, .NET 2.0); Win32, VS (VS.NET2003, VS2005); Dev</div><br></li>=0D=
+=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D2315451032=
+3039381">Really Simple RSS (Yeah, I know)</a> - Ennis Ray Lynch, Jr. <img=
+ src=3D"http://www.codeproject.com/images/updated.gif" height=3D12 /><div=
+ class=3Ddesc>An easy way to publish your own news feed in ASP.NET<br />C=
+#, XML; Windows, .NET; ASP.NET, Win32, VS, WebForms; Dev</div><br></li>=0D=
+=0A<li><a href=3D"http://www.codeproject.com/article.asp?tag=3D2315451032=
+1439381">Design a  Dictionary with Spellchecker (En-Fa)(De-En)</a> - Hami=
+d Attari <img src=3D"http://www.codeproject.com/images/updated.gif" heigh=
+t=3D12 /><div class=3Ddesc>Design a  Dictionary with Spellchecker  (Engli=
+sh to Farsi AND Germany to English) (Unedited)<br />C# (C# 2.0); Windows,=
+ .NET (.NET 2.0); Win32, VS (VS2005); Dev</div><br></li>=0D=0A<li><a href=
+=3D"http://www.codeproject.com/article.asp?tag=3D23154510479939381">Gener=
+ating Word Reports / Documents</a> - Predrag Tomasevic <img src=3D"http:/=
+/www.codeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>=
+Use XSLT to turn XML data into Word Report / Documents (Unedited)<br />C#=
+ (C# 2.0), XML, SQL, HTML, XSLT; Windows, .NET (.NET 2.0); Win32, SQL (SQ=
+L 2005), VS (VS2005); DB, Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D=
+"http://www.codeproject.com/cpp/">C++ / MFC</a></h3>=0D=0A<ul>=0D=0A<li><=
+a href=3D"http://www.codeproject.com/article.asp?tag=3D23154510505139381"=
+>JSON Spirit: a C++ JSON Parser/Generator Implemented with Boost Spirit</=
+a> - John W. Wilkinson <img src=3D"http://www.codeproject.com/images/upda=
+ted.gif" height=3D12 /><div class=3Ddesc>A C++ JSON parser/generator writ=
+ten using boost::spirit<br />C++; Windows; Win32, VS; Dev</div><br></li>=0D=
+=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/cs/combobox/">Com=
+bo & Listboxes</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproj=
+ect.com/article.asp?tag=3D23154510505339381">Pickers Library: For Creatin=
+g Pickers in .NET</a> - @MSI <img src=3D"http://www.codeproject.com/image=
+s/updated.gif" height=3D12 /><div class=3Ddesc>A library for creating pic=
+kers: controls that display rich drop-down UIs<br />C# (C# 2.0); Windows,=
+ .NET (.NET 2.0); Win32, VS (VS2005), WinForms; Dev</div><br></li>=0D=0A<=
+/ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/tools/">Free Tools</a=
+></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproject.com/article.a=
+sp?tag=3D23154510325839381">Extend R2build: add new tool support, create =
+plugin config</a> - r2build <img src=3D"http://www.codeproject.com/images=
+/updated.gif" height=3D12 /><div class=3Ddesc>In this article, will descr=
+ibe how to create a new config xml file for new tools in R2build (Unedite=
+d)<br />C++ (VC7.1); Windows, .NET (.NET 2.0); Win32, VS (VS.NET2003); De=
+v</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.co=
+m/shell/">Shell Programming</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http:/=
+/www.codeproject.com/article.asp?tag=3D23154510717639381">A File Checksum=
+ Shell Menu Extension Dll</a> - Jeffrey Walton <img src=3D"http://www.cod=
+eproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>Create a=
+ File Checksum Shell Menu Extension using ATL and Crypto++ (Unedited)<br =
+/>C++ (VC6, VC7, VC7.1, VC8.0); Windows (NT4, Win2K, WinXP, Win2003); Win=
+32, VS (VS.NET2002, VS.NET2003, VS6), ATL, STL, COM; Dev</div><br></li>=0D=
+=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/threads/">Threads=
+, Processes &amp; IPC</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.c=
+odeproject.com/article.asp?tag=3D23154512837239381">A .NET-like ReaderWri=
+terLock Class In Native C++</a> - Quynh Nguyen <img src=3D"http://www.cod=
+eproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>A very e=
+fficient reader-writer lock class in C++ that is similar to the .NET Read=
+erWriterLock one<br />C++ (VC7.1); Windows; Win32, VS; Dev</div><br></li>=
+=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/bitmap/">Bitma=
+ps &amp; Palettes</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codep=
+roject.com/article.asp?tag=3D23154510307739381">2D Fast Wavelet Transform=
+ Library for Image Processing</a> - Chesnokov Yuriy <img src=3D"http://ww=
+w.codeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>The=
+ article demonstrating the use of 2D Fast wavelet transform for image pro=
+cessing (Unedited)<br />C++ (VC8.0), C++/CLI; Windows, .NET (.NET 2.0); W=
+in32, VS (VS2005), MFC; Dev</div><br></li>=0D=0A</ul>=0D=0A<h3><a href=3D=
+"http://www.codeproject.com/win32/">Win32 / SDK</a></h3>=0D=0A<ul>=0D=0A<=
+li><a href=3D"http://www.codeproject.com/article.asp?tag=3D23154510331739=
+381">Win32 Tips and Tricks</a> - Ivo Beltchev <img src=3D"http://www.code=
+project.com/images/updated.gif" height=3D12 /><div class=3Ddesc>Usability=
+ tricks, gotchas and workarounds for Win32 (Unedited)<br />C++ (VC6, VC7.=
+1, VC8.0); Windows (Win2K, WinXP); Win32, VS (VS.NET2003, VS2005, VS6, VS=
+2008); Dev</div><br></li>=0D=0A<li><a href=3D"http://www.codeproject.com/=
+article.asp?tag=3D23154510806139381">EzProcess</a> - akyprian <img src=3D=
+"http://www.codeproject.com/images/updated.gif" height=3D12 /><div class=3D=
+desc>Processes & Threads Manager (Unedited)<br />C++, ASM; Windows (Win95=
+, Win98, WinME, NT4, Win2K, WinXP, Win2003); Win32, VS; Dev</div><br></li=
+>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/cs/design/">D=
+esign and Architecture</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.=
+codeproject.com/article.asp?tag=3D23154510345539381">Enterprise Applicati=
+on Architecture with LINQ to SQL</a> - Rohit Gadagkar <img src=3D"http://=
+www.codeproject.com/images/updated.gif" height=3D12 /><div class=3Ddesc>A=
+ discussion about architectural patterns for using LINQ to SQL in enterpr=
+ise applications, along with performance implications<br />C#, LINQ; Wind=
+ows, .NET (.NET 2.0); ASP.NET, Win32, SQL, VS, WebForms; DB, Dev</div><br=
+></li>=0D=0A</ul>=0D=0A<h3><a href=3D"http://www.codeproject.com/install/=
+">Installation</a></h3>=0D=0A<ul>=0D=0A<li><a href=3D"http://www.codeproj=
+ect.com/article.asp?tag=3D23154510588139381">NSIS Quick Start</a> - Jared=
+ James Sullivan <img src=3D"http://www.codeproject.com/images/updated.gif=
+" height=3D12 /><div class=3Ddesc>Deploying NET apps with NSIS (Unedited)=
+<br />C# (C# 2.0, C# 3.0), VB (VB 8.0, VB 9.0); Windows (Win2K, WinXP, Wi=
+n2003, Vista), .NET (.NET 2.0, .NET 3.0); Win32, VS (VS2005); Dev</div><b=
+r></li>=0D=0A</ul>=0D=0A=0D=0A=0D=0A<p>cheers,<br />=0D=0AChris Maunder<b=
+r />=0D=0A<a href=3D"http://www.codeproject.com"><i><b>The Code Project</=
+b></i></a></p>=0D=0A=0D=0A<hr noshade=3D"noshade" size=3D"1" /><p><small>=
+This email was sent to maheshregmee@gmail.com. To stop receiving =0D=0Ath=
+is newsletter click <a href=3D"http://www.codeproject.com/script/profile/=
+unsubscribe.asp?i=3D4002238&l=3D1&d=3D1BC381B4A28CE4EEC260127CA2A64418309=
+25683E1AB">here</a>.<br />=0D=0AThe Code Project. 503-250 Ferrand Dr, Tor=
+onto ON. M3C 3G8 Canada. 416.849.8900</small></p>=0D=0A<p><font size=3D1>=
+Please do not reply directly to this email. It was sent from an unattende=
+d=0D=0Amailbox. For correspondence please use webmaster@codeproject.com</=
+p>=0D=0A</body>=0D=0A</html>
+--Mark=_200710264526688ApcG4Hzu--
+
+

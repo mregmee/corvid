@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay2 SYSTEM "chrome://quickquote/locale/quickquote.dtd">
+
+<overlay id="quickquoteOverlay2"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+         
+  <script type="application/x-javascript" src="chrome://quickquote/content/quickquoteOverlay2.js" />
+  <script type="application/x-javascript" src="chrome://quickquote/content/prefs.js" />
+  <script type="application/x-javascript">
+	  window.addEventListener("load", quickquote_init2, true);
+  </script>
+  
+  <popup id="msgComposeContext">
+    <menuseparator id="quickquote_sep"/>
+    <menuitem id="quickquote_curr" label="&quickquote.currmessage.label;" accesskey="&quickquote.currmessage.accesskey;" 
+             oncommand="quickquote_add(event);" key="quickquote_curr_k"/>  
+  </popup>
+  <keyset id="tasksKeys">
+    <key id="quickquote_curr_k" key="3" modifiers="accel" oncommand="quickquote_add(event);"/>
+  </keyset>
+</overlay>

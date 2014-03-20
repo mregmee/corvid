@@ -1,0 +1,111 @@
+#include<vector>
+#include<map>
+#include<string>
+#include<fstream>
+#include "lexicalanalyzer.h"
+#include "sentenceDiscoverer.h"
+#include "stemmer.h"
+class PreProcessor
+{
+private:
+	
+	static vector<string> stopWords;
+	static bool initialized;
+	static string stopWordsLocation;
+	vector< vector<string> >sentences;
+	vector<string> subject;
+	SentenceDiscoverer* sentenceDiscoverer;
+	LexicalAnalyzer* lexicalAnalyzer;
+	
+public:
+	PreProcessor(string);
+	vector< vector <string> > & getSentences();
+	vector<string>& getSubject();
+	void processEmail(string email,string sub);
+	static void readStopWords()
+	{
+		string line;
+		ifstream inFile(stopWordsLocation.c_str());
+		if(inFile==NULL)
+		{
+			cout<<"error in stopwords file "<<stopWordsLocation<<endl;
+			return;
+		}
+		while(getline(inFile,line)!=NULL)
+			stopWords.push_back(line);
+	}
+	
+	void eliminateStopWords(vector< vector<string> >&);
+};
+vector<string>& PreProcessor::getSubject(){	return subject;	}
+bool PreProcessor::initialized=false;
+vector<string> PreProcessor::stopWords;
+string PreProcessor::stopWordsLocation;
+vector< vector <string> > & PreProcessor::getSentences()
+{
+	return sentences;
+}
+
+PreProcessor::PreProcessor(string dataPath)
+{
+
+	sentenceDiscoverer=new SentenceDiscoverer(6);
+	lexicalAnalyzer=new LexicalAnalyzer();
+	stopWordsLocation=dataPath+"\\stopwords.txt";
+	if(!initialized)
+	{
+		readStopWords();
+		initialized=true;
+	}
+
+}
+
+void PreProcessor::eliminateStopWords(vector< vector<string> >& sentences)
+{
+	for(int i=0;i<sentences.size();++i)
+	{
+		for(int j=0;j<sentences[i].size();++j)
+		{
+			for(int k=0;k<stopWords.size();++k)
+				if(strcmp(stopWords[k].c_str(),sentences[i][j].c_str())==0)
+				{
+					sentences[i].erase(sentences[i].begin()+j);
+					--j;
+					break;
+				}
+		}
+		if(sentences[i].empty())
+		{
+			sentences.erase(sentences.begin()+i);
+			--i;
+		}
+	}
+}
+void PreProcessor::processEmail(string email,string sub)
+{
+	/* converting to lower case before processing */
+	transform(email.begin(), email.end(), email.begin(), tolower);	
+	transform(sub.begin(), sub.end(), sub.begin(), tolower);
+	sentenceDiscoverer->discoverSentences(email,sentences);
+	vector< vector<string> >temp;
+	sentenceDiscoverer->discoverSentences(sub,temp);
+	lexicalAnalyzer->eliminateNonLiterals(sentences);
+	lexicalAnalyzer->eliminateNonLiterals(temp);
+	lexicalAnalyzer->eliminateNumbers(sentences);
+	lexicalAnalyzer->eliminateNumbers(temp);
+	eliminateStopWords(sentences);	
+	stemfile(sentences);
+	eliminateStopWords(temp);	
+	stemfile(temp);
+	subject.clear();
+	for(int i=0;i<temp.size();++i)
+	{
+		for(int j=0;j<temp[i].size();++j)
+			subject.push_back(temp[i][j]);
+	}
+
+}
+				
+
+
+ 

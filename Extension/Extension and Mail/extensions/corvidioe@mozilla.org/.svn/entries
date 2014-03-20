@@ -1,0 +1,91 @@
+8
+
+dir
+29
+http://dev.d2labs.org/svn/corvidioe/extension/corvidioe@mozilla.org
+http://dev.d2labs.org/svn/corvidioe
+
+
+
+2007-12-26T05:36:22.073484Z
+24
+madhavsigdel
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0597e125-d01c-4e56-9343-89b9bd6e3039
+
+locale
+dir
+
+install.rdf
+file
+
+
+
+
+2007-12-25T06:45:55.435625Z
+2e05e9e0f4d43dd4cf033873d9186338
+2007-12-24T12:20:56.937385Z
+20
+madhavsigdel
+
+install.js
+file
+
+
+
+
+2007-12-25T06:45:55.451250Z
+31d8d1b96fb1aa8cffd6ab4128e4deb4
+2007-12-24T12:20:56.937385Z
+20
+madhavsigdel
+
+chrome.manifest
+file
+
+
+
+
+2007-12-25T06:45:55.451250Z
+87fce47c97dea0fafd4e7c694cb86e61
+2007-12-24T12:20:56.937385Z
+20
+madhavsigdel
+
+components
+dir
+
+defaults
+dir
+
+data
+dir
+
+content
+dir
+
+Read Me.txt
+file
+
+
+
+
+2007-12-25T06:45:55.466875Z
+31e68b23d166bbca142e1b3f362fbcf6
+2007-12-24T12:20:56.937385Z
+20
+madhavsigdel
+

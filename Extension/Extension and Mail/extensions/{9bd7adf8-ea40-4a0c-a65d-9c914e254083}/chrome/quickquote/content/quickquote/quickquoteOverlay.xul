@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay [
+<!ENTITY % messengerDTD SYSTEM "chrome://messenger/locale/messenger.dtd" >
+%messengerDTD;
+<!ENTITY % quickquoteDTD SYSTEM "chrome://quickquote/locale/quickquote.dtd" >
+%quickquoteDTD;
+]>  
+
+<overlay id="quickquoteOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+         
+<script type="application/x-javascript" src="chrome://quickquote/content/quickquoteOverlay.js" />
+<script type="application/x-javascript" src="chrome://quickquote/content/prefs.js" />
+<script type="application/x-javascript">
+  var prefService = Components.classes["@mozilla.org/preferences-service;1"]
+      .getService(Components.interfaces.nsIPrefService).getBranch("");
+  prefService.setIntPref("mail.compose.max_recycled_windows",0);
+  window.addEventListener("load", quickquote_init(), true);
+</script>
+
+<popup id="messagePaneContext">
+  <menuseparator id="quickquote_menusep2" insertafter="context-copy"/>
+  <menuitem id="quickquote_comp" label="&quickquote.compmessage.label;" accesskey="&quickquote.compmessage.accesskey;" 
+  insertafter="context-copy" oncommand="quickquote(event);" key="quickquote_comp_k"/>  
+  <menuitem id="quickquote_replyall" label="&quickquote.replyall.label;" accesskey="&quickquote.replyall.accesskey;" 
+  insertafter="context-copy" oncommand="quickquote(event);" key="quickquote_replyall_k"/>
+  <menuitem id="quickquote_news" label="&quickquote.newsmessage.label;" accesskey="&quickquote.newsmessage.accesskey;" 
+  insertafter="context-copy" oncommand="quickquote(event);" key="quickquote_news_k"/>  
+  <menuitem id="quickquote_reply" label="&quickquote.reply.label;" accesskey="&quickquote.reply.accesskey;" 
+  insertafter="context-copy" oncommand="quickquote(event);" key="quickquote_reply_k"/>  
+  <menuitem id="quickquote_new" label="&quickquote.newmessage.label;" accesskey="&quickquote.newmessage.accesskey;" 
+  insertafter="context-copy" oncommand="quickquote(event);" key="quickquote_new_k"/>  
+  <menuseparator id="quickquote_menusep" insertafter="context-copy"/>
+</popup>
+
+<keyset id="mailKeys">
+  <key id="quickquote_reply_k" key="5" modifiers="accel" oncommand="if (!hideMenus()) quickquote(event);"/>
+  <key id="quickquote_new_k" key="4" modifiers="accel" oncommand="if (!hideMenus()) quickquote(event);"/>
+  <key id="quickquote_replyall_k" key="6" modifiers="accel" oncommand="if (!hideMenus()) quickquote(event);"/>
+  <key id="quickquote_news_k" key="7" modifiers="accel" oncommand="if (!hideMenus()) quickquote(event);"/>
+  <key id="quickquote_comp_k" key="3" modifiers="accel" oncommand="if (!hideMenus()) quickquote(event);"/>
+</keyset>
+<!--<popup id="messagePaneContext">
+  <menuitem id="quickquote_new" label="quickquote.newmessage.label;" accesskey="quickquote.popup.quote-new-ak;" 
+  insertafter="context-copy" oncommand="quickquote(event);"/>
+  <menuitem id="quickquote_reply" label="quickquote.popup.quote-reply;" accesskey="quickquote.popup.quote-reply-ak;" 
+  insertafter="context-copy" oncommand="quickquote(event);"/>
+  <menuitem id="quickquote_news" label="quickquote.popup.quote-reply-news;" accesskey="quickquote.popup.quote-reply-news-ak;" 
+  insertafter="context-copy" oncommand="quickquote(event);"/>
+  <menuitem id="quickquote_replyall" label="quickquote.popup.quote-reply-all;" accesskey="quickquote.popup.quote-reply-all-ak;" 
+  insertafter="context-copy" oncommand="quickquote(event);"/>
+</popup>-->
+
+</overlay>
+

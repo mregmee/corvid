@@ -1,0 +1,37 @@
+<!ENTITY quickquote.options.wayofworking         "Metodo de Trabajo">
+<!ENTITY quickquote.options.getselection         "Utilizar tomarSelección() (menos exacto)">
+<!ENTITY quickquote.options.clipboardlose        "Usar el Portapapeles pero perder el formateo HTML">
+<!ENTITY quickquote.options.clipboardkeep        "Usar el Portapapeles manteniendo el formateo HTML">
+<!ENTITY quickquote.options.rewrap               "Ajustar el texto citado a la columna">
+<!ENTITY quickquote.options.quotestring          "Prefijo para la cita">
+<!ENTITY quickquote.options.quotestring.tt       "al principio de cada línea">
+<!ENTITY quickquote.options.quotestring2         "Subfijo de la cita">
+<!ENTITY quickquote.options.quotestring2.tt      "al final de cada línea">
+<!ENTITY quickquote.options.replystring          "Respoder a cada frase">
+<!ENTITY quickquote.options.replystring.tt       "Prefijo para el sujeto en un mensaje de respuesta">
+<!ENTITY quickquote.options.beforestring         "Antes de una Cita">
+<!ENTITY quickquote.options.beforestring.tt      "Antes del texto citado">
+<!ENTITY quickquote.options.afterstring          "Después de una Cita">
+<!ENTITY quickquote.options.afterstring.tt       "Después del texto citado">
+<!ENTITY quickquote.options.title                "QuickQuote - Opciones">
+<!ENTITY quickquote.options.subnew               "Copiar el sujeto original cuando se haga una cita en un nuevo mensaje">
+<!ENTITY quickquote.options.delay                "Retraso en la Selección o inserción de firma">
+<!ENTITY quickquote.options.offset               "Desplazamiento de la selección">
+<!ENTITY quickquote.options.quotereply           "Responder al Remitente">
+<!ENTITY quickquote.options.quotereplyall        "Responder a Todos">
+<!ENTITY quickquote.options.buttonreplace        "Reemplazar Botón de Comando en Barra de Herramientas">
+<!ENTITY quickquote.options.advanced             "Avanzado">
+
+<!ENTITY quickquote.newmessage.label             "Cita en Nuevo Mensaje">
+<!ENTITY quickquote.newmessage.accesskey         "Q">
+<!ENTITY quickquote.compmessage.label            "Cita en Componer Mensaje">
+<!ENTITY quickquote.compmessage.accesskey        "C">
+<!ENTITY quickquote.reply.label                  "Cita en Respuesta">
+<!ENTITY quickquote.reply.accesskey              "U">
+<!ENTITY quickquote.replyall.label             	"Cita en Respuesta a Todos">
+<!ENTITY quickquote.replyall.accesskey           "A">
+<!ENTITY quickquote.newsmessage.label            "Quote in Reply To Newsgroup">
+<!ENTITY quickquote.newsmessage.accesskey        "N">
+
+<!ENTITY quickquote.currmessage.label            "Quote in Current Message">
+<!ENTITY quickquote.currmessage.accesskey        "C">

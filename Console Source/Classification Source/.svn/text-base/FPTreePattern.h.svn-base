@@ -1,0 +1,318 @@
+/* This class is responsible for inserting transactions in FPTree for pattern
+ and then traversing the tree to find out frequent patterns
+  ---> frequent patterns are stored in a map- pattern->int which is pattern
+	mapped to support for that pattern.
+*/
+#ifndef FPTREE_H
+#define FPTREE_H
+#include "FPTree.h"
+#endif
+class FPTreePattern: public FPTree{
+	static float minSupport;
+	static TreeNode *root;
+	static vector<int> frequentItems;
+	static int mina;//minimum absolute support, ie. min-count
+	static map < int,HeaderNode* > mainHeaderTable;//this is headerTable 
+	//for the FPTree of frequent items of whole database
+	//--> maps the item to its corresponding headerNode
+
+
+public:
+	static void initialize(string dataPath){
+		FPTree::initialize(dataPath);
+		minSupport=0.001f;
+		TreeNode* temp=new TreeNode();
+
+		temp->itemId=0;
+		temp->nodeLink=NULL;
+		temp->parent=NULL;
+		root=temp;
+		sortItemsDescending(FPTree::frequentItems,frequentItems);
+		for(int i=0;i<frequentItems.size();++i)
+			//create a header for each item
+
+		{
+			HeaderNode *temp=new HeaderNode();
+			temp->itemSupport=0;
+			temp->nodeLink=0;
+			mainHeaderTable[frequentItems[i]]=temp;
+		
+		}
+	
+		
+	}
+	static map<int,HeaderNode*>& getHeaderTable(){	return mainHeaderTable;	}
+	void insertTransaction(vector<int> transaction,TreeNode*,map<int,HeaderNode*>&,int);
+	//insertTransaction is revised to accept one more int argument for support, this makes it 
+	//usable in fpGrowth for conditional pattern tree in addition to initial tree construction
+	void fpGrowth(TreeNode*,map<int,HeaderNode*>&, map< vector<int>,int >&,vector<int>);
+	void sortVectorForHeader(vector<int>&,map<int,HeaderNode*>&);	
+	void displayTree();
+	static TreeNode* getRoot(){ return root;}
+	
+};
+vector<int>FPTreePattern::frequentItems;
+TreeNode* FPTreePattern::root;
+float FPTreePattern::minSupport=0.01f;
+int FPTreePattern::mina=1;
+map<int,HeaderNode*> FPTreePattern::mainHeaderTable;
+void FPTreePattern::displayTree()
+{
+	map<int,HeaderNode*>::iterator itr;
+	//cout<<"Inserted Tree"<<endl;
+
+	for(itr=mainHeaderTable.begin();itr!=mainHeaderTable.end();++itr)
+	{
+		HeaderNode* hn=itr->second;
+		if(hn->itemSupport>0)
+			cout<<hn->nodeLink->itemId<<"\t";
+	}
+
+		
+
+}
+
+void FPTreePattern::insertTransaction(vector<int> transaction,TreeNode *alpha,map<int,HeaderNode*>& headerTable,int s)
+{//inserts a given transaction into the tree with given root as "alpha"
+	vector<int>trans=transaction;
+	//sorting items before inserting ensures that the order of items in
+	//the sentence is not considered and the descending order ensures that
+	//least frequent patterns are always at the leaves of the tree
+	//so that upward traversal of tree is effiecient
+	sortItemsDescending(trans,transaction);	
+	map<int,HeaderNode*>::iterator itr;	
+	int current;
+	
+	for(int i=0;i<transaction.size();++i)
+	{
+		current=transaction[i];		
+		itr=headerTable.find(current);
+		if(itr==headerTable.end())
+		{//avoid processing of nonfrequent item
+			
+			
+
+			break;//items are sorted in descending order of support, if this item 
+					//doesn't satisfy the minimum support, the rest will not
+		}
+		
+		HeaderNode* header=itr->second;
+		
+		if(header->itemSupport==0||header->nodeLink==NULL)
+		{//there is no previous entry of the item in tree
+			TreeNode *temp=new TreeNode();
+			
+			temp->itemId=current;
+			temp->nodeLink=NULL;
+			temp->parent=alpha;
+			temp->itemSupport=s;
+			
+			header->nodeLink=temp;
+			
+			alpha=temp;
+			
+			header->itemSupport+=s;
+			
+			continue;
+		}
+		
+		TreeNode* previous=header->nodeLink;
+		
+		TreeNode* next=previous;
+		while(next!=NULL && next->parent!=alpha)
+		{
+			previous=next;
+			next=next->nodeLink;
+			
+		}
+		
+		if(next==0)
+		{   ///if there is no child of the node alpha whose id is item, so we need to create new node for that item
+			TreeNode* temp=new TreeNode();
+			
+			temp->itemId=current;
+			temp->nodeLink=NULL;
+			temp->parent=alpha;
+			temp->itemSupport=s;
+			previous->nodeLink=temp;
+			alpha=temp;
+			
+			header->itemSupport+=s;
+			
+			continue;
+			
+		}
+		
+		(header->itemSupport)+=s;
+		next->itemSupport+=s;
+		/// a child of alpha whose itemid is item,]
+		//so we nee not create new node rather update support 
+		alpha=next;
+		
+	}
+	
+}
+void FPTreePattern::fpGrowth(TreeNode* alpha,map<int,HeaderNode*>& headerTable,map< vector<int>,int >&F,vector<int>tempPattern){
+	vector<int>termVectorForHeader;
+	//this vector stores the item vector from the current headertable
+	//this is different from the frequentItems attribute of this class
+	//in a sense that it stores the frequentItems from headerTable in
+	//the current function call (required since headerTable changes in 
+	// recursive calls
+	
+	map<int,HeaderNode*>tempTable;	
+	vector< vector<int> >tempPatterns;
+	vector<int>pattern;
+	
+	vector<TreeNode*> nodes	;
+	
+	sortVectorForHeader(termVectorForHeader,headerTable);
+	
+	vector<int>tpt;
+	int support=0;
+	for(int i=0;i<termVectorForHeader.size();++i)
+	{
+		
+		tpt=tempPattern;		
+		tpt.insert(tpt.begin(),termVectorForHeader[i]);
+		support=headerTable[termVectorForHeader[i]]->itemSupport;
+		//this support value is also the support of pattern tpt
+		if(support<mina)
+		//if a pattern does not satisfy the min absolute support,discard it
+		 //and any of its super patterns
+			continue;
+		
+		F[tpt]=support;
+		
+		
+		TreeNode *next=headerTable[termVectorForHeader[i]]->nodeLink;
+		nodes.clear();			
+		while(next!=NULL)
+		{
+			//process each of the node that have the itemId equal to the
+			//item being processed
+			nodes.push_back(next);
+			next=next->nodeLink;
+		}
+		tempPatterns.clear();
+		tempTable.clear();	
+		
+		for(int k=0;k<nodes.size();++k)
+		{//for each of the node with the item being processed, 
+		//traverse upto root to find out the pattern that ends with this item
+			
+			pattern.clear();
+			TreeNode* parent=nodes[k]->parent;
+			while(parent!=alpha && parent!=NULL && parent->itemId!=0)
+			{
+				
+				
+				
+				pattern.insert(pattern.begin(),parent->itemId);
+				parent=parent->parent;
+			}
+			
+			if(!pattern.empty())
+				tempPatterns.push_back(pattern);
+			
+		}
+		
+		for(int k=0;k<tempPatterns.size();++k)
+		//construct headerTable for conditional tree
+		{
+			for(int l=0;l<tempPatterns[k].size();++l)
+			{
+				if(tempTable.find(tempPatterns[k][l])!=tempTable.end())
+					continue;
+				else
+				{//create one and only one header for each item
+					HeaderNode* tempHeaderNode=new HeaderNode();
+					tempHeaderNode->nodeLink=NULL;
+					tempHeaderNode->itemSupport=0;
+					
+					tempTable[tempPatterns[k][l]]=tempHeaderNode;
+				}
+			}
+		}
+		
+
+
+		TreeNode* tempRoot=new TreeNode();
+		tempRoot->itemId=0;
+		tempRoot->nodeLink=NULL;
+		tempRoot->parent=NULL;	
+		
+		for(int k=0;k<tempPatterns.size();++k)
+		//construct conditional tree
+		{
+			insertTransaction(tempPatterns[k],tempRoot,tempTable,nodes[k]->itemSupport);
+			//nodes[k]->itemSupport gives the item support of
+			//the whole conditional pattern
+
+		}
+		
+		map<int,HeaderNode*>::iterator itr=tempTable.begin(),tempItr;
+		
+		
+		for(itr=tempTable.begin();itr!=tempTable.end();++itr)
+		{
+			if(itr->second->itemSupport<mina)
+			//if a item doesnot satisfy mina condition for the item being
+			//processed, remove that item from the conditional pattern base
+			{
+				tempItr=itr;
+				
+				++itr;
+				if(itr==tempTable.end())
+					break;
+				tempTable.erase(tempItr);
+				continue;
+			}
+				
+		}
+	
+		if(tempTable.size()>0)
+		//if the conditional tree is not empty, proceed for that tree
+			fpGrowth(tempRoot,tempTable,F,tpt);
+	}
+		
+
+
+
+
+
+	
+
+
+	
+
+
+
+}
+void FPTreePattern::sortVectorForHeader(vector<int>& termVectorForHeader,map<int,HeaderNode*>& headerTable)
+{
+//sorts the items in the current headerTable in FPGrowth
+//so that we can proceed from the least frequent items in the headerTable
+
+map<int,HeaderNode*>::iterator itr;
+
+	for(itr=headerTable.begin();itr!=headerTable.end();++itr){
+		if(itr->second->nodeLink==NULL)
+			continue;
+		termVectorForHeader.push_back(itr->first);
+	}
+	vector<int>sortedVector;
+	int index=0;
+	while(termVectorForHeader.size()>0)
+	{
+		index=0;
+		for(int i=1;i<termVectorForHeader.size();++i)
+			if(headerTable[termVectorForHeader[i]]->itemSupport<headerTable[termVectorForHeader[index]]->itemSupport)
+				index=i;
+		sortedVector.push_back(termVectorForHeader[index]);
+		termVectorForHeader.erase(termVectorForHeader.begin()+index);
+	}
+	termVectorForHeader=sortedVector;
+
+
+}

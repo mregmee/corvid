@@ -1,0 +1,69 @@
+<?xml version="1.0"?> 
+
+<?xml-stylesheet href="chrome://corvidioe/locale/righttoleft.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://mailtagger/locale/mailtagger.dtd">
+
+<window 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	id="mT_aboutWindow"
+	title="&about; - mailTagger"
+	onload="document.getElementById('mTVersion').value='&about.version; ' + mT_Version();"
+>
+
+	<script type="application/x-javascript" src="chrome://global/content/globalOverlay.js"/>
+	<script type="application/x-javascript" src="chrome://global/content/menu.js"/>		
+
+
+	<groupbox align="start" orient="horizontal" style="background-color:white;padding:14px;">
+		<vbox>
+			<label id="mTVersion" value="" style="font-weight:bold;font-size:large;"/>
+			<hbox pack="center">
+				<label  value="&about.history;" style="color: #3A69A6;" onmouseover="this.style.textDecoration='underline';this.style.cursor='pointer';" onmouseout="this.style.textDecoration='none';this.style.cursor='auto';" onclick="openReadmeWindow();"  tooltiptext="&about.history;"/>
+			</hbox>		
+			<separator class="thin"/>
+			<label value="&about.homepage;" style="font-weight:bold;"/>
+			<label class="text-link" style="color: #3A69A6;padding-left:6px;" href="http://mailtagger.mozdev.org" value="http://mailtagger.mozdev.org" />
+			<hbox> 
+				<label class="text-link" style="color: #3A69A6;padding-left:6px;" href="http://mailtagger.mozdev.org/notes.html?en" value="&about.feedback;" />		
+				<vbox pack="center">	
+					<image src="chrome://mailtagger/content/link.gif" />
+				</vbox>
+			</hbox>	
+			<separator/>		
+			<hbox pack="center">
+				<image src="chrome://mailtagger/content/logoLarge.png" flex="0"/>
+			</hbox>
+			<separator class="thin"/>
+			<hbox pack="center">
+				<label value="&about.createdBy;" style="font-weight:bold;"/>
+				<label value="Ons Besbes" style="color: #3A69A6;margin-left:0;"/>					
+			</hbox>
+		</vbox>
+	</groupbox>
+	
+	<hbox>
+		<spacer flex="1"/>
+		<button label="&close;" oncommand="close();"/>
+	</hbox>	
+
+	<script type="application/x-javascript">
+
+		//<![CDATA[  
+	
+		function mT_Version()	{		
+			var gExtensionManager = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
+			var item=gExtensionManager.getItemForID("{554c2c30-935c-11d9-9669-0800200c9a66}");
+			return item.version;
+		}
+
+		function openReadmeWindow() {	// need to do that to center window because centerscreen parameter does not work
+			var parameters = "chrome,resizable,scrollbars=yes,width=670,height=700, screenX=";
+			parameters += (screen.availWidth - 670) / 2 + ",screenY=" + (screen.availHeight - 700) / 2;
+			window.open('chrome://mailtagger/content/readme.html','mT_readme', parameters);
+		}
+
+		//]]>
+	</script>
+	
+</window>	

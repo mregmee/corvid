@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/corvidioe/!svn/ver/18/Classification
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corvidioe/!svn/ver/11/Classification/stdafx.h
+END
+some.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corvidioe/!svn/ver/11/Classification/some.txt
+END
+project.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corvidioe/!svn/ver/17/Classification/project.cpp
+END
+trainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/corvidioe/!svn/ver/16/Classification/trainer.h
+END
+stem.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/corvidioe/!svn/ver/11/Classification/stem.h
+END
+Tokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corvidioe/!svn/ver/11/Classification/Tokenizer.h
+END
+project.vcproj.LAXMAN.Lekhnath.user
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/corvidioe/!svn/ver/11/Classification/project.vcproj.LAXMAN.Lekhnath.user
+END
+project.sln
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corvidioe/!svn/ver/11/Classification/project.sln
+END
+stemmer.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/corvidioe/!svn/ver/17/Classification/stemmer.h
+END
+project.vcproj.D2HS.prashrestha.user
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/corvidioe/!svn/ver/11/Classification/project.vcproj.D2HS.prashrestha.user
+END
+project.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corvidioe/!svn/ver/17/Classification/project.ncb
+END
+project.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/corvidioe/!svn/ver/11/Classification/project.vcproj
+END
+FPTreePattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/corvidioe/!svn/ver/13/Classification/FPTreePattern.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/corvidioe/!svn/ver/11/Classification/stdafx.cpp
+END
+FPTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corvidioe/!svn/ver/13/Classification/FPTree.h
+END
+project.vcproj.D2HS.lbhusal.user
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/corvidioe/!svn/ver/11/Classification/project.vcproj.D2HS.lbhusal.user
+END
+sentenceDiscoverer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/corvidioe/!svn/ver/11/Classification/sentenceDiscoverer.h
+END
+EFPTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/corvidioe/!svn/ver/13/Classification/EFPTree.h
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/corvidioe/!svn/ver/11/Classification/stopwords.txt
+END
+personal
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corvidioe/!svn/ver/18/Classification/personal
+END
+stlsl.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/corvidioe/!svn/ver/11/Classification/stlsl.h
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corvidioe/!svn/ver/13/Classification/test.txt
+END
+transactions.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/corvidioe/!svn/ver/13/Classification/transactions.h
+END
+rulestructures.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/corvidioe/!svn/ver/11/Classification/rulestructures.h
+END
+FPTreePhrases.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/corvidioe/!svn/ver/13/Classification/FPTreePhrases.h
+END
+rules.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/corvidioe/!svn/ver/11/Classification/rules.txt
+END
+ruleoperator.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/corvidioe/!svn/ver/13/Classification/ruleoperator.h
+END
+classifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/corvidioe/!svn/ver/17/Classification/classifier.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/corvidioe/!svn/ver/11/Classification/ReadMe.txt
+END
+project.suo
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corvidioe/!svn/ver/18/Classification/project.suo
+END
+preprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/corvidioe/!svn/ver/13/Classification/preprocessor.h
+END
+lexicalanalyzer.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/corvidioe/!svn/ver/11/Classification/lexicalanalyzer.h
+END
+learner.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/corvidioe/!svn/ver/16/Classification/learner.h
+END

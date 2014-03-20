@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component
+END
+MyComponent.mak
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.mak
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/stdafx.h
+END
+ClassificationModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/ClassificationModule.cpp
+END
+Classification.sln
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Classification.sln
+END
+project.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/project.cpp
+END
+trainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/corvidioe/!svn/ver/23/extension/Email%20Classification/Classification%20XPCOM%20Component/trainer.h
+END
+Classification.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/corvidioe/!svn/ver/23/extension/Email%20Classification/Classification%20XPCOM%20Component/Classification.ncb
+END
+MyComponent.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.dsp
+END
+stem.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/stem.h
+END
+Tokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Tokenizer.h
+END
+stemmer.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/stemmer.h
+END
+MyComponent.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.dsw
+END
+MyComponent.vcproj.D2HS.mregmee.user
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.vcproj.D2HS.mregmee.user
+END
+MyComponent.vcproj.D2HS.msigdel.user
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.vcproj.D2HS.msigdel.user
+END
+FPTreePattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/FPTreePattern.h
+END
+FPTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/FPTree.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Makefile
+END
+EFPTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/EFPTree.h
+END
+sentenceDiscoverer.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/sentenceDiscoverer.h
+END
+Classification.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Classification.h
+END
+stlsl.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/stlsl.h
+END
+MyComponent.plg
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.plg
+END
+IClassification.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/IClassification.h
+END
+transactions.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/transactions.h
+END
+Classification.suo
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/corvidioe/!svn/ver/23/extension/Email%20Classification/Classification%20XPCOM%20Component/Classification.suo
+END
+rulestructures.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/rulestructures.h
+END
+FPTreePhrases.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/FPTreePhrases.h
+END
+ruleoperator.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/ruleoperator.h
+END
+MyComponent.vcproj.D2HS.prashrestha.user
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.vcproj.D2HS.prashrestha.user
+END
+MyComponent.opt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.opt
+END
+MyComponent.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.ncb
+END
+classifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/classifier.h
+END
+MyComponent.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/MyComponent.vcproj
+END
+preprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/preprocessor.h
+END
+Classification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Classification.cpp
+END
+Filtration.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/Filtration.ncb
+END
+lexicalanalyzer.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/corvidioe/!svn/ver/19/extension/Email%20Classification/Classification%20XPCOM%20Component/lexicalanalyzer.h
+END
+learner.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/corvidioe/!svn/ver/22/extension/Email%20Classification/Classification%20XPCOM%20Component/learner.h
+END

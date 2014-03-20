@@ -1,0 +1,1108 @@
+<?xml version="1.0"?> 
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mailTagger.
+   -
+   - The Initial Developer of the Original Code is Ons Besbes.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+	
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mailtagger/locale/righttoleft.css" type="text/css"?>
+<?xml-stylesheet href="chrome://mailtagger/content/tree.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://mailtagger/locale/mailtagger.dtd">
+
+<prefwindow 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	id="mT_optionsWindow"
+	title="&options; - mailTagger"
+	type="prefwindow"
+	onload="centerWindowOnScreen(); initDialog();" 
+	onkeypress="preventCloseOnEnter(event);"
+	buttons="null;"
+	lastSelected = "mT_profilePane"
+	persist="width,height"
+>
+
+	<prefpane flex="1" style="background-color:inherit;" image="chrome://mailtagger/content/profile.png" label="&profile;" id="mT_profilePane">
+		<vbox flex="1">	
+			<spacer flex="1"/>
+			<hbox pack="center">
+				<image src="chrome://mailtagger/content/mailTagger.png"/>
+			</hbox>
+			<hbox pack="center">
+				<label id="mT_version" value="" style="color: #3A69A6;font-weight:bold;" onmouseover="this.style.textDecoration='underline';this.style.cursor='pointer';" onmouseout="this.style.textDecoration='none';this.style.cursor='auto';" onclick="openReadmeWindow();"  tooltiptext="&about.history;"/>
+			</hbox>
+			<separator class="thin"/>
+			<hbox pack="center">
+					<groupbox>
+						<spacer height="4"/>
+						<menu id="mT_languageChange" label="&about.languageChange;" value="changeLanguage" >
+							<menupopup id="mT_language">
+							</menupopup>
+						</menu>
+						<spacer height="4"/>
+					</groupbox>
+			</hbox>	
+			<spacer flex="2"/>
+
+			<hbox pack="center" flex="1">
+				<html:a href="http://mailtagger.mozdev.org/confirmDonation.html" target="_blank"><image src="chrome://mailtagger/content/donate.png"/></html:a>
+			</hbox>
+							
+			<hbox pack="center" flex="1">
+				<vbox pack="center">
+					<hbox pack="center">	
+						<label class="text-link" style="color: #3A69A6;" href="http://mailtagger.mozdev.org" value="http://mailtagger.mozdev.org" />
+					</hbox>
+					<separator class="thin"/>
+					<hbox pack="center">
+						<label class="text-link" style="color: #3A69A6;" href="http://mailtagger.mozdev.org/notes.html?en" value="&about.feedback;" />						
+						<vbox pack="center">
+							<image src="chrome://mailtagger/content/link.png"/>
+						</vbox>	
+					</hbox>
+				</vbox>
+			</hbox>
+			<spacer flex="2"/>
+			<hbox pack="center">
+				<label value="&about.createdBy; Ons Besbes" style="color: maroon;"/>
+			</hbox>			
+			<spacer flex="3"/>
+			<hbox pack="start">
+				<checkbox id="mT_startupTips" label="&about.startupTips;"/>
+			</hbox>
+		</vbox>
+		<menuseparator/>
+	</prefpane>
+	<prefpane flex="1" style="background-color:inherit;" image="chrome://mailtagger/content/behavior.png" label="&behavior;" id="mT_behaviorPane">
+		<tabbox orient="vertical" flex="1" id="behaviorTabboxes">
+			<tabs>
+				<tab hidden="true"/>
+			</tabs>
+			<tabpanels flex="1" >	
+				<tabpanel>	
+				<vbox flex="1">
+					<separator class="thin"/>
+					<separator class="thin"/>			
+					<groupbox>
+						<caption label="Display" style="font-weight: bold;"/>
+						<checkbox id="mT_insertInContextualMenu" label="&insertInContextualMenu;" />
+						<checkbox id="mT_displayThunderbirdSmileys" label="&displayThunderbirdSmileys;"  oncommand="updateUI();"/>
+						<checkbox id="mT_displayRecentImages" label="&displayRecentImages;"  oncommand="updateUI();"/>
+						<checkbox id="mT_joinRemoteImages" label="&joinRemoteImages;" />
+					</groupbox>
+					<separator class="thin"/>
+					<groupbox>
+						<caption style="font-weight: bold;">
+							<checkbox id="mT_useAlternateText" label="&useAlternateText;" oncommand="updateUI();"/>
+						</caption>
+						<radiogroup flex="1" id="mT_alternateText" orient="vertical" style="margin-left:12px;">
+							<radio id="mT_alternateTextString" label="&alternateTextString;"/>
+							<radio id="mT_alternateTextUseFileName" label="&alternateTextUseFileName;"/>
+							<radio id="mT_alternateTextPrompt" label="&alternateTextPrompt;"/>
+						</radiogroup>				
+					</groupbox>										
+				</vbox>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</prefpane>
+	<prefpane flex="1" style="background-color:inherit;" image="chrome://mailtagger/content/favorites.png" label="&favorites;" id="mT_favoritesPane">
+		<vbox flex="1">
+			<groupbox pack="center" flex="1">
+				<caption style="font-weight: bold;">
+					<checkbox  id="mT_displayFavorites" label="&displayFavorites;" />
+				</caption>
+				<toolbar id="actionsFav" collapse="false">
+					<toolbarbutton image="chrome://mailtagger/skin/small_newTab.png" label=" &add;" oncommand="addRow('Fav');"/>
+					<toolbarbutton image="chrome://mailtagger/skin/small_closeTab.png" label=" &remove;" oncommand="removeRow('Fav');"/>
+					<toolbarbutton style="padding-top:0px;padding-bottom:0px" image="chrome://mailtagger/skin/small_pageTop.png" label=" &moveUp;" oncommand="upRow('Fav');"/>
+					<toolbarbutton style="padding-top:0px;padding-bottom:0px" image="chrome://mailtagger/skin/small_pageBottom.png" label=" &moveDown;" oncommand="downRow('Fav');"/>
+				</toolbar>
+				<listbox id="listFav" minheight="300px" flex="1" seltype="single" onselect="onSelectRow(this, previousFavSelection);previousFavSelection=this.selectedItem;" onclick="if (event.target.nodeName!='textbox' )  { if(previousFavSelection==this.selectedItem) openImageLocationWindow('Fav');} previousFavSelection=this.selectedItem;">	
+					<listcols>
+						<listcol width="32px"/>
+						<listcol width="220px"/>
+						<listcol width="40px"/>
+					</listcols>
+				</listbox>
+			</groupbox>
+		</vbox>
+	</prefpane>
+	<prefpane flex="1" style="background-color:inherit;" image="chrome://mailtagger/content/signatures.png" label="&signatures;" id="mT_signaturesPane">
+		<vbox flex="1">
+			<groupbox pack="center"  flex="1">
+				<caption style="font-weight: bold;"> 
+					<checkbox id="mT_displaySignatures" label="&displaySignatures;" />
+				</caption>
+				<toolbar id="actionsSig" collapse="false">
+					<toolbarbutton image="chrome://mailtagger/skin/small_newTab.png" label=" &add;" oncommand="addRow('Sig');"/>
+					<toolbarbutton image="chrome://mailtagger/skin/small_closeTab.png" label=" &remove;" oncommand="removeRow('Sig');"/>
+					<toolbarbutton style="padding-top:0px;padding-bottom:0px" image="chrome://mailtagger/skin/small_pageTop.png" label=" &moveUp;" oncommand="upRow('Sig');"/>
+					<toolbarbutton style="padding-top:0px;padding-bottom:0px" image="chrome://mailtagger/skin/small_pageBottom.png" label=" &moveDown;" oncommand="downRow('Sig');"/>
+				</toolbar>
+				<listbox id="listSig"  minheight="300px" flex="1" seltype="single" onselect="onSelectRow(this, previousSigSelection);previousSigSelection=this.selectedItem;" onclick="if (event.target.nodeName!='textbox' )  { if(previousSigSelection==this.selectedItem) openImageLocationWindow('Sig');} previousSigSelection=this.selectedItem;">
+					<listcols>
+						<listcol width="32px"/>
+						<listcol width="220px"/>
+						<listcol width="40px"/>
+					</listcols>
+				</listbox>		
+			</groupbox>
+		</vbox>
+	</prefpane>
+	<spacer height="6"/>
+	<hbox flex="1" id="mT_dialogButtons" pack="end" hidden="false">
+		<vbox>
+			<hbox>
+				<button label="&ok;" oncommand="changeSettings();acceptDialog();" />
+				<button label="&cancel;" oncommand="cancelDialog();" />
+				<button id="mT_apply" label="&apply;" oncommand="changeSettings();this.disabled=true;setTimeout('document.getElementById(\'mT_apply\').disabled=false;',2000);" />				
+				<button label="&help;" oncommand="window.openDialog('chrome://mailtagger/content/tips.xul','mT_tip','chrome,alwaysRaised,centerscreen,resizable');" />
+			</hbox>
+			<spacer height="4"/> 
+		</vbox>
+		<resizer dir="bottomright"></resizer>
+	</hbox>
+	<vbox flex="1" id="mT_changingLanguage" hidden="true">
+		<hbox  pack="center" style="background-color:white;">	
+			<vbox pack="center">
+				<image src="chrome://mailtagger/content/warning.png" width="20" height="20"/>
+			</vbox>
+			<vbox pack="center">
+				<label value="&about.languageWarning;" style="font-weight: bold;"/>
+			</vbox>		
+		</hbox>
+		<spacer height="4"/> 
+	</vbox>
+
+	<script type="application/x-javascript" src="chrome://global/content/globalOverlay.js"/>
+	<script type="application/x-javascript" src="chrome://global/content/menu.js"/>
+	
+	<script type="application/x-javascript">   
+
+	var mT_locale="&locale;";
+	var mT_keepCurrentEntries="&about.keepCurrentEntries;";
+	var mT_languageInfo="&about.languageInfo;";
+	var mT_version= '&about.version; ';
+	
+	var previousFavSelection=null;
+	var previousSigSelection=null;
+
+	function openReadmeWindow() {	// need to do that to center window because centerscreen parameter does not work
+		var parameters = "chrome,resizable,scrollbars=yes,width=670,height=700, screenX=";
+		parameters += (screen.availWidth - 670) / 2 + ",screenY=" + (screen.availHeight - 700) / 2;
+		window.open('chrome://mailtagger/content/readme.html','mT_readme', parameters);
+	}
+
+	function fillPopupLang(popup,langCode){
+		
+		// this function is needed to initialise correctly the radio menu items with the right language because 'checked' attribute can't be changed dynamically
+			
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_en-US");
+		itemNode.setAttribute("label","English (en-US)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='en-US');
+		itemNode.setAttribute("oncommand","changeLanguage('en-US');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_fr-FR");
+		itemNode.setAttribute("label","Fran&#231;ais (fr-FR)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='fr-FR');		
+		itemNode.setAttribute("oncommand","changeLanguage('fr-FR');");
+		popup.appendChild(itemNode);
+
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_es-ES");
+		itemNode.setAttribute("label","Espa&#241;ol (es-ES)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='es-ES');
+		itemNode.setAttribute("oncommand","changeLanguage('es-ES');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_it-IT");
+		itemNode.setAttribute("label","Italiano (it-IT)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='it-IT');
+		itemNode.setAttribute("oncommand","changeLanguage('it-IT');");
+		popup.appendChild(itemNode);
+	
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_ja-JP");
+		itemNode.setAttribute("label","&#26085;&#26412;&#35486; (ja-JP)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='ja-JP');
+		itemNode.setAttribute("oncommand","changeLanguage('ja-JP');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_de-DE");
+		itemNode.setAttribute("label","Deutsch (de-DE)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='de-DE');
+		itemNode.setAttribute("oncommand","changeLanguage('de-DE');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_nl-NL");
+		itemNode.setAttribute("label","Nederlands (nl-NL)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='nl-NL');
+		itemNode.setAttribute("oncommand","changeLanguage('nl-NL');");
+		popup.appendChild(itemNode);
+
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_sk-SK");
+		itemNode.setAttribute("label","Slovensky (sk-SK)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='sk-SK');
+		itemNode.setAttribute("oncommand","changeLanguage('sk-SK');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_hu-HU");
+		itemNode.setAttribute("label","Magyar (hu-HU)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='hu-HU');
+		itemNode.setAttribute("oncommand","changeLanguage('hu-HU');");
+		popup.appendChild(itemNode);		
+
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_pt-BR");
+		itemNode.setAttribute("label","Portugu&#234;s (pt-BR)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='pt-BR');
+		itemNode.setAttribute("oncommand","changeLanguage('pt-BR');");
+		popup.appendChild(itemNode);
+		
+		var itemNode = document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "menuitem");
+		itemNode.setAttribute("id","grLangItem_zh-CN");
+		itemNode.setAttribute("label","&#31616;&#20307;&#20013;&#25991; (zh-CN)");
+		itemNode.setAttribute("name","grLang");
+		itemNode.setAttribute("type","radio");
+		itemNode.setAttribute("checked",langCode=='zh-CN');
+		itemNode.setAttribute("oncommand","changeLanguage('zh-CN');");
+		popup.appendChild(itemNode);		
+	}
+	
+
+	
+	function changeLanguage(langcode) {
+		if (confirm('&about.languageChange;')) {
+			document.getElementById('mT_languageChange').value=langcode;
+			document.getElementById('mT_changingLanguage').hidden=false;
+			document.getElementById('mT_dialogButtons').hidden=true;
+			window.setCursor('wait');
+			setTimeout(function foo(arg) {updateJar(arg);}, 1000, langcode);
+		}
+		else {
+			var id = "grLangItem_" + mT_locale;
+			document.getElementById(id).setAttribute("checked","true");
+		}
+	}
+	
+	</script>
+	
+	<script type="application/x-javascript">
+
+	
+		//<![CDATA[
+		
+		var mT_prefs= Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("mailtagger.");
+		var command;
+		var editedRow;
+
+		function preventCloseOnEnter(event) {
+			if ( event.keyCode==13 &&  event.target.nodeName=="textbox") {if (!event.target.hasAttribute("multiline") ) {event.preventDefault(); event.target.parentNode.focus();}}
+		}
+
+		function updateJar(langcode){
+			// change mailtagger to langcode
+			// trick replacing selectLocaleForPackage(langcode,"mailtagger", true) that is no more working in Firefox
+		
+			// File constants copied from file-utils.js
+			const MODE_RDONLY   = 0x01;
+			const MODE_WRONLY   = 0x02;
+			const MODE_RDWR     = 0x04;
+			const MODE_CREATE   = 0x08;
+			const MODE_APPEND   = 0x10;
+			const MODE_TRUNCATE = 0x20;
+			const MODE_SYNC     = 0x40;
+ 			const MODE_EXCL     = 0x80;
+ 						
+			var firstSelectedLocale = Components.classes["@mozilla.org/chrome/chrome-registry;1"].getService(Components.interfaces.nsIXULChromeRegistry) .getSelectedLocale("mailtagger");
+
+			var fileLocator = Components.classes["@mozilla.org/file/directory_service;1"].getService(Components.interfaces.nsIProperties);				
+			var userProfilePath =fileLocator.get("ProfD", Components.interfaces.nsIFile).path;			
+
+			// cross platform append
+			var jar=Components.classes["@mozilla.org/file/local;1"].createInstance(Components.interfaces.nsILocalFile);
+			jar.initWithPath(userProfilePath);
+			jar.append("extensions");
+			jar.append("{554c2c30-935c-11d9-9669-0800200c9a66}");
+			jar.append("chrome");			
+			jar.append("mailtagger.jar");
+
+
+			// prepare for reading
+			var inputStream = Components.classes["@mozilla.org/network/file-input-stream;1"].createInstance();
+			inputStream = inputStream.QueryInterface(Components.interfaces.nsIFileInputStream);
+			inputStream.init(jar, MODE_RDONLY, 0664, false);    // open read only
+
+			var readBinJar = Components.classes['@mozilla.org/binaryinputstream;1'].createInstance(Components.interfaces.nsIBinaryInputStream);				
+			readBinJar.setInputStream(inputStream);			
+
+			// read the entire file
+			var jarSize=inputStream.available();
+			var jarContent=readBinJar.readByteArray(jarSize);
+			readBinJar.close();
+			
+			// find files in jarContent array
+
+			localDataIndexes=new Array(0,0,0,0,0,0,0,0,0);
+								//	0-2: 	mailtaggerxxxxxxx.bak, mailtagger.bak, righttoleft.bak
+								//	3-5: 	mailtagger.properties, mailtagger.dtd, righttoleft.bak from firstSelectedLocale locale folder
+								// 	6-8:	mailtagger.properties, mailtagger.dtd, righttoleft.bak from langcode locale folder
+
+			centralDirIndexes=new Array(0,0,0,0,0,0,0,0,0);
+								//	0-2: 	mailtaggerxxxxxxx.bak, mailtagger.bak, righttoleft.bak
+								//	3-5: 	mailtagger.properties, mailtagger.dtd, righttoleft.bak from firstSelectedLocale locale folder
+								// 	6-8:	mailtagger.properties, mailtagger.dtd, righttoleft.bak from langcode locale folder 
+
+			var centralDirIndex=0;	// end of files data and start of archive decryption header.
+						// In this case (uncompressed jar file), this also correponds to the start of Central Directory
+
+			var endCentralDirIndex=0;
+
+			var propertiesBakFilename = "locale/"+ firstSelectedLocale + "/mailtaggerxxxxxxx.bak";		// xxxxxxx added to keep same file name length as mailtagger.properties 
+			var dtdBakFilename = "locale/"+ firstSelectedLocale + "/mailtagger.bak";
+			var rtlBakFilename = "locale/"+ firstSelectedLocale + "/righttoleft.bak";
+
+			var propertiesFilename = "locale/"+ firstSelectedLocale + "/mailtagger.properties";
+			var dtdFilename = "locale/"+ firstSelectedLocale + "/mailtagger.dtd";
+			var rtlFilename = "locale/"+ firstSelectedLocale + "/righttoleft.css";
+
+			var propertiesCopyFilename = "locale/"+ langcode + "/mailtagger.properties"; 
+			var dtdCopyFilename = "locale/"+ langcode + "/mailtagger.dtd"; 
+			var rtlCopyFilename = "locale/"+ langcode + "/righttoleft.css"; 	
+
+			for(var i=0;i<jarSize;i++){
+
+				if (jarContent[i]==80 && jarContent[i+1]==75 && jarContent[i+2]==3 && jarContent[i+3]==4) {	// Local file header signature
+					// reach file name
+
+					var fileNameLength=jarContent[i+26]+jarContent[i+27]*256;
+					var extraFieldLength=jarContent[i+28]+jarContent[i+29]*256;
+					var uncompressedSize = jarContent[i+22]+jarContent[i+23]*256 + jarContent[i+24]*65536 + jarContent[i+25]*65536*256;
+
+					var string ="";
+					for (var j=0;j<fileNameLength;j++){
+						string += String.fromCharCode(jarContent[i+30+j]);
+					}
+
+					switch(string) {
+						case propertiesBakFilename: 		localDataIndexes[0]=i;	break;
+						case dtdBakFilename: 			localDataIndexes[1]=i; 	break;
+						case rtlBakFilename: 			localDataIndexes[2]=i; 	break;
+						case propertiesFilename: 		localDataIndexes[3]=i;	break;
+						case dtdFilename:	 		localDataIndexes[4]=i; 	break;
+						case rtlFilename: 			localDataIndexes[5]=i; 	break;
+						case propertiesCopyFilename: 	localDataIndexes[6]=i;	break;
+						case dtdCopyFilename:			localDataIndexes[7]=i; 	break;
+						case rtlCopyFilename: 			localDataIndexes[8]=i;	break;
+					}
+
+					centralDirIndex=i+30+fileNameLength+extraFieldLength+uncompressedSize;
+					i=centralDirIndex-1;		// reach next header	
+
+				}
+
+				if (jarContent[i]==80 && jarContent[i+1]==75 && jarContent[i+2]==1 && jarContent[i+3]==2) {	// Central file header signature
+
+
+					var fileNameLength=jarContent[i+28]+jarContent[i+29]*256;
+					var extraFieldLength=jarContent[i+30]+jarContent[i+31]*256;
+					var fileCommentLength = jarContent[i+32]+jarContent[i+33]*256;						
+
+					var string ="";
+					for (var j=0;j<fileNameLength;j++){
+						string += String.fromCharCode(jarContent[i+46+j]);
+					}
+
+					switch(string) {
+						case propertiesBakFilename: 		centralDirIndexes[0]=i-centralDirIndex;	break;
+						case dtdBakFilename: 			centralDirIndexes[1]=i-centralDirIndex;	break;
+						case rtlBakFilename: 			centralDirIndexes[2]=i-centralDirIndex;	break;
+						case propertiesFilename: 		centralDirIndexes[3]=i-centralDirIndex;	break;
+						case dtdFilename:	 		centralDirIndexes[4]=i-centralDirIndex;	break;
+						case rtlFilename: 			centralDirIndexes[5]=i-centralDirIndex;	break;
+						case propertiesCopyFilename: 	centralDirIndexes[6]=i-centralDirIndex;	break;
+						case dtdCopyFilename:			centralDirIndexes[7]=i-centralDirIndex;	break;
+						case rtlCopyFilename: 			centralDirIndexes[8]=i-centralDirIndex;	break;
+					}
+
+					endCentralDirIndex=i+46+ fileNameLength+extraFieldLength+fileCommentLength;
+					i=endCentralDirIndex-1;		// reach next header						
+
+				}					
+			}
+
+			var localDataContent= jarContent.slice(0,centralDirIndex);
+			var centralDirContent= jarContent.slice(centralDirIndex,endCentralDirIndex);
+			var endCentralDirContent= jarContent.slice(endCentralDirIndex);
+			var copiedFiles=false;
+			var deletedFiles=false;
+			
+			if (localDataIndexes[0]!=0) {	// if "mailtagger.properties.bak" file exists, delete "mailtagger.properties", "mailtagger.dtd" files
+
+				// delete corresponding entries in local data 
+								
+				// this is for right to left language
+				if (localDataIndexes[5]!=0) {			
+					// righttoleft.css
+					var i=localDataIndexes[5];
+					var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+					var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+					var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;
+					var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;
+					localDataContent.splice(i,length);								
+				}	
+
+				// mailtagger.dtd
+				var i=localDataIndexes[4];
+				var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+				var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+				var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;
+				var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;
+				localDataContent.splice(i,length);										
+
+				// mailtagger.properties
+				var i=localDataIndexes[3];
+				var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+				var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+				var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;
+				var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;
+				localDataContent.splice(i,length);
+				
+				// delete corresponding entries in Central Directory
+
+				// this is for right to left language
+				if (centralDirIndexes[5]!=0) {
+					// intl.css
+					var i=centralDirIndexes[5];
+					var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+					var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+					var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;
+					var length = 46+fileNameLength+extraFieldLength+fileCommentLength;
+					centralDirContent.splice(centralDirIndexes[5],length);				
+				}
+
+				// mailtagger.dtd
+				var i=centralDirIndexes[4];
+				var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+				var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+				var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;
+				var length = 46+fileNameLength+extraFieldLength+fileCommentLength;
+				centralDirContent.splice(centralDirIndexes[4],length);
+
+				// mailtagger.properties
+				var i=centralDirIndexes[3];
+				var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+				var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+				var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;
+				var length = 46+fileNameLength+extraFieldLength+fileCommentLength;
+				centralDirContent.splice(centralDirIndexes[3],length);
+
+				deletedFiles=true;
+
+			}
+			else {	// if "mailtagger.properties.bak" file does not exist, rename "mailtagger.properties", "mailtagger.dtd" to "mailtagger.properties.bak", "mailtagger.dtd.bak" 
+
+				// update file name fields in local Data 
+
+				// no need to update file name length fields in the header because new file name length is the same as replaced one (appropriate name was choosen):
+				// this saves from shifting localDataContent
+
+				for (var i=0;i<propertiesBakFilename.length;i++)	{ localDataContent[localDataIndexes[3]+30+i] = propertiesBakFilename.charCodeAt(i); }
+				for (var i=0;i<dtdBakFilename.length;i++)	{ localDataContent[localDataIndexes[4]+30+i] = dtdBakFilename.charCodeAt(i); }
+
+				// this is for right to left language
+				if (localDataIndexes[5]!=0) {
+					for (var i=0;i<rtlBakFilename.length;i++) { localDataContent[localDataIndexes[5]+30+i] = rtlBakFilename.charCodeAt(i); }					
+				}
+
+
+				// update file name fields in Central Directory
+
+				for (var j=0;j<propertiesBakFilename.length;j++) { centralDirContent[centralDirIndexes[3]+46+j] = propertiesBakFilename.charCodeAt(j); }
+				for (var j=0;j<dtdBakFilename.length;j++) { centralDirContent[centralDirIndexes[4]+46+j] = dtdBakFilename.charCodeAt(j); }
+
+				// this is for right to left language
+				if (localDataIndexes[5]!=0) {
+					for (var j=0;j<rtlBakFilename.length;j++) { centralDirContent[centralDirIndexes[5]+46+j] = rtlBakFilename.charCodeAt(j); }					
+				}
+			}
+
+			if (langcode != firstSelectedLocale) {	// if langcode does not correspond to current folder, copy "mailtagger.properties", "mailtagger.dtd" files from locale folder corresponding to langcode
+
+					// add copy files in local Data
+					
+					// mailtagger.properties
+					var i=localDataIndexes[6];
+					var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+					var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+					var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;						
+					var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;
+					var mainContent = new Array(length);
+					for (var i=0;i<length;i++) { mainContent[i] = localDataContent[localDataIndexes[6]+i]; }
+					for (var i=0;i<propertiesFilename.length;i++)	 { mainContent[30+i] = propertiesFilename.charCodeAt(i); }	// change path in file name
+
+					// mailtagger.dtd
+					var i=localDataIndexes[7];
+					var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+					var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+					var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;
+					var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;		
+					var optionsContent = new Array(length);
+					for (var i=0;i<length;i++) {	optionsContent[i] = localDataContent[localDataIndexes[7]+i]; }						
+					for (var i=0;i<dtdFilename.length;i++) { optionsContent[30+i] = dtdFilename.charCodeAt(i); }	// change path in file name
+
+					// this is for right to left language
+					if (localDataIndexes[8]!=0) {
+						// righttoleft.css
+						var i=localDataIndexes[8];
+						var fileNameLength=localDataContent[i+26]+localDataContent[i+27]*256;
+						var extraFieldLength=localDataContent[i+28]+localDataContent[i+29]*256;
+						var uncompressedSize = localDataContent[i+22]+localDataContent[i+23]*256 + localDataContent[i+24]*65536 + localDataContent[i+25]*65536*256;
+						var length = 30+ fileNameLength+extraFieldLength+uncompressedSize;				
+						var intlContent = new Array(length);
+						for (var i=0;i<length;i++) { intlContent[i] = localDataContent[localDataIndexes[8]+i];	}
+						for (var i=0;i<rtlFilename.length;i++)	 { intlContent[30+i] = rtlFilename.charCodeAt(i); }	// change path in file name					
+					}
+
+					// add copy file entries in Central Directory
+
+					// mailtagger.properties
+					var i=centralDirIndexes[6];
+					var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+					var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+					var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;						
+					var length = 46+ fileNameLength+extraFieldLength+fileCommentLength;		
+					var mainContentCentral = new Array(length);		
+					for (var j=0;j<length;j++) { mainContentCentral[j] = centralDirContent[i+j]; }
+					for (var i=0;i<propertiesFilename.length;i++)	 { mainContentCentral[46+i] = propertiesFilename.charCodeAt(i); }	// change path in file name
+					var value = localDataContent.length;									// relative offset of local header 
+					mainContentCentral[45]=Math.floor(value/(65536*256)); value = value%(65536*256);
+					mainContentCentral[44]=Math.floor( value/65536 ); value = value%65536;
+					mainContentCentral[43]=Math.floor( value/256 ); value = value%256;
+					mainContentCentral[42]=value;
+
+					// mailtagger.dtd
+					var i=centralDirIndexes[7];
+					var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+					var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+					var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;						
+					var length = 46+ fileNameLength+extraFieldLength+fileCommentLength;		
+					var optionsContentCentral = new Array(length);		
+					for (var j=0;j<length;j++) { optionsContentCentral[j] = centralDirContent[i+j]; }						
+					for (var i=0;i<dtdFilename.length;i++)	 { optionsContentCentral[46+i] = dtdFilename.charCodeAt(i); }	// change path in file name
+					var value = localDataContent.length + mainContent.length;								// relative offset of local header 
+					optionsContentCentral[45]=Math.floor(value/(65536*256)); value = value%(65536*256);
+					optionsContentCentral[44]=Math.floor( value/65536 ); value = value%65536;
+					optionsContentCentral[43]=Math.floor( value/256 ); value = value%256;
+					optionsContentCentral[42]=value;
+
+					// this is for right to left language
+					if(centralDirIndexes[8]!=0) {						
+						// righttoleft.css
+						var i=centralDirIndexes[8];
+						var fileNameLength=centralDirContent[i+28]+centralDirContent[i+29]*256;
+						var extraFieldLength=centralDirContent[i+30]+centralDirContent[i+31]*256;
+						var fileCommentLength = centralDirContent[i+32]+centralDirContent[i+33]*256;						
+						var length = 46+ fileNameLength+extraFieldLength+fileCommentLength;
+						var intlContentCentral = new Array(length);		
+						for (var j=0;j<length;j++) { intlContentCentral[j] = centralDirContent[i+j]; }							
+						for (var i=0;i<rtlFilename.length;i++)	 { intlContentCentral[46+i] = rtlFilename.charCodeAt(i); }	// change path in file name
+						var value = localDataContent.length + mainContent.length + optionsContent.length + tipsContent.length;	// relative offset of local header 
+						intlContentCentral[45]=Math.floor(value/(65536*256)); value = value%(65536*256);
+						intlContentCentral[44]=Math.floor( value/65536 ); value = value%65536;
+						intlContentCentral[43]=Math.floor( value/256 ); value = value%256;
+						intlContentCentral[42]=value;							
+					}
+
+					// add created arrays in localDataContent & centralDirContent
+
+					localDataContent=localDataContent.concat(mainContent, optionsContent);
+					if (localDataIndexes[8]!=0) localDataContent=localDataContent.concat(intlContent);
+
+					centralDirContent=centralDirContent.concat(mainContentCentral, optionsContentCentral);
+					if (centralDirIndexes[8]!=0) centralDirContent=centralDirContent.concat(intlContentCentral);
+
+					copiedFiles=true;
+
+			}
+			else {	// if langcode corresponds to current folder, rename "mailtagger.properties.bak", "mailtagger.dtd.bak" to "mailtagger.properties", "mailtagger.dtd"
+
+				// update files names fields  in local Data 
+
+				// no need to update file name length fields in the header because new file name length is the same as replaced one (appropriate name was choosen)
+				// this saves from shifting localDataContent
+
+				for (var i=0;i<propertiesFilename.length;i++)	{ localDataContent[localDataIndexes[0]+30+i] = propertiesFilename.charCodeAt(i); }
+				for (var i=0;i<dtdFilename.length;i++) { localDataContent[localDataIndexes[1]+30+i] = dtdFilename.charCodeAt(i); }
+
+				// this is for right to left language
+				if (localDataIndexes[2]!=0) {
+					for (var i=0;i<rtlFilename.length;i++)	 { localDataContent[localDataIndexes[2]+30+i] = rtlFilename.charCodeAt(i); }					
+				}
+
+				// update file name fields in Central Directory
+
+				for (var j=0;j<propertiesFilename.length;j++) { centralDirContent[centralDirIndexes[0]+46+j] = propertiesFilename.charCodeAt(j); }
+				for (var j=0;j<dtdFilename.length;j++) { centralDirContent[centralDirIndexes[1]+46+j] = dtdFilename.charCodeAt(j); }
+
+				if(centralDirIndexes[2]!=0) {
+					for (var j=0;j<rtlFilename.length;j++) { centralDirContent[centralDirIndexes[2]+46+j] = rtlFilename.charCodeAt(j); }
+				}
+
+			}			
+			
+			// update end of Central Directory Record
+
+			// update number of entries
+			var value = endCentralDirContent[10]+endCentralDirContent[11]*256;
+			if (copiedFiles) value+=3	
+			if (centralDirIndexes[11]!=0) value++;	// this is for right to left language (righttoleft.css)	
+			if (deletedFiles) value-=3;	
+			if (centralDirIndexes[7]!=0) value--;	// this is for right to left language (righttoleft.css)
+			endCentralDirContent[11]=Math.floor(value/256);
+			endCentralDirContent[10]=value%256;
+
+			// size of the central directory
+			var value = centralDirContent.length;
+			endCentralDirContent[15]=Math.floor(value/(65536*256)); value = value%(65536*256);
+			endCentralDirContent[14]=Math.floor( value/65536 ); value = value%65536;
+			endCentralDirContent[13]=Math.floor( value/256 ); value = value%256;
+			endCentralDirContent[12]=value;
+
+
+			// offset of start of central directory
+			var value = localDataContent.length;
+			endCentralDirContent[19]=Math.floor(value/(65536*256)); value = value%(65536*256);
+			endCentralDirContent[18]=Math.floor( value/65536 ); value = value%65536;
+			endCentralDirContent[17]=Math.floor( value/256 ); value = value%256;
+			endCentralDirContent[16]=value;
+
+			// build new content
+			newJarContent=localDataContent.concat(centralDirContent,endCentralDirContent);
+
+			// prepare for writing
+			var outputStream = Components.classes["@mozilla.org/network/file-output-stream;1"].createInstance();
+			outputStream = outputStream.QueryInterface(Components.interfaces.nsIFileOutputStream);
+			outputStream.init(jar, MODE_WRONLY | MODE_TRUNCATE, 0664, false);    // open write+append+truncate
+			//outputStream.init(LocalFileInstance, MODE_WRONLY | MODE_CREATE | MODE_TRUNCATE, 0664, 0);
+			outputStream.flush();
+
+			var writeBinJar = Components.classes['@mozilla.org/binaryoutputstream;1'].createInstance(Components.interfaces.nsIBinaryOutputStream);				
+			writeBinJar.setOutputStream(outputStream);
+
+			// write the entire file
+			writeBinJar.writeByteArray(newJarContent,newJarContent.length);
+			writeBinJar.close();
+			
+			try {
+				// clear xul cache by deleting xul.mlf file
+				var faslService = Components.classes['@mozilla.org/fast-load-service;1'].getService(Components.interfaces.nsIFastLoadService);
+				var faslFile = faslService.newFastLoadFile("XUL");
+				faslFile.remove(false);
+			} catch (ex) {}
+			
+			// get a reference to the prompt service component.
+			var promptService = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
+			// two buttons appear, yes and No
+			var flags=promptService.BUTTON_TITLE_YES * promptService.BUTTON_POS_0 + promptService.BUTTON_TITLE_NO * promptService.BUTTON_POS_1;
+			
+			if (promptService.confirmEx(window,null, mT_keepCurrentEntries, flags, null, null, null, null, {}) ==0) 
+				mT_prefs.setBoolPref("keepCurrentEntries", true);
+			else
+				mT_prefs.setBoolPref("keepCurrentEntries", false);
+		
+			mT_prefs.setBoolPref("changedLanguage", true);
+			
+			window.setCursor('auto');
+			document.getElementById('mT_changingLanguage').hidden=true;
+			document.getElementById('mT_dialogButtons').hidden=false;
+			alert(mT_languageInfo);
+	
+		}
+
+		function browse(textboxid){
+			
+			var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(Components.interfaces.nsIFilePicker);
+			fp.init(window, 'mailtagger', Components.interfaces.nsIFilePicker.modeOpen);
+			//fp.appendFilter("Applications(*.exe,*.bat)","*.exe;*.bat");
+			fp.appendFilters(Components.interfaces.nsIFilePicker.filterAll);
+	
+			var ret = fp.show();
+			if (ret == Components.interfaces.nsIFilePicker.returnOK) {
+				var textbox = document.getElementById(textboxid);
+				textbox.value = fp.fileURL.file.path;
+			}
+		}
+
+		function openImageLocationWindow(ext) {	// need to do that to center window because centerscreen parameter does not work
+			document.documentElement.openSubDialog('chrome://mailtagger/content/imageLocation.xul','', ext);
+		}
+	
+		function initDialog() {
+			
+			window.setCursor('wait');
+		
+			document.getElementById('mT_version').value=mT_version + mT_getVersion();
+
+			fillPopupLang( document.getElementById("mT_language"), mT_locale);
+			document.getElementById("mT_startupTips").checked= mT_prefs.getBoolPref("startupTips");
+			document.getElementById("mT_insertInContextualMenu").checked= mT_prefs.getBoolPref("insertInContextualMenu");
+			document.getElementById("mT_displayThunderbirdSmileys").checked= mT_prefs.getBoolPref("displayThunderbirdSmileys");
+			document.getElementById("mT_displayRecentImages").checked= mT_prefs.getBoolPref("displayRecentImages");
+			
+			document.getElementById("mT_useAlternateText").checked= mT_prefs.getBoolPref("useAlternateText");
+			var selectedItem;
+			switch(mT_prefs.getCharPref("alternateText")){
+				case "prompt":		selectedItem = document.getElementById("mT_alternateTextPrompt");		break;
+				case "filename":		selectedItem = document.getElementById("mT_alternateTextUseFileName");	break;
+				case "fixed":		selectedItem = document.getElementById("mT_alternateTextString");		break;
+			}
+			document.getElementById("mT_alternateText").selectedItem = selectedItem;
+			
+			document.getElementById("mT_displayFavorites").checked= mT_prefs.getBoolPref("displayFavorites");
+			document.getElementById("mT_displaySignatures").checked= mT_prefs.getBoolPref("displaySignatures");
+			
+			document.getElementById("mT_joinRemoteImages").checked= mT_prefs.getBoolPref("joinRemoteImages");
+			
+			initFavoritesList();
+			initSignaturesList()
+			updateUI();
+			
+			window.setCursor('auto');
+		}
+		
+		function changeSettings() {
+			saveFavoritesList();
+			saveSignaturesList();
+			mT_prefs.setBoolPref("startupTips", document.getElementById("mT_startupTips").checked);
+			mT_prefs.setBoolPref("insertInContextualMenu", document.getElementById("mT_insertInContextualMenu").checked);
+			mT_prefs.setBoolPref("displayThunderbirdSmileys", document.getElementById("mT_displayThunderbirdSmileys").checked);
+			mT_prefs.setBoolPref("displayRecentImages", document.getElementById("mT_displayRecentImages").checked);
+			mT_prefs.setBoolPref("useAlternateText", document.getElementById("mT_useAlternateText").checked);
+			
+			var alternateText;
+			switch(document.getElementById("mT_alternateText").selectedItem){
+				case document.getElementById("mT_alternateTextPrompt"): 		alternateText = "prompt"; 	break;
+				case document.getElementById("mT_alternateTextUseFileName"): 	alternateText = "filename"; 	break;
+				case document.getElementById("mT_alternateTextString"):		alternateText = "fixed"; 	break;
+			}			
+			mT_prefs.setCharPref("alternateText", alternateText);			
+			
+			
+			mT_prefs.setBoolPref("displayFavorites", document.getElementById("mT_displayFavorites").checked);
+			mT_prefs.setBoolPref("displaySignatures", document.getElementById("mT_displaySignatures").checked);
+			
+			mT_prefs.setBoolPref("joinRemoteImages", document.getElementById("mT_joinRemoteImages").checked);
+		}
+		
+		function updateUI() {	
+					
+			var alternateTextDisabled= !document.getElementById("mT_useAlternateText").checked;
+			document.getElementById("mT_alternateTextPrompt").disabled= alternateTextDisabled;
+			document.getElementById("mT_alternateTextUseFileName").disabled= alternateTextDisabled;
+			document.getElementById("mT_alternateTextString").disabled= alternateTextDisabled;
+
+		}
+	
+		function onSelectRow(row, previousSelection) {
+			row.selectedItem.childNodes[2].firstChild.childNodes[0].firstChild.collapsed=false;
+			if (previousSelection !=null) {
+				previousSelection.childNodes[2].firstChild.childNodes[0].firstChild.collapsed=true;
+			}
+		}
+		
+		function appendRow(path, label, ext){
+			
+			var listitemNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "listitem");
+			
+			var cellNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "listcell");
+			
+			var imageNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "image");
+			imageNode.setAttribute("src",path);
+			imageNode.setAttribute("style","max-width:32px;max-height:32px");
+			//imageNode.setAttribute("tooltiptext",path);
+			var vboxNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "vbox");
+			vboxNode.appendChild(imageNode);
+			vboxNode.setAttribute("pack","center");
+			cellNode.appendChild(vboxNode);
+			listitemNode.appendChild(cellNode);
+			
+			var cellNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "listcell");
+			cellNode.setAttribute("flex","1");
+			
+			var textboxNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "textbox");
+			textboxNode.setAttribute("value",label);
+			textboxNode.setAttribute("flex","1");			
+			
+			cellNode.appendChild(textboxNode);
+			listitemNode.appendChild(cellNode);
+			
+			var cellNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "listcell");
+			var hboxNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "hbox");
+			hboxNode.setAttribute("flex","0");	
+			
+			var vboxNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "vbox");
+			vboxNode.setAttribute("pack","center");
+			var imageNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "image");
+			imageNode.setAttribute("src","chrome://mailtagger/content/copyToClipboard.png");
+			imageNode.setAttribute("collapsed","true");
+			vboxNode.appendChild(imageNode);
+			hboxNode.appendChild(vboxNode);
+			
+			var vboxNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "vbox");
+			vboxNode.setAttribute("pack","center");			
+			var imageNode =  document.createElementNS("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul", "image");
+			if (path.search("http://")!=-1) imageNode.setAttribute("src","chrome://mailtagger/content/small_remote.png");
+			imageNode.setAttribute("collapsed","false");
+			vboxNode.appendChild(imageNode);
+			hboxNode.appendChild(vboxNode);
+
+			cellNode.appendChild(hboxNode);
+			listitemNode.appendChild(cellNode);
+			
+			document.getElementById("list"+ext).appendChild(listitemNode);
+		
+		}
+	
+		function upRow(ext){
+			
+			var listbox=document.getElementById("list"+ext);
+			var selIndex= listbox.selectedIndex;
+			
+			if (selIndex > 0) {
+								
+				var refItem = listbox.childNodes[selIndex+1];
+				var upItem = listbox.childNodes[selIndex];
+				
+				// swap listcell 1 (image)
+				var copy=upItem.childNodes[0].firstChild.firstChild.getAttribute('src');
+				upItem.childNodes[0].firstChild.firstChild.setAttribute('src', refItem.childNodes[0].firstChild.firstChild.getAttribute('src') );
+				refItem.childNodes[0].firstChild.firstChild.setAttribute('src',copy);
+				
+				// swap listcell 2 (label)
+				var copy=upItem.childNodes[1].firstChild.value;
+				upItem.childNodes[1].firstChild.value= refItem.childNodes[1].firstChild.value;
+				refItem.childNodes[1].firstChild.value=copy;
+
+				// swap listcell 3 (label)
+				var copy=upItem.childNodes[2].firstChild.childNodes[0].firstChild.getAttribute('src');
+				upItem.childNodes[2].firstChild.childNodes[0].firstChild.setAttribute('src', refItem.childNodes[2].firstChild.childNodes[0].firstChild.getAttribute('src'));
+				refItem.childNodes[2].firstChild.childNodes[0].firstChild.setAttribute('src',copy);
+				
+				var copy=upItem.childNodes[2].firstChild.childNodes[1].firstChild.getAttribute('src');
+				upItem.childNodes[2].firstChild.childNodes[1].firstChild.setAttribute('src', refItem.childNodes[2].firstChild.childNodes[1].firstChild.getAttribute('src'));
+				refItem.childNodes[2].firstChild.childNodes[1].firstChild.setAttribute('src',copy);				
+				
+				listbox.selectItem(upItem);
+				listbox.ensureElementIsVisible(upItem);
+				if (ext=="Fav") previousFavSelection=upItem;
+				else previousSigSelection=upItem; 
+			}	
+
+		}
+		
+		function downRow(ext){
+			
+			var listbox=document.getElementById("list"+ext);
+			var selIndex= listbox.selectedIndex;
+			
+			if (selIndex < listbox.childNodes.length-2) {
+			
+				var refItem = listbox.childNodes[selIndex+1];
+				var downItem = listbox.childNodes[selIndex+2];
+				
+				// swap listcell 1 (image)
+				var copy=downItem.childNodes[0].firstChild.firstChild.getAttribute('src');
+				downItem.childNodes[0].firstChild.firstChild.setAttribute('src', refItem.childNodes[0].firstChild.firstChild.getAttribute('src') );
+				refItem.childNodes[0].firstChild.firstChild.setAttribute('src',copy);
+				
+				// swap listcell 2 (label)
+				var copy=downItem.childNodes[1].firstChild.value;
+				downItem.childNodes[1].firstChild.value= refItem.childNodes[1].firstChild.value;
+				refItem.childNodes[1].firstChild.value=copy;
+
+				// swap listcell 3 (label)
+				var copy=downItem.childNodes[2].firstChild.childNodes[0].firstChild.getAttribute('src');
+				downItem.childNodes[2].firstChild.childNodes[0].firstChild.setAttribute('src', refItem.childNodes[2].firstChild.childNodes[0].firstChild.getAttribute('src'));
+				refItem.childNodes[2].firstChild.childNodes[0].firstChild.setAttribute('src',copy);
+				
+				var copy=downItem.childNodes[2].firstChild.childNodes[1].firstChild.getAttribute('src');
+				downItem.childNodes[2].firstChild.childNodes[1].firstChild.setAttribute('src', refItem.childNodes[2].firstChild.childNodes[1].firstChild.getAttribute('src'));
+				refItem.childNodes[2].firstChild.childNodes[1].firstChild.setAttribute('src',copy);
+								
+				listbox.selectItem(downItem);
+				listbox.ensureElementIsVisible(downItem);
+				if (ext=="Fav") previousFavSelection=downItem;
+				else previousSigSelection=downItem;
+			}
+		}
+	
+		function addRow(ext){
+			
+			command="addRow";
+			appendRow("","New Label",ext);
+			var listbox=document.getElementById("list"+ext);
+			listbox.ensureElementIsVisible(listbox.lastChild);
+			listbox.selectItem(listbox.lastChild);
+		}
+		
+		function removeRow(ext){
+			document.getElementById("list"+ext).removeChild(document.getElementById("list"+ext).selectedItem);	
+		}
+					
+		function browseImages()	 { 
+			const nsIFilePicker = Components.interfaces.nsIFilePicker;
+			var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(nsIFilePicker);
+			fp.init(window, "mailTagger", nsIFilePicker.modeOpen);
+		
+			try {
+			  var initialDir = "";
+			  if (initialDir)
+				fp.displayDirectory = initialDir;
+			} catch (ex)  { /* ignore exception: file picker will open at default location*/  }
+		   
+			fp.appendFilters(nsIFilePicker.filterImages);
+			var ret = fp.show();
+		 
+			if (ret == nsIFilePicker.returnOK) {
+				return fp.fileURL.spec;
+			}
+		}
+		
+		function initFavoritesList() {
+			try {
+				var i=1;
+				while (mT_prefs.getComplexValue("favorite"+i, Components.interfaces.nsISupportsString).data!=null) {
+					var row=mT_prefs.getComplexValue("favorite"+i, Components.interfaces.nsISupportsString).data.split("+");
+					
+					appendRow(row[0],row[1],"Fav");
+					i++;
+				}
+			}catch(e){}
+		}
+
+		function initSignaturesList() {
+			try {
+				var i=1;
+				while (mT_prefs.getComplexValue("signature"+i, Components.interfaces.nsISupportsString).data!=null) {
+					var row=mT_prefs.getComplexValue("signature"+i, Components.interfaces.nsISupportsString).data.split("+");
+					
+					appendRow(row[0],row[1], "Sig");
+					i++;
+				}
+			}catch(e){}
+		}
+		
+		function saveFavoritesList() {
+			
+			var string = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);	
+			
+			var rows=document.getElementById("listFav").childNodes.length-1;
+			for (i=1; i<=rows;i++){
+				string.data = document.getElementById("listFav").childNodes[i].childNodes[0].firstChild.firstChild.getAttribute('src') + "+";
+				string.data+=document.getElementById("listFav").childNodes[i].childNodes[1].firstChild.value;
+				
+				mT_prefs.setComplexValue("favorite"+i, Components.interfaces.nsISupportsString, string);
+			}
+	
+			// remove remaining entries
+			try {
+				while (mT_prefs.getComplexValue("favorite"+i, Components.interfaces.nsISupportsString).data!=null) {
+					mT_prefs.clearUserPref("favorite"+i);
+					i++;
+				}
+			}catch(e) {}
+				
+		}
+
+		function saveSignaturesList() {
+
+			var string = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);	
+				
+			var rows=document.getElementById("listSig").childNodes.length-1;
+			for (i=1; i<=rows; i++){
+				string.data = document.getElementById("listSig").childNodes[i].childNodes[0].firstChild.firstChild.getAttribute('src') + "+";
+				string.data+=document.getElementById("listSig").childNodes[i].childNodes[1].firstChild.value;
+	
+				mT_prefs.setComplexValue("signature"+i, Components.interfaces.nsISupportsString, string);
+			}
+	
+			// remove remaining entries
+			try {
+				while (mT_prefs.getComplexValue("signature"+i, Components.interfaces.nsISupportsString).data!=null) {
+					mT_prefs.clearUserPref("signature"+i);
+					i++;
+				}
+			}catch(e) {}
+				
+		}
+		
+		function mT_getVersion()	{		
+			var gExtensionManager = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
+			var item=gExtensionManager.getItemForID("{554c2c30-935c-11d9-9669-0800200c9a66}");
+			return item.version;
+		}		
+
+		//]]>
+	  </script>
+</prefwindow>
+

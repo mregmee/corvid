@@ -1,0 +1,36 @@
+<!ENTITY quickquote.options.wayofworking         "Metoda Pracy">
+<!ENTITY quickquote.options.getselection         "U¿yj getSelection() (mniej dok³adne)">
+<!ENTITY quickquote.options.clipboardlose        "U¿yj schowka trac¹c formatowanie HTML">
+<!ENTITY quickquote.options.clipboardkeep        "U¿yj schowka zachowuj¹c formatownie HTML">
+<!ENTITY quickquote.options.rewrap               "Zawijaj cytowany tekst po ilu znakach">
+<!ENTITY quickquote.options.quotestring          "Prefix cytatu">
+<!ENTITY quickquote.options.quotestring.tt       "na pocz¹tku ka¿dej lini">
+<!ENTITY quickquote.options.quotestring2         "Sufix (przyrostek) cytatu">
+<!ENTITY quickquote.options.quotestring2.tt      "na koncu ka¿dej lini">
+<!ENTITY quickquote.options.replystring          "Wyra¿enie: Odpowiedz-do">
+<!ENTITY quickquote.options.replystring.tt       "Prefix tematu odpowiedzi">
+<!ENTITY quickquote.options.beforestring         "Przed cytatem">
+<!ENTITY quickquote.options.beforestring.tt      "Przed cytowanym tekstem">
+<!ENTITY quickquote.options.afterstring          "Po cytacie">
+<!ENTITY quickquote.options.afterstring.tt       "Po cytowanym tekscie">
+<!ENTITY quickquote.options.title                "SzybkieCytowanie - opcje">
+<!ENTITY quickquote.options.subnew               "Kopiuj temat wiadomosci przy cytowaniu w nowej">
+<!ENTITY quickquote.options.delay                "OpóŸnienie wstawienia sygnatury lub zaznaczenia">
+<!ENTITY quickquote.options.offset               "SPrzesuniêcie zaznaczenia">
+<!ENTITY quickquote.options.quotereply           "Odpowiedz do nadawcy">
+<!ENTITY quickquote.options.quotereplyall        "Odpowiedz do wszystkich">
+<!ENTITY quickquote.options.buttonreplace        "Podmiana przycisków paska narzêdziowego">
+<!ENTITY quickquote.options.advanced             "Zaawansowane">
+<!ENTITY quickquote.newmessage.label             "Cytuj w nowej wiadomosci">
+<!ENTITY quickquote.newmessage.accesskey         "Q">
+<!ENTITY quickquote.compmessage.label            "Cytuj w tworzonej wiadomoœci">
+<!ENTITY quickquote.compmessage.accesskey        "C">
+<!ENTITY quickquote.reply.label                  "Cytuj w odpowiedzi">
+<!ENTITY quickquote.reply.accesskey              "U">
+<!ENTITY quickquote.replyall.label             	"Cytuj w odpowiedzi do wszystkich">
+<!ENTITY quickquote.replyall.accesskey           "A">
+<!ENTITY quickquote.newsmessage.label            "Cytuj w odpowiedzi do newsgrupy">
+<!ENTITY quickquote.newsmessage.accesskey        "N">
+
+<!ENTITY quickquote.currmessage.label            "Cytuj w bie¿¹cej wiadomoœci">
+<!ENTITY quickquote.currmessage.accesskey        "C">

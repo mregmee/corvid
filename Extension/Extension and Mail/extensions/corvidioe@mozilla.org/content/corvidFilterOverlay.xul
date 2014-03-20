@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<overlay id="helloworld-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="corvidFilter.js"/>
+  <script src="corvidFilterOverlay.js"/>
+
+  <popup id="messagePaneContext">
+  	<menu label="Corvid " insertafter="context-copy">
+  	<menupopup>
+  		<menuitem id="changeSpamStatus" label="Change Status" oncommand="onChangeStatus()"/>
+        	<menuitem id="viewSpamValue" label="Spam Value" oncommand="onViewSpamValue()"/>
+        	<menuitem id="classifyEmail" label="Classify Email" oncommand="onClassifyEmail()"/>
+        	
+        	<menu label="Move to">
+        	<menupopup>
+        		<menuitem id="moveEmailE" label="Entertainment" oncommand="onMoveEmail('entertainment')"/>
+        		<menuitem id="moveEmailP" label="Personal" oncommand="onMoveEmail('personal')"/>
+        		<menuitem id="moveEmailB" label="Business" oncommand="onMoveEmail('business')"/>	
+        	</menupopup>
+        	</menu>
+        	
+        	<menuitem id="viewSummary" label="View Summary" oncommand="onViewSummary()"/>
+        	<menuitem id="trainSummary" label="Train Summary" oncommand="onTrainSummary()"/>
+        </menupopup>
+        </menu>
+  </popup>
+  
+  <popup id="threadPaneContext">
+	<menu label="Corvid " insertafter="context-copy">
+	<menupopup>
+		<menuitem id="changeSpamStatus" label="Change Status" oncommand="onChangeStatus()"/>
+		<menuitem id="viewSpamValue" label="Spam Value" oncommand="onViewSpamValue()"/>
+		<menuitem id="classifyEmail" label="Classify Email" oncommand="onClassifyEmail()"/>
+
+		<menu label="Move to">
+		<menupopup>
+			<menuitem id="moveEmailE" label="Entertainment" oncommand="onMoveEmail('entertainment')"/>
+			<menuitem id="moveEmailP" label="Personal" oncommand="onMoveEmail('personal')"/>
+			<menuitem id="moveEmailB" label="Business" oncommand="onMoveEmail('business')"/>	
+		</menupopup>
+		</menu>
+
+		<menuitem id="viewSummary" label="View Summary" oncommand="onViewSummary()"/>
+        	<menuitem id="trainSummary" label="Train Summary" oncommand="onTrainSummary()"/>
+	</menupopup>
+	</menu>
+  </popup> 
+
+</overlay>

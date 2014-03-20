@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<overlay id="corvidOverlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+ 
+ <tree id="threadTree">
+  <treecols id="threadCols">
+   <splitter class="tree-splitter" />
+   <treecol id="spamStatusCol" persist="hidden ordinal width" 
+            currentView="unthreaded" flex="2"
+            label="Spam Status" tooltiptext="Spam status as predicted by Corvid " />
+  </treecols>
+</tree>
+
+</overlay>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/corvidioe/!svn/ver/18/Classification/transactions
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/corvidioe/!svn/ver/18/Classification/transactions/stopwords.txt
+END
+personal
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/corvidioe/!svn/ver/18/Classification/transactions/personal
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/corvidioe/!svn/ver/11/Classification/transactions/index.txt
+END
+rules.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/corvidioe/!svn/ver/16/Classification/transactions/rules.txt
+END
+itemSupport.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/corvidioe/!svn/ver/17/Classification/transactions/itemSupport.txt
+END
+business
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/corvidioe/!svn/ver/18/Classification/transactions/business
+END
+tokenmap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/corvidioe/!svn/ver/16/Classification/transactions/tokenmap.txt
+END
+classificationcontext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/corvidioe/!svn/ver/18/Classification/transactions/classificationcontext.txt
+END
+tokenCounter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/corvidioe/!svn/ver/18/Classification/transactions/tokenCounter.txt
+END

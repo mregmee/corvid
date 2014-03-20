@@ -1,0 +1,37 @@
+<!ENTITY quickquote.options.wayofworking         "Metodo di funzionamento">
+<!ENTITY quickquote.options.getselection         "Usa GetSelection(scarsamente accurato)">
+<!ENTITY quickquote.options.clipboardlose        "Usa la Clipboard perdendo il formato html">
+<!ENTITY quickquote.options.clipboardkeep        "Usa la Clipboard mantenendo il formato html">
+<!ENTITY quickquote.options.rewrap               "A campo automatico fino alla colonna n.">
+<!ENTITY quickquote.options.quotestring          "Prefisso di citazione">
+<!ENTITY quickquote.options.quotestring.tt       "All'inizio di ogni riga">
+<!ENTITY quickquote.options.quotestring2         "Suffisso di citazione">
+<!ENTITY quickquote.options.quotestring2.tt      "Alla fine di ogni riga">
+<!ENTITY quickquote.options.replystring          "Prefisso dei messaggi di risposta">
+<!ENTITY quickquote.options.replystring.tt       "Prefisso dell'oggetto dei messaggi di risposta">
+<!ENTITY quickquote.options.beforestring         "Prima della citazione">
+<!ENTITY quickquote.options.beforestring.tt      "Prima del testo citato">
+<!ENTITY quickquote.options.afterstring          "Dopo la citazione">
+<!ENTITY quickquote.options.afterstring.tt       "Dopo il testo citato">
+<!ENTITY quickquote.options.title                "QuickQuote - Opzioni">
+<!ENTITY quickquote.options.subnew               "Copia l'oggetto originale quando si quota in un nuovo messaggio">
+<!ENTITY quickquote.options.delay                "Ritardo di selezione o inserimento della firma">
+<!ENTITY quickquote.options.offset               "Offset di selezione">
+<!ENTITY quickquote.options.advanced             "Avanzate">
+<!ENTITY quickquote.options.quotereply           "Rispondi all'autore">
+<!ENTITY quickquote.options.quotereplyall        "Rispondi a tutti">
+<!ENTITY quickquote.options.buttonreplace        "Sostituzione Comandi Pulsanti Toolbar">
+
+<!ENTITY quickquote.newmessage.label             "Inserisci come citazione in un Nuovo Messaggio">
+<!ENTITY quickquote.newmessage.accesskey         "N">
+<!ENTITY quickquote.compmessage.label            "Inserisci come citazione in un Messaggio in Composizione">
+<!ENTITY quickquote.compmessage.accesskey        "C">
+<!ENTITY quickquote.reply.label                  "Rispondi al Mittente inserendo come citazione">
+<!ENTITY quickquote.reply.accesskey              "A">
+<!ENTITY quickquote.replyall.label             	"Rispondi a Tutti inserendo come citazione">
+<!ENTITY quickquote.replyall.accesskey           "T">
+<!ENTITY quickquote.newsmessage.label            "Rispondi al Newsgroup inserendo come citazione">
+<!ENTITY quickquote.newsmessage.accesskey        "W">
+
+<!ENTITY quickquote.currmessage.label            "Inserisci come citazione nel Messaggio Corrente">
+<!ENTITY quickquote.currmessage.accesskey        "C">

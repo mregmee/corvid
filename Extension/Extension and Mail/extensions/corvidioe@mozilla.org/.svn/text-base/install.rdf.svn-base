@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+
+   <em:id>corvidioe@mozilla.org</em:id>
+   <em:name>Corvid-Intelligent Email Processor</em:name>
+   <em:version>1.0.0.0</em:version>
+   <em:description>Email filtering classification and summarization Engine</em:description>
+   <em:creator>CORVID IOE GROUP</em:creator>
+    
+    <!-- Target Application this extension can install into, 
+        with minimum and maximum supported versions. --> 
+    <!-- Thunderbird -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>2.0.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    
+  <!-- Front End MetaData -->
+  <em:name>corvidioe</em:name>
+    <em:description>Email Filtration classification and summarization engine</em:description>
+    <em:creator>Corvid Email Group</em:creator>
+    <em:homepageURL>http://dev.d2labs.org/gf/project/corvidioe/</em:homepageURL>
+    
+    <!-- Front End Integration Hooks (used by Extension Manager)-->
+    <em:optionsURL>chrome://corvidioe/content/options.xul</em:optionsURL>
+    <em:aboutURL>chrome://corvidioe/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://corvidioe/content/logo.png</em:iconURL>
+    
+  </Description>      
+</RDF>

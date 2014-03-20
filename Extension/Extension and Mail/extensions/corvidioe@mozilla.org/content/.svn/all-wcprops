@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/corvidioe/!svn/ver/21/extension/corvidioe@mozilla.org/content
+END
+about.xul
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/content/about.xul
+END
+options.xul
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/content/options.xul
+END
+logo.PNG
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/content/logo.PNG
+END
+corvidFilterOverlay.xul
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/content/corvidFilterOverlay.xul
+END
+corvidFilter.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/corvidioe/!svn/ver/21/extension/corvidioe@mozilla.org/content/corvidFilter.js
+END
+corvidFilterOverlay.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/corvidioe/!svn/ver/21/extension/corvidioe@mozilla.org/content/corvidFilterOverlay.js
+END
+spamStatusOverlay.xul
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/content/spamStatusOverlay.xul
+END

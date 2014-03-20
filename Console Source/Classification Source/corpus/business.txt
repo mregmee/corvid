@@ -1,0 +1,1654 @@
+Badri,
+
+In the event DPC signs the contract, we would need to make it Indian tax 
+efficient. PLease suggest the structure/clauses/information required by which 
+we need not pay withholding taxes. If you need more info on the scope of work 
+contemplated you can talk to Wade/Neil/Sandeep.
+
+Regards
+Mohan
+
+
+
+
+Sandeep Kohli
+01/22/2001 07:11 AM
+To: Wade Cline/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Mohan Gurunath
+cc: Stinson Gibner@ECT, Vince J Kaminski@ECT, Bruce 
+Lundstrom/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Bonnie 
+Nelson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Lauren Haggety 
+
+Subject: Re: CA for Henwood engagement
+
+Wade/Mohan,
+
+Please find below the last draft copy of the Henwood Consulting Agreement.  
+We need to sign this asap so as to not be in violation of ENE policies.
+
+As you will see, the draft Agreement is made out with Enron in mind, even 
+though we have left the company name blank in the agreement.
+
+Mohan - Last when we spoke (Friday), you were going to explore the tax 
+aspects of having DPC be the signing company.  Please tell us if that works.
+
+Separately, you and Wade may need to consider how DPC lenders may look upon 
+some of the information emerging from this study, and whether you want all of 
+it in lender domain.
+
+Based on the same you may want to decide whether this needs to be EIPL, ENE 
+Houston, or DPC.  We could also have a version where ENE Houston is signing 
+the contract on behalf of DPC.
+
+Please let me know what you decide, and we will proceed accordingly.  If you 
+would like someone in EIPL/DPC to be signing the contract, please let me 
+know, who the signing authority is.  I suspect, that even I could sign on 
+behalf of DPC or ENE ??  If so, I will be in Houston on Wednesday, and sign 
+at the time.  If not, you can assign someone to sign.
+
+Regards,
+Sandeep.
+
+
+---------------------- Forwarded by Sandeep Kohli/ENRON_DEVELOPMENT on 
+01/22/2001 06:59 AM ---------------------------
+
+
+LAUREN HAGERTY
+01/20/2001 01:01 AM
+To: Bonnie Nelson/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+cc: Bruce Lundstrom/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Sandeep 
+Kohli/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Stinson Gibner/HOU/ECT@ECT, Vince 
+J Kaminski/HOU/ECT@ECT 
+Subject: Re: CA for Henwood engagement  
+
+I suspect that Enron India LLC would be the entity to use.  However, is 
+anyone from Tax involved in this?  If not, we need to get someone in the 
+loop.  
+____________________________
+Lauren Hagerty
+Enron India/EBS Asia
+Three Allen Center, Room 2119
+Houston, Texas 77002
+Phone:  713-646-6529
+Fax:  713-646-7549
+
+
+
+	Bonnie Nelson
+	01/19/2001 11:54 AM
+		
+		 To: Stinson Gibner/HOU/ECT@ECT, Bruce 
+Lundstrom/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Lauren 
+Hagerty/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+		 cc: Vince J Kaminski/HOU/ECT@ECT, Sandeep 
+Kohli/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+		 Subject: Re: CA for Henwood engagement
+
+Stinson,
+
+Please find attached a revised version of the draft Consulting Agreement with 
+Henwood.  FYI, I am attaching both a clean version and one marked toshow 
+changes from the last draft I sent you.  Please let me know if you have any 
+questions or comments on the agreement or the most recent changes.  
+
+ 
+
+WHat is the status of Henwood?  Do you still want to engage them and what is 
+the timeframe for their work (the dates in the draft may need to be 
+corrected). 
+
+Bruce and Lauren:  please advise on which Enron entity should be the party to 
+this Consulting Agreement.
+
+Vince &amp; Stinson,
+
+For your information,  Professor Duffie assigned Taiichi, his Ph.D. student 
+to work on the audit back in May.
+I will contact with him about the progress.
+
+Zimin
+
+
+---------------------- Forwarded by Zimin Lu/HOU/ECT on 08/02/2000 10:50 AM 
+---------------------------
+
+
+hoshino@leland.Stanford.EDU on 05/25/2000 09:14:52 PM
+Please respond to hoshino@leland.Stanford.EDU
+To: Zimin.Lu@enron.com
+cc:  
+Subject: It worked!
+
+
+Dear Zimin,
+
+ It was nice talking to you on the phone today
+and thank you for the tip. I manually created &quot;c:\Temp&quot;
+and that was it. The spreadsheet works now. With Pentium
+200Mhz and 80M memory, it runs within 5 minutes.
+
+Very best regards,
+
+
+/~/~/~/~/~/~/~/~/~/~/~/~/~/~/~
+
+Taiichi Hoshino
+
+Ph.D.candidate
+EES&amp;OR
+Stanford University
+
+The Shadows APT#171
+750 North Shoreline Blvd.
+Mountain View CA94043
+Home TEL/FAX)650-960-1993
+
+Hey Guys - can you help please?
+
+I need an good accountant to help set-up and run a &apos;Real Estate &amp; 
+Co-Location&apos; Book for EBS. Full time - senior specialist level.
+
+I&apos;ve tried the &apos;market&apos; - but it&apos;s thin. Can you help? Can you assign be 
+somebody from Corp or someplace else for the rest of the year?
+
+Thanks.
+
+Todd,
+ Per our discussion on moving forward with the development of a Weather 
+Trading and Valuation engine.  I have discussed the high level requirements 
+with Joseph Koothrappaly and have identified an IT lead to manage the 
+project. As discussed, the project will have the same project formula as the 
+&quot;Thunderball&quot; project with 3-6 month deliverables. Also, the need to have 
+co-operative development between Houston and London will be established for 
+Global roll out of the Weather system. The main focus will be a intranet 
+trade capture and position with a callable valuation engine. The plan calls 
+for Phase I roll out for January 1, 2001.   Next steps will need to be 
+discuss as soon as possible.  Topics that need to be addressed are definition 
+of Phase I, joint development between Houston and London, and duel 
+development between Steve Stock&apos;s valuation team and my trading team. Keep in 
+mind that though multiple teams will have development assignments, one person 
+will manage the effort across teams.
+
+ick,
+
+I read your memo regarding Global Risk Management Initiative.  I am sending=
+=20
+you the
+information regarding a related initiative on which I have been working las=
+t=20
+year and which
+is moving now into the implementation stage. It&apos;s Enterprise - Wide Risk=20
+Management
+and it&apos;s really an effort to measure business risks consistently across the=
+=20
+company.
+I hope my group can be helpful in designing the general approach to this=20
+problem.
+
+Please, let me know what your thoughts are.
+
+Vince
+
+
+
+  =20
+=09Enron North America Corp.
+=09
+=09From:  Rick Causey @ ENRON                           01/17/2000 06:04 PM
+=09
+
+Sent by: Enron Announcements@ENRON
+To: All Enron Worldwide
+cc: =20
+Subject: Global Risk Management Operations
+
+
+Recognizing Enron=01,s increasing worldwide presence in the wholesale energ=
+y=20
+business and the need to insure outstanding internal controls for all of ou=
+r=20
+risk management activities, regardless of location, a global risk managemen=
+t=20
+operations function has been created under the direction of Sally W. Beck,=
+=20
+Vice President.  In this role, Sally will report to Rick Causey, Executive=
+=20
+Vice President and Chief Accounting Officer. =20
+
+Sally=01,s responsibilities with regard to Global Risk Management Operation=
+s=20
+will mirror those of other recently created Enron global functions.  In thi=
+s=20
+role, Sally will work closely with all Enron geographic regions and wholesa=
+le=20
+companies to insure that each entity receives individualized regional suppo=
+rt=20
+while also focusing on the following global responsibilities:
+
+1. Enhance communication among risk management operations professionals.
+2. Assure the proliferation of best operational practices around the globe.=
+ =20
+3. Facilitate the allocation of human resources. =20
+4. Provide training for risk management operations personnel.
+5. Coordinate user requirements for shared operational systems.=20
+6. Oversee the creation of a global internal control audit plan for risk=20
+management activities.
+7. Establish procedures for opening new risk management operations offices=
+=20
+and create key benchmarks for measuring on-going risk controls.  =20
+
+Each regional operations team will continue its direct reporting relationsh=
+ip=20
+within its business unit, and will collaborate with Sally in the delivery o=
+f=20
+these critical items. The Houston-based risk management operations team und=
+er=20
+Sue Frusco=01,s leadership, which currently supports risk management activi=
+ties=20
+for South America and Australia, will also report directly to Sally.  =20
+
+Sally retains her role as Vice President of  Energy Operations for Enron=20
+North America, reporting to the ENA Office of the Chairman.  She has been i=
+n=20
+her current role over Energy Operations since 1997, where she manages risk=
+=20
+consolidation and reporting, risk management administration, physical produ=
+ct=20
+delivery, confirmations and cash management for ENA=01,s physical commodity=
+=20
+trading, energy derivatives trading and financial products trading. =20
+
+Sally has been with Enron since 1992, when she joined the company as a=20
+manager in Global Credit.  Prior to joining Enron,  Sally had four years=20
+experience as a commercial banker and spent seven years as a registered=20
+securities principal with a regional investment banking firm.  She also own=
+ed=20
+and managed a retail business for several years.=20
+
+Please join me in supporting Sally in this additional coordination role for=
+=20
+
+Kathryn has done a good job of keeping me in the loop on this.  In addition, Kim has consistently provided useful, objective feedback, as shown in the memo attached below. 
+
+We will produce a stable code with the changes Kim and her team have requested before the package is released outside the building.
+
+I have also asked Kathryn to perform more testing within the CL team before asking Kim and her team (or any other clients) to play with the changes.  Performing significant changes overnight, and then showing the code to clients the next morning is wonderfully responsive, but a little too risky.
+
+The high-level demo scheduled for Thursday will show code that is already frozen and hardened.
+
+All the best,
+
+Tom
+
+ -----Original Message-----
+From: 	Beck, Sally  
+Sent:	Wednesday, April 18, 2001 9:00 AM
+To:	Gros, Thomas D.
+Subject:	Update on ConfirmLogic
+
+I assume that Kathryn has communicated this to you.  I have only read Kim&apos;s e-mail - I will talk with her later today.  --Sally 
+---------------------- Forwarded by Sally Beck/HOU/ECT on 04/18/2001 08:58 AM ---------------------------
+    Kim S Theriot                04/17/2001 10:58 PM
+
+To:	Leslie Reeves/HOU/ECT@ECT
+cc:	Sally Beck/HOU/ECT@ECT 
+Subject:	Update on ConfirmLogic
+
+I wanted to give you a quick update on ConfirmLogic....
+
+Testing was done last week on the ConfirmLogic module.  On Thursday, we discussed with Kathryn Cordes and the ConfirmLogic IT team the items that we had found that were &quot;show stoppers&quot; as far as releasing the product for Beta Testing.  Some of the major Items found were the inability to properly handle Basis Swaps for Gas and inability to display meaningful Index References for Power (they were pulling in a code rather than a description of the Index).  
+
+The team worked on the &quot;fixes&quot; and migrated the code last night.  Today during testing, they found that the new code had actually caused problems with the fixed price and volume information, which was working previously.  I talked to Kathryn and she said that the were rebuilding the code.  She said that someone had tested the fix last night and everything worked fine.  We plan more testing in the morning.
+
+They are doing a high-level demo this Thursday for Beta Customers just to introduce the module.  They were planning on having more extensive Beta demos for each client starting next week but realize that those may have to postponed further.
+
+We have told them that we would not sign off for Beta testing until we were comfortable that the items that we identified were working.  We need consistent, stable days of testing before I will feel comfortable.
+
+Overall, we like the &quot;new&quot; streamlined version of the screens and feel that it will be a good product if they can work out the data display issues.
+
+Call with any questions.
+
+Kim Theriot  
+
+
+
+
+
+I have received preliminary information from D&amp;B.  I think several 
+issues/questions have been raised that if explored, could result in a better 
+solution for the money.  
+
+Option 1
+The update frequency for our current file can be improved from quarterly to 
+monthly for a cost of $87,000 (USD) through March, 2001.
+
+Option 2
+I wasn&apos;t sure what specific data in the file you might be interested in.  If 
+you are particularly interested in the Financial Stress Score and Credit 
+Score, for example, there are multiple alternatives :
+ 
+ 2a) Keep quartlery refresh of base data (party name, etc) and refresh scores 
+that are added/changed on a monthly basis.  Cost - $1.17(USD) per 
+record.          Note that there are 575,000 records in the file currently 
+with financial and credit scores, making this potentially a very expensive 
+alternative 
+        (575,000 X 1.17=$ 672,750).
+
+ 2b) Batch or FTP updates of the financial and stress scores can only be 
+provided monthly.  D&amp;B is working on a solution that would provide a 
+weekly         update to their customers in a batch or FTP manner, but has 
+not committed to when this will be ready.  Therefore, if more timely updates 
+than monthly                          are desired, it is also possible to 
+transactionally access records one at a time using D&amp;B&apos;s software.  The cost 
+for this is extremely high at $10.52         (USD) per score. 
+
+Option 3
+D&amp;B Connect Product.
+ D&amp;B Connect is a tool set of matching software, an externally validated 
+reference file, credit and marketing information, and D&amp;B services that 
+enables the  most effective integration of customer information and 
+third-party information with D&amp;B information.  Only this type of process and 
+information integration  capability can facilitate and ensure accurate 
+identification, linkage and maintenance of your customer&apos;s complete 
+relationship.   In addition, D&amp;B Connect  assures organizations of 
+referential integrity by providing an automated and electronic link to D&amp;B so 
+that the most recent D&amp;B information is always  transmitted to your 
+organization and updated within your local D&amp;B Connect Reference File.  D&amp;B 
+Connect is scalable.  
+
+ Cost Typically ranging from
+ * Customer Access Module (CAM) Batch- - $25,000
+ * CAM Online - $50,000
+ * Full Information Integrator - $350,000 + data
+
+With more specifics as to your needs, this option should perhaps be pursued.
+
+
+Questions/Issues
+
+1) D&amp;B had questions regarding the use of their data and whether Enron 
+customers would be offered this information for a fee or free.  I explained 
+that I  did not feel the data would be offered directly to Enron customers, 
+but that it would be used to support analysis that would be available 
+externally via web  site, etc.  All pricing above is based upon this 
+understanding.  If I have not portrayed the usage correctly, it will be 
+imperative to get a better understanding  before final pricing can be 
+negotiated.
+
+2)  Are there specific data elements that you are interested in ?  
+Alternatives may vary by data element.  Financial Stress Score and Credit 
+Score reference  above were explored as an example.
+
+3)  What is timeframe for needing a solution ?
+
+4)  Financial Stress Score and Credit Score are only available on U.S. 
+companies.  A comparable measure - Global Failure Score (the liklihood of 
+default or  bankruptcy)  is available for international companies.  This 
+rating score however, is NOT currently available via a batch or FTP manner.  
+This could result  in additional cost if we wish to pursue obtaining this 
+score in a batch manner.
+
+5)  Pricing also varies whether the information is to be used for credit 
+analysis or risk management decisions versus for marketing purposes.  This is 
+probably  negotiable as the data is the same.  The thought process is that if 
+the repository is used for credit or risk decisions, D&amp;B will see decreased 
+usage and  revenue on a transactional basis by the credit departments.
+
+ If you would like me to follow up further, please give me a call at 
+Dear All,
+
+Yesterday, I mentioned to Vince the inhouse modelling capabilities and the 
+impact weather and the weather forecast can have on some of Enron&apos;s 
+operations and Risk Management positions. For this reason I have attached 
+three files, two of those show to tropical cyclones off the coasts of 
+Australia, i.e. Rachel and Drena. Tropical cyclones pose a significant risk, 
+and an early warning system can be part of a better risk strategy. 
+Please, note that the modelling system has been further improved since the 
+simulation was done. 
+
+Also, we can focus on another large problem and associated risk. Dust storms 
+can pose a significant risk to a number of industries, and the prediction 
+of such events has been very difficult, if not impossible. For this reason a 
+GIS database has been developed and coupled to the NWP model, which 
+allows prediction of such events in realtime. For the depicted event an 
+estimated 6 million tonnes of top soil was lost, and with it $$. 
+
+Maybe we can set up a conference call to discuss
+
+* the above mentioned points
+* further improvments in forecasting based on the high resolution forecasts
+* weather and climate on a global perspective for Enron
+* how to further improve the forecast for Enron
+
+Regards,
+Christian 
+
+PS: I tried to sent of this e-mail last night, but their appears to be a 
+
+For this morning call Thanks
+---------------------- Forwarded by Orlando Gonzalez/SA/Enron on 15/02/2001 12:14 ---------------------------
+
+
+Luis Henriques
+15/02/2001 12:06
+To:	Orlando Gonzalez/SA/Enron@Enron
+cc:	 
+
+Subject:	Elektro Short Position
+
+See attached a file for our today conference call.
+
+ 
+Enron Methanol nominates the following natural gas requirements for the 
+Methanol Plant for December 2000:
+
+33,000 mmbtu per day
+
+
+EGPFC nominates the following natural gas requirements for the MTBE Plant at 
+Morgan&apos;s Point for December 2000: 
+
+12,000 mmbtu per day for the first 15 days of the month.  None for the last 
+Group
+
+We have 10 MW of length from Sierra through the APX light load at $185.  Stan purchased this NP15 length from the APX and it should be scheduled DA by Jeremy.  There should be a ECTRT load zone in PGE3 with this length.  Use whatever opportunities are out there (dynegy across COB or a straight export) to maximize this position.  The deal numbers are: 581335-purchase from APX and 581356-desk to desk deal.  Please make sure this gets taken care of.
+
+Cheers
+Bill - 
+
+As I am not sure whether or not Craig gets his e-mails, can you please pass this along.
+
+There is a first for everything!
+
+Amy
+---------------------- Forwarded by Amy FitzPatrick/PDX/ECT on 04/09/2001 12:16 PM ---------------------------
+
+
+Amy FitzPatrick
+04/02/2001 08:24 AM
+To:	Craig Dean/PDX/ECT@ECT
+cc:	 
+Subject:	Drug Test
+
+Craig -
+
+I just received notice that there was a collector error on your sample.  Can you please contact EMSI to reschedule a drug test at 1-800-522-3674?  Sorry for any inconvenience this may cause you.
+
+Kind regards -
+Hey dude,
+
+How about Booty?  He could be developed, he has the raw talent but needs to get consistent and confident.  Sounds like good news for your dogs.  I hope my Tigers keep up the improvements.
+
+I appreciate the time you took yesterday getting me up to speed as to your 
+business and where you are in the process of establishing risk operations.  I 
+hope you found our meeting useful as the checklist is meant to serve as an 
+overview of points that need to be addressed before any transactions are 
+entered into.
+
+I was wondering if a meeting with Carole, Milind, Heidi, and myself has yet 
+been scheduled for Friday. At that time, I think we need to lay out a road 
+map of how the checklist items will be addressed and how I can best help you.
+
+Regards
+
+
+Hello all!
+
+As you are aware, Houston is asking all Enron employees to be involved in their United Way Campaign. While you are encouraged to take part, please keep in mind that we will be doing a Portland United Way Campaign to benefit our local community.  More information will be available in the next month or so.
+
+In the meantime, you are more than welcome to donate to the Houston campaign in addition to your assistance with our Portland efforts. To access the Houston donation site, visit https://hrglobal.enron.com/. Your GIS ID (the &quot;9-number&quot; you used to access PEP) is your login.
+
+If you have any questions, please let me know.
+
+Regards,
+Grace
+
+I have gotten the form to sign up and pay for 2001 playoff tickets.  All the
+other participants have agreed to join in.  We will have some sort of
+lottery to determine ticket usage.  Unused tickets will be credited to next
+years season tickets.
+Sally,
+
+I confirmed today that I will be in New York for the DIG meeting on April 27 
+and 28.  If you would like, we could do the office review on the 26th.
+
+
+I&apos;d like to get together as a group and discuss both Commodity Logic &amp; DCAF 
+projects and see if we can put together a joint high level vision for 
+supporting the trade clearing functions.  Here are the items I&apos;d like to 
+initially discuss:
+
+Commodity Logic Deliverables, timing and perhaps a demo or screen shots to 
+show where we currently are in our development.
+Current DCAF requests and current areas of pain communicated from the user 
+side.
+Legal &amp; Credit concerns or issues known at this time.
+
+Once we have put together a strawman or high level plan then let&apos;s follow up 
+with the larger user community and see if this address the highest priority 
+concerns that were brought up at the Deal Clearing JAD session. 
+
+ Cheryl:  Please set up an hour and a half meeting with the people addressed 
+under cc: above to discuss the subject listed above.  I&apos;d like to meet ASAP 
+and would be willing to buy lunch if that aids us in getting this scheduled 
+
+The following schedule has been distributed as noted regarding publishing the 
+DPR over the next two weeks.  I know that books run in Calgary, Houston, and 
+Portland will be calculated and officialized on Friday, December 22nd for 
+trading that day.  The current plan is not to publish the DPR for December 
+22nd on Tuesday, December 26th, but to wait until the first Enron official 
+business day to do so (i.e. Wednesday, December 27th).  That will work as 
+long as trading results for Friday, December 22nd are not dramatic.
+
+Please leave a voice mail message after calcing the books on Friday, December 
+22nd for Chris Abel (x33102) to give him trading results by commodity for 
+December 22nd.  If there are dramatic results, Chris may produce a 
+preliminary and rough DPR on Tuesday, December 26th with the information that 
+you provide.  For locations that will not calc and officialize books on 
+Friday, December 22nd, you will still need to contact Chris to give him your 
+best estimate of trading results.
+
+Thanks for your continuing help in providing timely and accurate information 
+for the worldwide trading organization.  I hope that all of you enjoy your 
+holidays.
+
+---------------------- Forwarded by Sally Beck/HOU/ECT on 12/19/2000 11:31 AM 
+---------------------------
+   
+	Enron North America Corp.
+	
+	From:  Sally Beck                           12/19/2000 11:22 AM
+	
+
+To: Jeff Skilling/Corp/Enron@ENRON, Mark Frevert/NA/Enron@Enron, Greg 
+Whalley/HOU/ECT@ECT, David W Delainey/HOU/ECT@ECT, John J 
+Lavorato/CAL/ECT@ECT, Mike McConnell/HOU/ECT@ECT, Jeffrey A 
+Shankman/HOU/ECT@ECT, Jeffrey McMahon/HOU/ECT@ECT, Raymond Bowen/HOU/ECT@ECT, 
+John Sherriff/LON/ECT@ECT, Michael R Brown/LON/ECT@ECT, Rick Buy/HOU/ECT@ECT, 
+Richard Causey/Corp/Enron@ENRON, Ted Murphy/HOU/ECT@ECT, Wes 
+Colwell/HOU/ECT@ECT
+cc: Louise Kitchen/HOU/ECT@ECT 
+Subject: Publication Schedule for DPR During Holiday Period
+
+Please note the following schedule for risk book reporting during the holiday 
+period:  
+
+
+Trade Date Enron Status NYMEX  Equity Market Consolidated Risk Reporting 
+
+Fri, 12/22 Open Early Close Open DPR published for 12/21 results (a) 
+
+Mon, 12/25 Holiday (b) Closed Closed DPR not published  
+
+Tues, 12/26 Holiday (b) Open Open DPR not published (c)
+
+Wed, 12/27 Open Open Open DPR published separately for 12/22 &amp; 12/26 
+    results
+
+Thurs, 12/28 Open  Open Open DPR published for 12/27 results
+
+Fri, 12/29 Open Early Close Open DPR published for 12/28 results (a)
+
+Mon, 1/1 Holiday (b) Closed Closed DPR not published  
+   
+Tues, 1/2 Open Open Open DPR published for 12/29.  Normal month
+    end schedule applies. (d) 
+
+(a) Trader P&amp;L and Position reports will be produced for traded products at 
+close of business 
+(b) US, Canadian &amp; London holiday
+(c) Logistics and risk personnel will be in the office on this holiday to 
+support trading activity
+(d) Monthly close procedures require that changes or adjustments to risk 
+books for month-end be submitted by 5:00 pm Houston time on the first 
+business day following the end of the month.  The DPR published on 1/2 for 
+12/29 results will be preliminary.  The final DPR for 12/29 should be 
+published on 1/3, assuming that all month-end adjustments have been received 
+Hi Anita,
+
+ How are you?  I arrived yesterday late morning from the London Gatwick 
+airport.  Due to rush hour traffic, etc. it took a while to get into the city 
+to the hotel.
+
+ Also, due to May Day (May 1st) protests/riots, etc., the hotel management 
+strongly recommended that we remain in the hotel.  
+
+ However, I am in the office today.  I can be reached via email or via 
+telephone at 44 (0) 207 783 5647.
+
+Take care,
+
+Iris
+Car Rental Options for Enron Travelers
+
+Rental car contracts for 2001 have been awarded to:
+
+National Car Rental (Primary) and  Alamo Rent-A-Car (Secondary).  
+
+The intent of these agreements is to consolidate and leverage Enron&apos;s total car rental spend to achieve the most favorable rates and non-pricing provisions (i.e. insurance).
+
+National Car Rental, due to its service levels, availability and total value proposition, has been awarded Primary status and is recommended as the first choice for Enron travelers&apos; needs.
+
+Alamo Rent-A-Car, a sister company to National, has been awarded a contract reflecting a Secondary status, due to its service levels, availability and low cost solutions.  Alamo is recommended as an alternative to National, where available.
+
+When you rent a vehicle in the United States, (including Puerto Rico) or Canada, the following insurance provisions are included, regardless of rate selected: 
+1.	L/DW (Loss/Damage Waiver) - This is what is called Comprehensive or Collision on your personal auto. It covers the rental vehicle and pays for any damage to it. 
+2.	Liability - This covers people and property outside the rental vehicle. For both National and Alamo, the coverage is $100,000 per person, $300,000 per occurrence and $50,000 for property damage. 
+** IMPORTANT ***
+These coverages apply regardless of rate selected, as long as the following contract ID is communicated at the time of reservation and rental is recorded on the transaction rental agreement.  (National -  5000838 Alamo    - #143974)
+
+To enjoy the highest levels of service while renting a vehicle from Enron&apos;s preferred suppliers, it is recommended that each traveler enroll in National&apos;s and Alamo&apos;s preferred traveler programs.  National&apos;s Emerald Club membership and Alamo&apos;s Quicksilver program are designed to speed the transaction time by providing services such as counter bypass and rapid return.  The enrollment fees for these programs have been waived for Enron travelers.  Enrollment packets will be mailed to the addresses of Enron American Express T&amp;E Cardholders.  You may also find an enrollment form on the Enron Travel Program intranet @ gss.enron.com &lt;http://gss.enron.com/&gt;.
+
+Enron Global Travel Management (a division of Global Strategic Sourcing) is 
+pleased to announce that American Express Corporate Cardholders can now view 
+account details Online.  
+
+Highlights of this service include:
+ Review previously billed, current, and unbilled charges
+ Review corporate direct payments and personal payments applied to your 
+account
+ Dispute a charge online, if needed
+ Access customer service 24 hours a day, 7 days a week
+
+To Log On to American Express Online Services:
+GSS has prepared a special registration/log on page for Corporate Cardmembers 
+for your convenience.  To access it, go to http://travel.enron.com and click 
+on the Corporate Card button.
+
+Cardmembers with cards issued within the last 45 days, need to call American 
+Express customer service to enroll.  The number is 1-800-297-1234.  
+
+If you have already registered your Personal American Express Card in the 
+American Express Online Services program:
+Please click on the &quot;Check Your Bill&quot; link and login using your existing User 
+ID and password.  You will be able to add your American Express Corporate 
+Card to your existing registration by clicking on the &quot;Update your Online 
+Profile&quot; link which appears on the left hand menu bar once you are logged in.
+
+We hope you enjoy using American Express Online Services.
+
+For questions or additional information, contact Tracy Ramsey (Director, 
+I plan to be on vacation July 5-6 (finally) and on the customer trip on the 
+7th.  While I am out, Gary Hanks will be keeping our position during 
+trading.  Stacey will be in charge of everything else.  I am comfortable that 
+everything will be covered.  
+
+I will be back in town Thursday night.  The primary flight for the customer 
+trip leaves around 11:30.  Others leave at 3:30 and 5:30(?).   The latest 
+idea we had is that Pat would take a later flight on this trip and I will 
+take a later flight on the August trip, allowing one of us to be in the 
+office for half the day.  I can also come in for the half day on the 7th if 
+we decide that is needed.
+
+To date, my primary duties have been to oversee the internal valuation of the 
+contracts, and their unwind costs in our Risk books.  I have also been 
+involved with the Entex contract valuation.  Dave Baumbach has been the real 
+key to providing the data, and has all of the information.  Steve Jackson is 
+talking with Ed McMichael of Structuring on Monday to get some additional 
+eyes and resources looking at this also.  I feel we have done a thorough job, 
+but we do need everyone thinking of &quot;what if&apos;s.&quot;  Our risk books are complex, 
+with many hand-offs internally.  Obviously our goal is to ensure that all of 
+the stones have been turned, and there are no surprises at the end of the 
+day.  I think Structuring will really be helpful in this arena.  After our 
+meeting yesterday, I believe everyone is much more comfortable in our 
+approach.  There were a couple of things that Dave was going to follow-up on 
+(Fixed-price deals, especially Calpine).
+
+FYI:  I will be out of town on another project all of the week of 8/28 - 9/1, 
+and Tuesday, 9/5 and Wednesday, 9/6.  I have made arrangements to ensure that 
+I am in Houston on Thursday, 9/7 and Friday, 9/8 for the first visit to the 
+Triple Lutz data room.  
+
+In my absence next week, I want to reiterate to each of you that I am 
+available, and will have the Triple Lutz data with me.  If any issues come up 
+that you feel I can be helpful, please contact yvette Connevey @ 
+713-853-5953, and she will get i
+I am personally extending an invitation to you to participate in this desig=
+n=20
+session.  This is a critical two-day event to be held February 12th and 13t=
+h=20
+in Dallas, Texas.   This work session is based on a unique approach called =
+a=20
+DesignShop=01v.  It is a very focused, activity-driven event that is compos=
+ed of=20
+various modules and exercises performed in small and large groups. If you=
+=20
+have not attended one of the DesignShops related to SAP, you will likely=20
+regard this session as different from any working session you have previous=
+ly=20
+experienced. The prior DesignShops held in conjunction with SAP have proven=
+=20
+to be very successful.  Therefore, we have elected to utilize this same=20
+methodology on this very critical and strategic venture.
+
+A limited number of representatives from Enron will be attending.  You were=
+=20
+selected to be one of approximately 30 key individuals to participate in th=
+e=20
+DesignShop. You are being asked to participate in the full two days with as=
+=20
+little distraction or interruption as possible.  The quality of our results=
+=20
+depends on each participant being fully engaged and participative for the=
+=20
+entire event.   Additionally, you will be relied on in the future to suppor=
+t=20
+and communicate our commercial strategy as it is defined at this session. =
+=20
+This date was specifically selected to avoid critical operational periods s=
+o=20
+that your participation can be maximized. Therefore, please make all=20
+necessary arrangements at the office to minimize your distractions during=
+=20
+these two days.
+
+Please review the attached information regarding hotel, flight information,=
+=20
+and transportation.  Preliminary information as to schedule and environment=
+=20
+has also been included.  You may direct any additional questions concerning=
+=20
+the event to Mary Solmonson at (713)-853-6079.
+
+I hope that you will be able to participate.  Please confirm your attendanc=
+e=20
+for the two days with Marvia Jefferson at 713-853-9165 by January 29th 5:00=
+=20
+p.m.  If you are unable to attend, it may be appropriate to select someone=
+=20
+else to participate.  Please do not extend an invitation to anyone else to=
+=20
+take your place until you and I have discussed this.
+
+I thank you in advance for your participation and look forward to seeing yo=
+u=20
+Daren and Gary,
+I will be at jury duty on Monday.  I hope to be back by this time but you 
+never know.  Thanks,  Pat
+
+
+
+
+
+
+Gail Francis@ECT
+01/19/2000 09:37 AM
+To: MMccoy3617@aol.com
+cc: Pat Clynes/Corp/Enron@ENRON, Samantha Ray/HOU/ECT@ECT, Alexus 
+Rhone/Corp/Enron@ENRON 
+
+Subject: INTERVIEW ITINERARY
+
+Hi Mark, this is your itinerary for Monday.  Please let me know if you have 
+any questions or conflicts.  Looking forward to meeting you.  Thanks and Good 
+Vince,
+
+Could you please send me the title and a 50-word abstract of your
+presentation by the end of today?  I&apos;d like to forward them to the
+organizer as soon as possible so that we could make it into the printed
+conference program.  Thanks.
+
+Shijie
+
+
+On Thu, 28 Sep 2000 Vince.J.Kaminski@enron.com wrote:
+
+&gt;
+&gt; Shijie,
+&gt;
+&gt; I would be interested in attending and giving a presentation.
+&gt;
+&gt; This would be also a good opportunity for both of us to meet
+&gt; and discuss the plans for closer cooperation.
+&gt;
+&gt; Vince
+&gt;
+&gt;
+&gt; Shijie Deng &lt;deng@isye.gatech.edu&gt; on 09/25/2000 01:20:59 AM
+&gt;
+&gt; To:   Vince Kaminski &lt;Vince.J.Kaminski@enron.com&gt;
+&gt; cc:   Shijie Deng &lt;deng@isye.gatech.edu&gt;
+&gt; Subject:  INFORMS National conference at San Antonio
+&gt;
+&gt;
+&gt;
+&gt; Hi Vince,
+&gt;
+&gt; I&apos;ll be organizing a session at the INFORMS national meeting in San
+&gt; Antonio (Nov 5-8, 2000, http://www.informs.org/Conf/SanAntonio2000) on
+&gt; modeling price volatility in electricity markets or financial engineering
+&gt; approaches.  I&apos;m just wondering if you or some member of your research
+&gt; group would be interested in giving a presentation there.  Please let me
+&gt; know.  Thanks.
+&gt;
+&gt; Best wishes,
+&gt;
+&gt; Shijie
+&gt;
+&gt; Shi-Jie Deng
+&gt; Assistant Professor
+&gt; School of ISyE
+&gt; Georgia Institute of Technology
+&gt;
+&gt; Office Phone: (404) 894-6519
+&gt; E-mail:       deng@isye.gatech.edu
+&gt; Home page:    http://www.isye.gatech.edu/~deng
+&gt;
+&gt;
+&gt;
+&gt;
+&gt;
+&gt;
+&gt;
+ure. We&apos;re lunching tomorrow - yeah?
+
+
+
+	Sally Beck@ECT
+	06/13/00 06:40 PM
+		
+		 To: Barry Pearce/Enron Communications@ENRON COMMUNICATIONS@ENRON
+		 cc: 
+		 Subject: Re: Bob Bowen
+
+Bob is a good, solid player.  He won&apos;t change the world, but he is diligent 
+about getting a prescribed job done.  I personally like Bob a lot, and am 
+very interested in making sure that he is in the right role for him.  His 
+wife has MS in its most severe stages.  He was a manager previously, and we 
+jointly made the decision to reclassify him as a senior specialist in order 
+to reduce the expectations on him in his role at work.  He needs to be able 
+to leave work at a very reasonable hour each day in order to relieve a 
+caregiver who is with his wife while he works.  I made a personnal commitment 
+to him to make sure that his work load would allow a reasonable and 
+predictable end to his work day, and as long as he is in my group I will 
+personally make sure that works for him.  I would hope for him that if he 
+ever considered a change that a new boss would be able to do the same.  
+
+Danny contacted me about Bob, more from the standpoint of asking me what 
+impact it would have on gas if he moved.  I suggested that Brent would be 
+better able to address that.  I did tell Danny that the onslaught of EOL 
+transactions has been a challenge for gas confirmations, and I am sure that 
+they are not long on people.  I assume that Danny is following up with 
+Brent.  --Sally 
+
+
+
+
+	Barry Pearce @ ENRON COMMUNICATIONS
+	06/13/2000 03:47 PM
+	
+To: Sally Beck/HOU/ECT@ECT
+cc:  
+Subject: Bob Bowen
+
+What do you think of him?
+
+Danny suggested him. I here he has some &apos;issues&apos;.
+
+I&apos;m neither plus or negative - just fact finding.
+
+Please plan on attending an Organisational meeting today at 2:30 in room 46C1.
+
+Sorry for the short notice.
+
+If you can not make it, please get with Steve Jackson, Leslie Reeves or 
+myself so we can
+keep you informed.
+
+Thanks 
+
+The next meeting has changed dates. Please mark your calenders for
+Sunday, June 4, 2000 at Guadalara&apos;s restaurant at 4:30 pm.
+
+Thanks,
+
+As you all are aware, there is a heightened awareness throughout the company 
+of the need for establishing global trading control standards and developing 
+a process by which we will track and monitor on a regular basis our success 
+at achieving those standards.  I have been asked by Sally to take the lead on 
+meeting this objective.  For the last several weeks, I have been involved in 
+an extensive review of the London office controls and procedures for their 
+gas and power trading businesses.  We have used the findings of this review 
+to start developing an assessment of controls, standards and measurement 
+methodology for the London office.
+
+In order to work towards our goal of developing global trading standards 
+across Enron, we need to perform the same controls and standards assessment 
+for the Houston gas and power businesses (we will assess global products and 
+other commodities traded at a later date).  I will be in Houston Tuesday and 
+Wednesday of next week to help facilitate this process.
+
+I have scheduled a meeting next Weds., May 17 from 9:00 - 11:30 in EB49C1 so 
+that we may review our controls, define the standards of meeting those 
+control requirements and assess the risk associated with those controls not 
+operating properly.  Before that meeting, I would like for all of you to 
+develop for your  respective functional responsibilities the following:
+ - a listing of all controls your group is responsible for (i.e. cash 
+collections are timely)
+ - a proposed standard that will ensure each control is being met to its 
+maximum effectiveness (i.e. cash is collected within 30 days of deal date 
+with            exceptions noted)
+ - a quantitative measure to allow performance monitoring of each standard 
+(i.e. % of cash collected within 30 days)
+ - a description of current capabilities to calculate, track and report each 
+measurement (i.e. automated A/R aging report)
+
+I would urge you to be as detailed as possible in listing your control 
+functions and to solicit feedback from your managers and leads.  A lot of 
+work has already been done to identify this information so I would hope time 
+requirements for this will not be extensive.  I have attached a worksheet to 
+be completed with the information discussed above.  I have also attached a 
+high level summary of proposed gas and power standards to use a guideline but 
+it is certainly not all-inclusive and should be revised as necessary.
+
+As discussed above, we will review the controls and standards listings for 
+each functional group in the Weds. meeting and also assess the risk 
+associated with each control.  I would like to achieve consensus on gas and 
+power operating standards for Houston by the end of the meeting.  Let me know 
+if you have any questions or comments regarding this process.  I look forward 
+
+Chris can set up a conference call with myself, Stinson Gibner and Zimin Lu 
+to discuss
+the real option applications. My assistant Shirley Crenshaw, 3-5290, will be 
+glad to help him.
+
+Vince
+
+
+
+
+   
+	Enron Capital Management
+	
+	From:  Jodi Coulter                           02/01/2000 11:36 AM
+	
+
+To: Vince J Kaminski/HOU/ECT@ECT
+cc:  
+Subject: Kellogg Class Information on Real Options
+
+Vince - 
+
+Per my voicemail, the following is the message I received from Chris Swenson 
+about the Kellogg Class he is trying to form.  Please let me know if you 
+would be able to help him.  Thanks.
+
+Jodi
+x56318
+
+---------------------- Forwarded by Jodi Coulter/HOU/ECT on 02/01/2000 11:05 
+AM ---------------------------
+
+
+&quot;Christopher P. Swenson&quot; &lt;c-swenson@kellogg.nwu.edu&gt; on 01/25/2000 06:42:58 PM
+To: Jodi Coulter/HOU/ECT@ECT
+cc:  
+Subject: Hello
+
+
+
+
+Hi Jodi,
+
+I have been remiss in keeping up with you and letting you know what is
+going on
+in my little world here at Kellogg.
+
+In other matters, life at Kellogg has me very busy at the moment.  I am taking
+a full load, including Fin Decisions and am helping Prof. Petersen write a new
+class called Advanced Valuation, which will be offered in the spring.  A big
+part of the focus of this class is going to be on real options, which is cool
+stuff.  And as poor as my timing is, I would like to ask you a
+question/favor.
+For purposes of this class, do you think it would be possible to obtain
+some of
+Enron&apos;s thoughts on real options?  I was thinking, for example, that a
+fuel-switching analysis would be neat to included in the case packet.  Of
+course, none of the numbers or names need be real-- only the concepts.  Well,
+let me know what you think of that-- who knows, Enron might actually like the
+free exposure.
+
+
+All the best,
+
+Thanks for agreeing to act as the PRC representative for the Associates and 
+Analysts.  The PRC for the Western hemisphere will be held on July 19, 2000.  
+
+Joe Sutton and I will hold an information session on Friday, June 16th at 
+9:30 a.m., in conference room 49C4.   We will provide information regarding 
+the process for the PRC and a list of the Associates or Analysts that you 
+will be representing.  Please let me know whether you will attend  via e-mail 
+or at ext. 3-9523 as soon as possible.  If you need to attend via conference 
+call please take note of the following information:
+
+Dial In Number: (877) 288-4427
+International Access: (734) 414-0267
+Participant code: 827937
+
+
+I have just returned to the office, and am making it through my E-mails 
+gradually.  It seems that Clickpaper.com is the concern of this memo.  I am 
+not up to speed on this European effort.  I suggest this:  I would suggest a 
+conference call to discuss.  I would also like for Clickpapaer to be there, 
+so if you provide me a name of your Clickpapaer contact, I&apos;ll make sure they 
+are included.  Also please provide an assistant&apos;s name, and I&apos;ll have Yvette 
+schedule the call.
+
+In the meantime, I&apos;ll talk with the Clickpaper people here to get up to speed 
+on their plans.
+
+Thanks for the E-mail.  
+
+
+
+
+Mike Jordan
+10/30/2000 02:29 AM
+To: Brenda F Herod/HOU/ECT@ECT
+cc: Cindy Horn/LON/ECT@ECT 
+Subject: Re: EIM Resources
+
+Brenda
+
+Can we have a quick chat about P&amp;P resources in Europe -although EGM will 
+co-ordinate in short term I am keen to participate in any solution
+
+Regards
+
+
+Mike
+---------------------- Forwarded by Mike Jordan/LON/ECT on 30/10/2000 08:30 
+---------------------------
+   
+
+
+	Enron Europe
+	
+	From:  Shelly Stubbs @ ENRON                           26/10/2000 17:57
+	
+
+To: Mike Jordan/LON/ECT@ECT
+cc:  
+
+Subject: Re: EIM Resources  
+
+At the meeting I was told 2 weeks to a month out.  I think they would like to 
+start earlier and probably came over here with that intention, but they still 
+have some legal, tax and obviously back office things to sort out (so 
+basically as soon as commercially possible!).
+
+They flew back to Houston today, so I expect to hear more details in a couple 
+of days (after they chase down some legal and tax issues).  In the meantime, 
+we need to get with Brenda and her group to sort out the back office details 
+as soon as possible.  As you know, Global Products is currently only 
+supporting 10-15 financial trades per month (confirms and settlements through 
+ECTRIC).
+
+Regards,
+Shelly
+
+
+
+
+Mike Jordan@ECT
+26/10/2000 12:30
+To: Shelly Stubbs/EU/Enron@Enron
+cc:  
+
+Subject: EIM Resources
+
+Was there a deadline for starting ?
+---------------------- Forwarded by Mike Jordan/LON/ECT on 26/10/2000 12:34 
+---------------------------
+   
+	Enron Capital &amp; Trade Resources Corp.
+	
+	From:  Sally Beck                           25/10/2000 23:47
+	
+
+To: Mike Jordan/LON/ECT@ECT
+cc:  
+
+Subject: EIM Resources
+
+Thanks for the call.  Brenda Herod is the operations controller for EIM. 
+(Brenda and Brent in their roles over EIM and EGM, respectively, are both 
+direct reports of mine.)  Brenda is out of the country through the end of 
+this week on vacation, touring Europe with her mom.  If there is a need to 
+address this issue this week, let me know and I can start down that road 
+until Brenda returns.  Let me know. 
+
+I did hear an unsubstantiated rumor this week that Clickpaper.com is set to 
+go live in London within 5 days.  I am trying to find out if that is true.   
+If it is, it would be a repeat of a commercial decision in Houston to do so 
+this past July without letting anyone in the mid and back office know.  We 
+had to scramble to set up an infrastructure to support that in a big hurry.  
+Not ideal.  I hope that history has not repeated itself.  Let me know if you 
+We anticipate the call will last less than one hour.
+
+Again, the call in-information is:
+
+Domestic Dial In Number:  1-800-713-8600
+
+International Dial In Number:  1-801-983-4017
+
+Passcode:  56871
+
+Host:  Mark Haedicke
+
+Here is the report on what the discovery mediator will probably propose with
+regard to discovery.  We&apos;ll talk tomorrow.  Thanks.
+---------------------- Forwarded by Melanie Gray/HO/WGM/US on 11/07/2000 10:05
+PM ---------------------------
+
+
+&quot;Austin, Elizabeth J.&quot; &lt;EA@PULLCOM.COM&gt; on 11/07/2000 05:26:55 PM
+cc:
+Subject:  Discovery Mediation Session
+
+
+Hey Melanie--To cut to the case, J. Zampano is going to enter his own order
+re discovery schedule because parties could not reach agreement.  He will
+issue written order that calls for cutoff  of all written discovery to be
+served on Jan 12 and answer by Feb 23.  After Feb 23 fact witnesses can be
+deposed until July 31.  From Aug 1 to Oct 15 expert discovery is to be
+completed.  There will be certain months designated for plaintiff to take
+depos and other months for Defendants.  Defandants get more months.   Above
+is guestimate as Judge Zampano was still thinking about final dates etc.
+Most interesting part came at end of day when Judge talked to parties
+separately.  Judge wanted to know what it would take to get group to discuss
+settlement.  General consensus was that defendants wanted plaintiffs to be
+put to their proof on insolveny issue and provide basis for damages.  Idea
+is that Judge will hold status conf on Jan 16 and will push that idea with
+the plaintiff.
+Obviously I think there is a good chance Enron will be out of it by then
+because I think the Plaintiff is very anxious to settlewith any party will
+ot sit down with the trustee.
+One last thing.  Greenswag was nagging me aout Enron&apos;s payment of share of
+jt. defense costs.  I said I would pass his request on to you--so I am.
+Good Luck with settlement discussions tomorrow.
+
+
+
+
+
+
+**********NOTE**********
+The information contained in this email message is intended only
+for use of the individual or entity named above.  If the reader
+of this message is not the intended recipient, or the employee or
+agent responsible to deliver it to the intended recipient, you
+are hereby notified that any dissemination, distribution or
+copying of this communication is strictly prohibited.  If you
+have received this communication in error, please immediately
+notify us by telephone (713-546-5000), and destroy the original
+I would like to send the following e-mail to Oaktree&apos;s lawyer.  What do you
+think?
+
+My points are not directly responsive to the prior e-mail, but I think this
+gives us a hook to assert a position that you and I have discussed but never
+actually asserted.
+
+Steve
+
+................................................
+
+Bruce,
+
+I am a little late answering your attached e-mail.
+
+Brian Barth met with Mike Swartz in the first half of 2000 in his capacity as
+counsel for Oaktree and in the context of Oaktree&apos;s written agreement, and
+Mike&apos;s oral agreement, that Oaktree&apos;s counsel would not disclose to, or use
+for, Farallon anything learned from Barth in the meeting (which meeting
+Oaktree insisted take place pursuant to the parties&apos; written agreement.)
+
+In direct violation of the written and oral agreements, Shawna Ballard
+thereafter disclosed the Barth/Swartz meeting on the public record in Barth&apos;s
+deposition and began asserting statements in the deposition that Brian had
+allegedly made to Mike.  (Shawna&apos;s factual assertions about what Brian said
+were in fact wrong, but that is beside the point.)  Until Shawna made her
+disclosures, none of the defendants was even aware that the meeting had taken
+place.  Now, as a result of Shawna&apos;s disclosures, in a variety of ways the
+other defendants have initiated formal and informal discovery against Enron
+and are otherwise taking positions adverse to Enron.  Enron intends to hold
+Oaktree responsible for all damages arising out of its breach of its written
+agreement with Enron, including Enron&apos;s substantially increased attorneys fees
+in the various litigations.
+
+
+
+&gt;&gt;&gt; &quot;MacLeodB@hbdlawyers.com&quot; 04/04/01 03:18PM &gt;&gt;&gt;
+Steve -- I am having a little trouble understanding the complaints stated in
+your two e-mails repeated below.
+
+With regard to the Barth deposition, Section 2.01 of the parties&apos;
+cooperation agreement expressly authorizes Oaktree to reveal information
+obtained from ECT to potential witnesses or even as exhibits in depositions.
+
+With regard to our document production, Section 2.01 again specifically
+authorizes us to provide documents or information obtained from ECT in
+responding to discovery requests.  Moreover, we know of no know proper
+privilege objection that would have allowed us to withhold any of the
+materials we have produced in response to NatWest&apos;s subpoena.  Our production 
+in response to NatWest&apos;s subpoena is substantially complete.
+If, after you have reviewed that production, you continue to believe that we
+are in error with regard to the Oaktree/ECT agreement or the proper scope of
+our production, give me a call and we discuss it.  Thanks Steve.
+
+
+-----Original Message-----
+From: showard@agsk.com [mailto:showard@agsk.com] Sent: Tuesday, April 04, 
+2001 2:26 PM
+To: MacLeodB@hbdlawyers.com Subject: your production of HBD docs 1-85
+
+This production of documents went far beyond anything required by the
+document
+requests (e.g., an e-mail from me to Shawna apologizing for misspelling her
+name) and violated the confidentiality provisions of the agreement between
+Oaktree and Enron
+
+Steve Howard
+Alschuler Grossman Stein &amp; Kahan LLP
+phone: 310-407-7613
+fax: 310-552-6077
+e-mail:  showard@agsk.com                                   -----Original 
+Message-----
+From: showard@agsk.com [mailto:showard@agsk.com] Sent: Tuesday, April 03, 
+2001 12:16 PM
+To: MacLeodB@hbdlawyers.com Subject: Your response to NatWest&apos;s Second 
+request for docs
+
+
+I just reviewed this pleading.  Before you produce any docs responsive to
+Request No 1, I would like the opportunity to review the docs.
+
+We believe that Oaktree breached its agreement with Enron when Shawna
+disclosed in the middle of Barth&apos;s deposition that Mike Swartz had met with
+Barth and further disclosed (inaccurately, we believe) portions of the
+content
+of that meeting.  We would hope that Oaktree is not on the verge of a
+further
+breach. Steve Howard
+Alschuler Grossman Stein &amp; Kahan LLP
+phone: 310-407-7613
+fax: 310-552-6077
+e-mail:  showard@agsk.com  ................................................
+
+ALSCHULER GROSSMAN STEIN &amp; KAHAN LLP
+ATTORNEYS AT LAW
+www.agsk.com 2049 Century Park East
+Thirty-Ninth Floor
+Los Angeles, CA 90067-3213
+Tel 310-277-1226
+Fax 310-552-6077
+
+
+
+-----------------------------------------------------------
+HENNIGAN, BENNETT &amp; DORMAN
+601 South Figueroa Street
+Suite 3300
+Los Angeles, California 90017
+P (213) 694-1200
+F (213) 694-1234
+----------------
+This e-mail, and any attachments thereto, is intended only
+for use by the addressee(s) named herein and may contain
+legally privileged and/or confidential information.  If you
+are not the intended recipient of this e-mail, you are
+hereby notified that any dissemination, distribution or
+copying of this e-mail, and any attachments thereto, is
+strictly prohibited.  If you have received this e-mail in
+error, please immediately notify me by telephone and
+permanently delete the original and any copy of this
+message, its attachments, and any printout thereof.
+Thank you.
+Elizabeth, I&apos;m going to forward to you and Richard a few emails recently
+circulated by the joint defense group in which an overview of the Trust&apos;s
+damage argument is outlined and ideas exchanged about it.  Knowing you&apos;re
+buried with other matters, if there is any chance you could review
+them/print them out &amp; review and give me a call so that we can discuss, I&apos;d
+greatly appreciate it.    The description of what the defense group is
+anticipating appears to be consistent with what the Trust told us in one of
+our early conference calls about how it was calculating damages in our
+case.  I&apos;d like to know if you agree or if there are difference in what our
+Master Agreement/confirmation letters damage provisions provide.  I would
+also like to review the counterarguments that we&apos;ve articulated in brief
+before.
+
+If you&apos;d like to schedule a set time to talk over the next few days, that&apos;s
+great; let me know what works for you.  Feel free to call me at any time
+and we can discuss.
+
+Thanks.
+---------------------- Forwarded by Melanie Gray/HO/WGM/US on 01/30/2001
+02:21 PM ---------------------------
+
+
+&quot;Greenswag, Douglas&quot; &lt;douglas.greenswag@leonard.com&gt; on 01/30/2001 10:05:38
+AM
+cc:   &quot;Beth Nelson&quot; &lt;beth.nelson@leonard.com&gt;, &quot;Catherine Horton-Morin&quot;
+      &lt;catherine.hortonmorin@leonard.com&gt;, &quot;Catherine McEnroe&quot;
+      &lt;catherine.mcenroe@leonard.com&gt;, &quot;Dan Oberdorfer&quot;
+      &lt;dan.oberdorfer@leonard.com&gt;, &quot;Eric A. Henzy Esq. (E-mail)&quot;
+      &lt;ehenzy@reidandriege.com&gt;, &quot;James Bertrand&quot;
+      &lt;james.bertrand@leonard.com&gt;, &quot;Noah Hall&quot; &lt;noah.hall@leonard.com&gt;
+Subject:  PCA Litigation
+
+
+ Leonard, Street and Deinard
+
+Professional Association
+
+ Douglas B. Greenswag
+Phone:  (612) 335-1527
+Douglas.Greenswag@leonard.com
+
+Joint Defense Privileged Communication
+
+January 30, 2001
+
+Re:   PCA Litigation/Trustee&apos;s Damage Theory
+
+Dear Counsel:
+
+Having reviewed Tim&apos;s email and talking with him, I reiterate my view that
+Tim has correctly determined how the A&amp;K attorneys are going to stand up
+and
+claim that PCA&apos;s inability to perform is irrelevant.  While I maintain that
+the argument leads to an absurd result (namely that PCA could
+repudiate/breach the contracts and still collect damages), it may be that
+we
+need an expert to analyze the LD provisions of the contracts to aid us in
+our response.
+
+It would be interesting to know what our clients&apos; think about this argument
+or what Scott Jones thinks of it.  For example, can PCA claim that sellers
+who appropriatedly demanded adequate assurance &quot;failed&quot; to schedule or
+deliver power when they proposed to continue to schedule/deliver once
+adequate assurance was posted.  Similarly, would a trading expert interpret
+the LD provision relating to having a seller&apos;s performance &quot;excused&quot; by PCA
+to be limited to situations where PCA and the seller were &quot;booking out&quot; or
+PCA was otherwise making affirmative statements to the seller that delivery
+was not expected?
+
+Any thoughts?
+
+Regards.
+
+Douglas B. Greenswag, Esq.
+Leonard, Street and Deinard
+150 S. Fifth Street, Suite 2300
+Minneapolis, MN 55402
+
+Phone:  (612) 335-1527
+Fax:      (612) 335-1657
+Email:    Douglas.Greenswag@leonard.com
+&lt;mailto:Douglas.Greenswag@leonard.com&gt;
+
+THIS MESSAGE IS PRIVILEGED AND CONFIDENTIAL
+
+_________________________________
+
+NOTICE:  The information contained in this electronic mail transmission is
+intended by Leonard, Street and Deinard for the use of the named individual
+or entity to which it is directed and may contain information that is
+privileged or otherwise confidential.  It is not intended for transmission
+to, or receipt by, anyone other than the named addressee (or a person
+authorized to deliver it to the named addressee).  It should not be copied
+or forwarded to any unauthorized persons.  If you have received this
+electronic mail transmission in error, please delete it from your system
+without copying or forwarding it, and notify the sender of the error by
+reply email or by calling Leonard, Street and Deinard at (612) 335-1500
+(collect), so that our address record can be corrected.
+
+________________________________
+
+
+(See attached file: C.DTF)
+
+&quot;Amy Schumacher&quot; &lt;aschumacher@lockeliddell.com&gt;; &quot;Austin Crowe (E-mail)&quot;
+&lt;crowa@perkinscoie.com&gt;; &quot;Bruce MacIntyre (E-mail)&quot;
+&lt;macib@perkinscoie.com&gt;; &quot;Carol R. Prygrosky (E-mail)&quot;
+&lt;cprygrosky@schiffhardin.com&gt;; &quot;D. Mitchell McFarland&quot;
+&lt;mmcfarland@lockeliddell.com&gt;; &quot;Dan Frank (E-mail)&quot; &lt;dfrank@sablaw.com&gt;;
+&quot;Deidre A. Martini&quot; &lt;d-martini@ibolaw.com&gt;; &quot;Elizabeth J. Austin&quot;
+&lt;EA@PULLCOM.COM&gt;; &quot;Harold S. Horwich (E-mail)&quot; &lt;horwichs@bingham.com&gt;; &quot;J.
+Mark Fisher (E-mail)&quot; &lt;mfisher@schiffhardin.com&gt;; &quot;Jacob Dweck Esq.
+(E-mail)&quot; &lt;jdweck@sablaw.com&gt;; &quot;Jason Billeck&quot; &lt;jason.billeck@weil.com&gt;;
+&quot;John Strasburger&quot; &lt;john.strasburger@weil.com&gt;; &quot;Mark Fleischer&quot;
+&lt;fleischr@sprynet.com&gt;; &quot;Mark Jacobs&quot; &lt;mrjacobs@arrowheadcapital.com&gt;;
+&quot;Melanie Gray (E-mail)&quot; &lt;melanie.gray@weil.com&gt;; &quot;Meredith J. Ringler
+(E-mail)&quot; &lt;mringler@schiffhardin.com&gt;; &quot;Mike Stenglein (E-mail)&quot;
+&lt;mike.stenglein@weil.com&gt;; &quot;Paul Turner (E-mail)&quot; &lt;pturner@sablaw.com&gt;;
+&quot;Richard F. Casher (E-mail)&quot; &lt;casherrf@bingham.com&gt;; &quot;Richard Murphy
+(E-mail)&quot; &lt;RGMurphy@SABLAW.COM&gt;; &quot;Robert M Dombroff (E-mail)&quot;
+&lt;dombrorm@bingham.com&gt;; &quot;Sharyn B. Zuch Esq. (E-mail)&quot; &lt;SBZ@Wiggin.com&gt;;
+&quot;Stacy Williams (E-mail)&quot; &lt;swilliams@lockeliddell.com&gt;; &quot;Stephen Northup&quot;
+&lt;steve.northup@troutmansanders.com&gt;; &quot;Steven M. Hedberg Esq. (E-mail)&quot;
+&lt;hedbs@perkinscoie.com&gt;; &quot;Thomas D. Goldberg (E-mail)&quot;
+&lt;tdgoldberg@dbh.com&gt;; &quot;Tim Baird&quot; &lt;tim.baird@troutmansanders.com&gt;
+
+
+
+
+
+**********NOTE**********
+The information contained in this email message is intended only
+for use of the individual or entity named above.  If the reader
+of this message is not the intended recipient, or the employee or
+agent responsible to deliver it to the intended recipient, you
+are hereby notified that any dissemination, distribution or
+copying of this communication is strictly prohibited.  If you
+have received this communication in error, please immediately
+notify us by telephone (713-546-5000), and destroy the original
+message. Thank you.
+
+
+Yesterday, Enron settled a procedural dispute with Dynegy over Northern Natural Gas.  Our settlement allows Dynegy to exercise its option to acquire the pipeline, dismisses their Texas lawsuit and extends Enron&apos;s right to repurchase until June 30.  We reached this settlement as part of our efforts to bring Enron out of bankruptcy.  While we would like to keep Northern Natural, we still have some 9,000 miles of safe, profitable interstate pipelines as a base to rebuild our core businesses.  
+
+The settlement provides the best opportunity to resolve the pipeline issue quickly and pursue our $10 billion damage claim against Dynegy.  It also allows us to avoid the very substantial costs and distractions from protracted litigation in state courts.  
+
+We want to see a positive future for the employees working with Northern Natural Gas.  Below is a copy of a message from Stan Horton further explaining this decision to the employees of Enron Transportation Services.
+
+Ken
+
+
+
+Dear ETS Colleague:
+
+On Thursday, Enron entered into a settlement over Dynegy&apos;s exercise of its option to acquire the Northern Natural Gas pipeline.  The settlement allows Dynegy to exercise the option and assume interim control of the pipeline while Enron pursues its damage claim against Dynegy.  
+
+In this respect, Enron Corp. has carefully weighed the substantial costs and turmoil that litigating this possession issue would create for the company and the employees of Northern Natural Gas.  Consequently, Enron Corp. has decided not to contest interim possession and allow the transfer of Northern Natural Gas to Dynegy, while the larger issues affecting its future are resolved.
+
+The company has concluded that with this settlement, Enron should be able to resolve the issue more quickly, as well as avoid the legal cost burden and distractions to the business from protracted litigation in state court.  For the Northern Natural Gas employees, I believe this decision should allow them to steer clear of the dispute and focus on the day-to-day satisfaction of running a valuable, successful business.
+
+Beginning immediately we will be working to achieve a smooth transition and to align the appropriate resources to assure continued safe, reliable and efficient operation of Northern Natural Gas.  
+
+Over many years we have run high quality, cost conscious and profitable businesses in ETS.  Keep up the good work!
+
+I will let you know when I hear something regarding these type of contracts.
+---------------------- Forwarded by Connie Sutton/HOU/ECT on 06/13/2000 05:38 
+PM ---------------------------
+
+Bridgette Anderson @ ENRON
+
+06/13/2000 03:20 PM
+To: Connie Sutton/HOU/ECT@ECT
+cc:  
+Subject: Looking for some LNG Contracts
+
+
+---------------------- Forwarded by Bridgette Anderson/Corp/Enron on 
+06/13/2000 04:15 PM ---------------------------
+
+	
+	Rob Walls @ ENRON_DEVELOPMENT
+	
+	06/13/2000 02:22:03 PM
+	
+To: Sandeep Katwala, Bridgette Anderson@ENRON, Wade 
+Cline/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Bridgette -
+
+By copy of this message, I have asked Sandeep Katwala (acting general counsel 
+for Enron India) to help locate these contracts for you.  Let me know if you 
+need anything else.  Thanks.  
+---------------------- Forwarded by Rob Walls/ENRON_DEVELOPMENT on 06/13/2000 
+02:22 PM ---------------------------
+
+Bridgette Anderson @ ENRON
+
+06/13/2000 02:19 PM
+To: Wade Cline/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rob 
+Walls/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Gentlemen,
+
+I was told that both of you worked on the Dabhol project, so I am hoping that 
+you can assist me.  As the message below states, I am trying to find 
+contracts that are related to this project.  Please see below for details.  
+If it was a mistake to send this message to you, please forward to the 
+correct individual.
+
+Thank you,
+Bridgette
+---------------------- Forwarded by Bridgette Anderson/Corp/Enron on 
+06/13/2000 02:57 PM ---------------------------
+
+
+Connie Sutton@ECT
+06/12/2000 04:18 PM
+To: Bridgette Anderson/Corp/Enron@ENRON
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Can you try to locate a copy of this contract for me.
+---------------------- Forwarded by Connie Sutton/HOU/ECT on 06/12/2000 04:17 
+PM ---------------------------
+
+
+Mary Solmonson
+06/08/2000 05:05 PM
+To: Connie Sutton/HOU/ECT@ECT
+cc:  
+Subject: Looking for some LNG Contracts
+
+Sally and Scott Earnest called this afternoon.  We will be setting up a new 
+risk book to manage LNG positions on a worldwide basis.  Supposedly, there 
+are several contracts from the old E.I. entity related to India for LNG.  
+They may reference Dabhol Power project, fuel management, fuel oil, heating 
+oil....
+
+Scott desperately needs to get copies of these contracts.  Can you ask around 
+with some of the contacts you made on your India trip to see if you can find 
+
+We have delivered a copy of 2 LNG contracts to Scott Earnest&apos;s office 
+tonight. One is between Abu Dhabi Gas Liquefaction Company Limited &amp; Dabhol 
+Power Company and the other is between Dabhol Power Company and Oman LNG 
+L.L.C.   I understand the EGEP Legal group (Steve Watson) is currently 
+working on a third contract but it is not executed at this time. He has 
+advised that he will forward a copy when it is completed.
+---------------------- Forwarded by Connie Sutton/HOU/ECT on 06/14/2000 08:21 
+PM ---------------------------
+
+
+Connie Sutton
+06/13/2000 05:39 PM
+To: Sally Beck/HOU/ECT@ECT, Scott Earnest/HOU/ECT@ECT, Mary 
+Solmonson/HOU/ECT@ECT
+cc:  
+Subject: Looking for some LNG Contracts
+
+I will let you know when I hear something regarding these type of contracts.
+---------------------- Forwarded by Connie Sutton/HOU/ECT on 06/13/2000 05:38 
+PM ---------------------------
+
+Bridgette Anderson @ ENRON
+
+06/13/2000 03:20 PM
+To: Connie Sutton/HOU/ECT@ECT
+cc:  
+Subject: Looking for some LNG Contracts
+
+
+---------------------- Forwarded by Bridgette Anderson/Corp/Enron on 
+06/13/2000 04:15 PM ---------------------------
+
+	
+	Rob Walls @ ENRON_DEVELOPMENT
+	
+	06/13/2000 02:22:03 PM
+	
+To: Sandeep Katwala, Bridgette Anderson@ENRON, Wade 
+Cline/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Bridgette -
+
+By copy of this message, I have asked Sandeep Katwala (acting general counsel 
+for Enron India) to help locate these contracts for you.  Let me know if you 
+need anything else.  Thanks.  
+---------------------- Forwarded by Rob Walls/ENRON_DEVELOPMENT on 06/13/2000 
+02:22 PM ---------------------------
+
+Bridgette Anderson @ ENRON
+
+06/13/2000 02:19 PM
+To: Wade Cline/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, Rob 
+Walls/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Gentlemen,
+
+I was told that both of you worked on the Dabhol project, so I am hoping that 
+you can assist me.  As the message below states, I am trying to find 
+contracts that are related to this project.  Please see below for details.  
+If it was a mistake to send this message to you, please forward to the 
+correct individual.
+
+Thank you,
+Bridgette
+---------------------- Forwarded by Bridgette Anderson/Corp/Enron on 
+06/13/2000 02:57 PM ---------------------------
+
+
+Connie Sutton@ECT
+06/12/2000 04:18 PM
+To: Bridgette Anderson/Corp/Enron@ENRON
+cc:  
+
+Subject: Looking for some LNG Contracts
+
+Can you try to locate a copy of this contract for me.
+---------------------- Forwarded by Connie Sutton/HOU/ECT on 06/12/2000 04:17 
+PM ---------------------------
+
+
+Mary Solmonson
+06/08/2000 05:05 PM
+To: Connie Sutton/HOU/ECT@ECT
+cc:  
+Subject: Looking for some LNG Contracts
+
+Sally and Scott Earnest called this afternoon.  We will be setting up a new 
+risk book to manage LNG positions on a worldwide basis.  Supposedly, there 
+are several contracts from the old E.I. entity related to India for LNG.  
+They may reference Dabhol Power project, fuel management, fuel oil, heating 
+oil....
+
+Scott desperately needs to get copies of these contracts.  Can you ask around 
+with some of the contacts you made on your India trip to see if you can find 

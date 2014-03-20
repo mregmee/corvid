@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{9bd7adf8-ea40-4a0c-a65d-9c914e254083}</em:id>
+		<em:name>QuickQuote</em:name>
+		<em:version>0.8.1</em:version>
+		<em:description>Enhanced quoting/replying/forwarding for Mozilla mail applications.</em:description>
+		<em:creator>Matteo F. Zazzetta &amp; Daniel W. Steinbrook</em:creator>
+		<em:contributor>Philip Chee (SeaMonkey installation)</em:contributor>
+		<em:contributor>Ulrich Fischer (new line functionality)</em:contributor>
+		<em:contributor>Pawel - neco (Polish translation)</em:contributor>
+		<em:contributor>Miguel Rua-Figueroa (Spanish-Spain translation)</em:contributor>
+		<em:contributor>Victor de Santa Maria (Spanish-South America translation)</em:contributor>
+		<em:contributor>Bjoern Sjut (German translation)</em:contributor>
+		<em:contributor>Patrick Thibaut (French translation)</em:contributor>
+		<em:contributor>Geert Wirken (Dutch translation)</em:contributor>
+		<em:homepageURL>http://quickquote.mozdev.org</em:homepageURL>
+		<em:updateURL>http://quickquote.mozdev.org/update.rdf</em:updateURL>
+		<em:iconURL>chrome://quickquote/skin/quickquote.png</em:iconURL>
+		<em:optionsURL>chrome://quickquote/content/options/options.xul</em:optionsURL>
+		<em:file>
+			<Description about="urn:mozilla:extension:file:quickquote.jar">
+				<em:package>content/quickquote/</em:package>
+				<em:skin>skin/classic/quickquote/</em:skin>
+				<em:locale>locale/de-DE/quickquote/</em:locale>
+				<em:locale>locale/en-US/quickquote/</em:locale>
+				<em:locale>locale/es-AR/quickquote/</em:locale>
+				<em:locale>locale/es-ES/quickquote/</em:locale>
+				<em:locale>locale/fr-FR/quickquote/</em:locale>
+				<em:locale>locale/it-IT/quickquote/</em:locale>
+				<em:locale>locale/nl-NL/quickquote/</em:locale>
+				<em:locale>locale/pl-PL/quickquote/</em:locale>
+			</Description>
+		</em:file>
+
+		<em:targetApplication>
+			<!-- Thunderbird -->
+			<Description>
+				<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+				<em:minVersion>0.7</em:minVersion>
+				<em:maxVersion>3.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:targetApplication>
+			<!-- Mozilla Suite -->
+			<Description>
+				<em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>1.8</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:targetApplication>
+			<!-- SeaMonkey -->
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>1.5a</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	
+	</Description>
+
+</RDF>

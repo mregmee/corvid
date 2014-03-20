@@ -1,0 +1,16 @@
+Introduction
+
+corvid_iep@mozilla.org is an email mining extension to Mozilla Thunderbird. It includes the functionality for email filtering (predicting whether a mail is spam or not) by using the Bayesian Approach (statistical method), email classification (predicting in which folder a mail is to be filed) by using Associative Learning and email summarization (extracting important information from sequence of mail threads). 
+
+The project is in the development stage and currently the email filtering module has been integrated into thunderbird. However, lot works are to be done to improve the efficiency and accuracy of the result.
+
+Usage
+
+The extension installs along with it the knowledgebase for email filtering. The knowledgebase gets updated when the user changes spam status predicted by corvid. It adds the menu corvid in the message pane or thread pane. It shows the spam prediction under spamstatus column in the threadpane. User can see the option to alter the status by right clicking the message. S in the spam status indicates that the email is spam otherwise it is predicted to be ham.
+ 
+ 
+For further queries,
+
+log on to the official website : http://dev.d2labs.org/gf/project/corvidioe/
+
+email us at : corvidioe@gmail.com

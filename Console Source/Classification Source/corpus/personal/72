@@ -1,0 +1,39 @@
+
+Everything sounds good, but can we use .html instead? .htm doesn&apos;t work on
+Linux web servers, and it&apos;s best to be universal, in case they want to
+deploy in diff. contexts.
+
+-Daniel
+
+-----Original Message-----
+
+
+So that we can avoid last minute &quot;oh my gosh we&apos;ve used different file
+structures/naming convention--quick we need to change all of these paths in
+the next ten minutes&quot;, can we do the following?
+
+All html files will be considered as in the root directory and will use the
+extension of &quot;.htm&quot;
+
+
+images--images for Sales Guide and Intro and any image that is used
+throughout the deliverable, such as logos, navigation buttons, etc.  So an
+
+scripts--one script folder for all of the Coursebuilder scripts used in the
+deliverable
+
+timer--for the timer interaction that Daniel is building
+
+images/mollie--for images specific to Mollie pages (this way if we have more
+than one drag/drop we won&apos;t have to rename any Coursebuilder created
+images/targets, etc.
+
+images/warren
+
+images/sally
+
+images/david
+
+Will this work for everyone?  If not, please let me know and I will send out
+modifications.
+

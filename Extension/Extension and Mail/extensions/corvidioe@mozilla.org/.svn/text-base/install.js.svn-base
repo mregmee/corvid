@@ -1,0 +1,20 @@
+var err = initInstall("_product_name_", "_product_name_", 1.0);
+
+var componentsDir = getFolder("Components"); 
+
+var chromeDir = getFolder("Chrome"); 
+
+addFile ("_dll_name_.dll", 1.0,"_dll_name_.dll", componentsDir, ""); 
+
+addFile ("_xpt_name_.xpt", "1.0","_xpt_name_.xpt", componentsDir, ""); 
+
+err = addDirectory ("_directory_name_", "1.0","", chromeDir, "") 
+
+if (err==SUCCESS) 
+	performInstall(); 
+	
+else
+{
+	cancelInstall(err); 
+	alert(err);
+}

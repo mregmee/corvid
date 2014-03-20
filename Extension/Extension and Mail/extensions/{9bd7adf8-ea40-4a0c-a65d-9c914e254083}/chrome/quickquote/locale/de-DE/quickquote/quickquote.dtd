@@ -1,0 +1,37 @@
+<!ENTITY	quickquote.options.wayofworking		"Arbeitsweise">
+<!ENTITY	quickquote.options.getselection		"GetSelection benutzen (ungenauer)">
+<!ENTITY	quickquote.options.clipboardlose	"In Zwischenablage kopieren (ohne HTML Format)">
+<!ENTITY	quickquote.options.clipboardkeep	"In Zwischenablage kopieren (mit HTML Format)">
+<!ENTITY	quickquote.options.rewrap			"Zitierten Text in Spalten umbrechen">
+<!ENTITY	quickquote.options.quotestring		"Zitate Prefix">
+<!ENTITY	quickquote.options.quotestring.tt	"Am Beginn jeder Zeile">
+<!ENTITY	quickquote.options.quotestring2		"Zitate Postfix">
+<!ENTITY	quickquote.options.quotestring2.tt	"Am Ende jeder Zeile">
+<!ENTITY	quickquote.options.replystring		"Antwort String">
+<!ENTITY	quickquote.options.replystring.tt	"Betreff der Antwort beginnen mit…">
+<!ENTITY	quickquote.options.beforestring		"Vor dem Zitat">
+<!ENTITY	quickquote.options.beforestring.tt	"Vor zitiertem Text">
+<!ENTITY	quickquote.options.afterstring		"Nach dem Zitat">
+<!ENTITY	quickquote.options.afterstring.tt	"Nach zitiertem Text">
+<!ENTITY	quickquote.options.title			"QuickQuote - Optionen">
+
+<!ENTITY	quickquote.newmessage.label			"In neuer Nachricht zitieren">
+<!ENTITY	quickquote.newmessage.accesskey		"Q">
+<!ENTITY	quickquote.compmessage.label		"Als Zitat in aktuelle Nachricht einfügen">
+<!ENTITY	quickquote.compmessage.accesskey	"C">
+<!ENTITY	quickquote.reply.label				"In Antwort zitieren">
+<!ENTITY	quickquote.reply.accesskey			"U">
+<!ENTITY	quickquote.replyall.label			"In \"Antwort an alle\" zitieren">
+<!ENTITY	quickquote.replyall.accesskey		"A">
+<!ENTITY	quickquote.newsmessage.label		"In Antwort an Newsgroup zitieren">
+<!ENTITY	quickquote.newsmessage.accesskey	"N">
+
+<!ENTITY	quickquote.currmessage.label		"In aktueller Nachricht zitieren">
+<!ENTITY	quickquote.currmessage.accesskey	"C">
+	
+<!ENTITY 	quickquote.options.delay                "Verzögerung beim Auswählen oder Einfügen der Signatur">
+<!ENTITY 	quickquote.options.offset               "Abstand der Auswahl">
+<!ENTITY 	quickquote.options.quotereply           "Antwort an Absender">
+<!ENTITY 	quickquote.options.quotereplyall        "Antwort an Alle">
+<!ENTITY	quickquote.options.buttonreplace        "Ersatz für Toolbar Button Kommado"> 
+<!ENTITY	quickquote.options.advanced             "Fortgeschritten">

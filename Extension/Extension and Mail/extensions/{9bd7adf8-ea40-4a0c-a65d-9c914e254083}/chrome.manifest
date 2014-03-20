@@ -1,0 +1,22 @@
+
+overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://quickquote/content/quickquoteOverlay.xul
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://quickquote/content/quickquoteOverlay2.xul
+content	quickquote	jar:chrome/quickquote.jar!/content/quickquote/
+
+skin	quickquote	classic/1.0	jar:chrome/quickquote.jar!/skin/classic/quickquote/
+
+locale	quickquote	de-DE	jar:chrome/quickquote.jar!/locale/de-DE/quickquote/
+
+locale	quickquote	en-US	jar:chrome/quickquote.jar!/locale/en-US/quickquote/
+
+locale	quickquote	es-AR	jar:chrome/quickquote.jar!/locale/es-AR/quickquote/
+
+locale	quickquote	es-ES	jar:chrome/quickquote.jar!/locale/es-ES/quickquote/
+
+locale	quickquote	fr-FR	jar:chrome/quickquote.jar!/locale/fr-FR/quickquote/
+
+locale	quickquote	it-IT	jar:chrome/quickquote.jar!/locale/it-IT/quickquote/
+
+locale	quickquote	nl-NL	jar:chrome/quickquote.jar!/locale/nl-NL/quickquote/
+
+locale	quickquote	pl-PL	jar:chrome/quickquote.jar!/locale/pl-PL/quickquote/

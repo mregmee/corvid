@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<!DOCTYPE window SYSTEM "chrome://corvidioe/content/options.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    id="optionsDialog"
+    title="CORVID Options Dialog"
+    buttons="accept,cancel"
+    buttonlabelcancel="Cancel" buttonlabelaccept="OK"
+    onload="setFields();"
+    ondialogaccept="updatePreferences()"
+    ondialogcancel="close()">
+     
+<script>
+
+var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+
+function setFields() {
+	var tbox = document.getElementById("thresholdTextbox");
+	var threshold = prefs.getIntPref("corvidioe.filter.spamThreshold");
+	tbox.value=threshold/100;
+	
+	var rbox = document.getElementById("learningRateTextbox");
+	var learningRate = prefs.getIntPref("corvidioe.filter.learningRate");
+	rbox.value=learningRate/10;
+	
+	var lbox = document.getElementById("summaryLengthTextbox");
+	var summaryLength = prefs.getIntPref("corvidioe.summary.lengthOfSummary");
+	lbox.value=summaryLength/100;
+}
+
+function updatePreferences()
+{
+	var threshold = document.getElementById("thresholdTextbox").value * 100;
+	prefs.setIntPref("corvidioe.filter.spamThreshold",threshold);
+	
+	var learningRate = document.getElementById("learningRateTextbox").value * 10;
+	prefs.setIntPref("corvidioe.filter.learningRate",learningRate);
+	
+	var lengthOfSummary = document.getElementById("summaryLengthTextbox").value * 100;
+
+	prefs.setIntPref("corvidioe.summary.lengthOfSummary",lengthOfSummary);	
+}
+
+function defaultPreferences()
+{
+	prefs.setIntPref("corvidioe.filter.spamThreshold",90);
+	prefs.setIntPref("corvidioe.filter.learningRate",5);
+	prefs.setIntPref("corvidioe.summary.lengthOfSummary",25);	
+}
+
+
+</script>
+
+<tabbox>
+        <tabs>
+             <tab label="&options.general;"/>
+             <tab label="&options.filtration;"/>
+             <tab label="&options.classification;"/>
+             <tab label="&options.summarization;"/>    
+        </tabs>
+ 
+        <tabpanels>        
+            <!-- General -->
+            <tabpanel>
+            <description value="&options.general.description;"/> 
+            </tabpanel>
+ 
+            <!-- Filtration -->
+            <tabpanel>
+            <box orient="vertical">
+            <description value="&options.filtration.description;"/>
+            <spacer flex="1"/>
+            <groupbox>
+                <caption label="&options.filtration.caption;"/>
+                <box orient="horizontal">
+                <label value="&options.filtration.spamThreshold;"/>
+                <textbox id="thresholdTextbox" />
+                </box>            
+                <box orient="horizontal">
+                <label value="&options.filtration.learningRate;"/>
+                <textbox id="learningRateTextbox"/>
+            </box>
+            </groupbox>
+            <spacer flex="1"/>
+            <button label="&options.advancedButton;"/>
+            <spacer flex="1"/>
+            </box>
+            
+            <span id= 'sp'>
+	    	     	
+ 		</span>
+ 		
+         </tabpanel>
+ 
+            <!-- Classification -->
+            <tabpanel>
+            <box orient="vertical">
+            <description value="&options.classification.description;"/>
+                <box orient="horizontal">
+                <label value="&options.classification.listOfClasses;"/>
+                    <listbox>
+                        <listitem value="Personal" label="Personal"/>
+                        <listitem value="Business" label="Business"/>
+                        <listitem value="Entertainment" label="Entertainment"/>
+                    </listbox>
+                </box>
+             <box orient="horizontal">
+                <label value="&options.classification.addNewClass;"/>
+                <textbox value=""/>
+                <button label="&options.classification.add;"/>
+            </box>
+            <button label="&options.advancedButton;"/>
+            </box>
+            </tabpanel>
+ 
+            <!-- Summarization -->    
+            <tabpanel>
+            <box orient="vertical">
+            <description value="&options.summarization.description;"/>
+            <spacer flex="1"/>
+            <box orient="horizontal">
+                <label value="&options.summarization.lengthOfSummary;"/>
+                <textbox id="summaryLengthTextbox"/>
+            </box>
+            <spacer flex="1"/>
+            <button label="&options.advancedButton;"/>
+            <spacer flex="1"/>
+            </box>
+            </tabpanel>
+
+        </tabpanels>
+    </tabbox>
+ 
+</dialog>

@@ -1,0 +1,46 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=numRefs)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)
+  (AD=fixedBadRefThreading)(AE=folderName)(AF=charSet)
+  (B0=charSetOverride)>
+<(84=0)(8C=472b02d4)(80=1)>[1:m(^9C=0)(^8F=0)(^91^8C)(^92=1)]
+
+<(86=800001)(87=21)(88=mahesh <maheshregmee@gmail.com>)(89
+    =brill@microsoft.com)(8A=wishing to have help from you)(8B
+    =472B02D4.7050005@gmail.com)(8D=ISO-8859-1)(8E=4af)(8F=11)(90=ffffffff)>
+{0:^80 {(k^98:c)(s=9)1:m } [0(^88^86)(^8A=0)(^8B=21)(^82^88)(^85^89)(^81^8A)
+    (^83^8B)(^86^8C)(^89=1)(^96^8D)(^87^8E)(^8C=11)(^9B^90)(^8E=0)]}
+{1:^80 {(k^97:c)(s=9)} 0 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} 
+  [0(^94^8A)]}
+
+<(82=204)(83=Sent)(91=472b0336)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AC=1)(^AD=1)(^88^82)(^A7^83)(^A3^8E)(^A5^91)(^AE^83)(^A1=1)]}
+
+@$${9{@
+@$$}9}@
+
+@$${B{@
+< <(a=c)> // (f=iso-8859-1)
+  (B8=LastPurgeTime)(B1=retainBy)(B2=daysToKeepHdrs)(B3=numHdrsToKeep)
+  (B4=daysToKeepBodies)(B5=keepUnreadOnly)(B6=useServerDefaults)
+  (B7=cleanupBodies)>
+<(92=Fri Dec 07 15:34:52 2007)>[1:^9F(^B8^92)]
+@$$}B}@
+
+@$${C{@
+@$$}C}@

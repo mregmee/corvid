@@ -1,0 +1,264 @@
+
+
+#include<iostream>
+#include<conio.h>
+#ifndef PREPROCESSOR_H
+#define PREPROCESSOR_H
+#include "preprocessor.h"
+#endif
+#ifndef TRANSACTIONS_H
+#define TRANSACTIONS_H
+#include "transactions.h"
+#endif
+#ifndef FPTREEPATTERN_H
+#define FPTREEPATTERN_H
+#include "FPTreePattern.h"
+#endif
+#ifndef EFPTREE_H
+#define EFPTREE_H
+#include"EFPTree.h"
+#endif
+#ifndef RULEOPERATOR_H
+#define  RULEOPERATOR_H
+#include "ruleoperator.h"
+#endif 
+
+class Classifier
+{
+private:
+	static string dataPath;
+	static RuleOperator* ruleOperator;
+	static int maxRulesConsidered;
+	int sz;
+	vector<float>resultSet;
+	string emailLocation;
+	map< vector<int>,int >frequentPattern;
+	string email;
+	string subject;
+	static int classSize;
+	float distribution;
+public:
+	Classifier(string ,string);
+	static void initialize(string path)
+	{
+		string contextLocation=path+"\\classificationContext.txt";
+		ifstream inFile(contextLocation.c_str());
+		inFile>>classSize;
+		inFile>>maxRulesConsidered;
+		inFile.close();
+		dataPath=path;
+		ruleOperator=new RuleOperator(classSize,path);
+		ruleOperator->readRules();
+	}
+	void processEmail();
+	string classify();
+	Rule* findRule(vector<int>pattern,vector< vector<Rule*> >& rules,int& cls);
+	void findProbability(vector<Rule*>&,vector<int>&,float *);
+	int getSz(){return sz;}
+	vector<float> getResult(){ return resultSet;}
+};
+int Classifier::classSize;
+RuleOperator* Classifier::ruleOperator;
+string Classifier::dataPath;
+int Classifier::maxRulesConsidered;
+Classifier::Classifier(string mail,string sub)
+{
+	email=mail;
+	subject=sub;
+	sz=0;
+	
+	//ruleOperator=new RuleOperator(2,dataPath);
+	
+	/*classSize=ruleOperator->getRules().size();
+	ifstream emailFile(location.c_str());
+	if(emailFile==NULL)
+		cout<<"error in opening file"<<endl;
+	string text="";
+	while(getline(emailFile,text))
+	{
+		email+=text;		
+		
+	}*/
+	
+}
+void Classifier::processEmail()
+{
+	
+	
+	Transactions transactions;
+	Transactions::initialize(dataPath);
+	vector< vector<int> >transactionSet;	
+	PreProcessor *preProcessor=new PreProcessor(dataPath);		
+	preProcessor->processEmail(email,subject);	
+	transactions.createTransactions(preProcessor->getSentences(),preProcessor->getSubject(),transactionSet);
+	Transactions::reset();	
+	preProcessor->getSentences().clear();
+	preProcessor->getSubject().clear();
+	cout<<"transactions"<<endl;
+	sz=transactionSet.size();
+
+	for(int k=0;k<transactionSet.size();k++)
+	{
+		cout<<k<<". ";
+		for(int m=0;m<(transactionSet[k].size());m++)
+			cout<<transactionSet[k][m]<<" ";
+		cout<<endl;
+	}
+		
+	
+
+
+	FPTreePattern::initialize(dataPath);//initialize FPTree and HeaderTable for frequent patterns
+	FPTreePattern fpTreePattern;
+	//FPTreePhrase::initialize();
+	//FPTreePhrase fpTreePhrase;
+	int k=0;
+	
+	
+	try
+	{
+		for(int j=0;j<transactionSet.size();++j)
+		{
+							
+				
+				
+			//fpTreePhrase.insertTransaction(transactionSet[k],FPTreePhrase::getRoot(),FPTreePhrase::getHeaderTable(),1);
+			fpTreePattern.insertTransaction(transactionSet[j],FPTreePattern::getRoot(),FPTreePattern::getHeaderTable(),1);//insert each transaction in database to tree
+		}
+		
+		//cout<<"insertion complete"<<endl;
+	}
+	catch(...)
+	{
+		//cout<<"exception inside insert"<<endl;
+		////cout<<error.message();
+	}
+	////cout<<"return safely from insert"<<endl;
+	//getch();	
+	map<int,HeaderNode*>aTable=FPTreePattern::getHeaderTable();
+	map<int,HeaderNode*>::iterator itr;
+	//cout<<"HeaderTable"<<endl;
+	//FPTreePattern::displayTree();
+	for(itr=aTable.begin();itr!=aTable.end();++itr)
+	{
+		//cout<<itr->first<<"\t"<<itr->second->itemSupport<<endl;
+		
+		
+	}
+	//getch();		
+	vector<int>emptyVector;
+	////cout<<FPTreePattern::getRoot()<<endl;
+	fpTreePattern.fpGrowth(FPTreePattern::getRoot(),FPTreePattern::getHeaderTable(),frequentPattern,emptyVector);
+	//Transactions::clean();
+	//getch();
+	//cout<<"pattern generation complete"<<endl;
+	map< vector<int>,int >::iterator patternItr;
+	k=0;
+	vector<int> pattern;
+	//cout<<"Frequent patterns"<<endl;
+	for(patternItr=frequentPattern.begin();patternItr!=frequentPattern.end();++patternItr)
+	{
+		//cout<<k<<". ";
+		pattern=patternItr->first;
+		for(int m=0;m<pattern.size();m++)
+			//cout<<pattern[m]<<"  ";
+		//cout<<" :    "<<patternItr->second<<endl;
+		k++;
+	}
+}
+string  Classifier::classify( )
+{
+	
+	vector< vector<Rule*> >rules=ruleOperator->getRules();
+	float * result=new float[rules.size()];
+	vector<Rule*> resultRules;
+	vector<int>ruleClass;	
+	float sum;
+	int numberOfRules=0;
+	map< vector<int>,int>::iterator patternIterator;
+	for(patternIterator=frequentPattern.begin();patternIterator!=frequentPattern.end();++patternIterator)
+	{
+		int cls;
+		Rule* temp=findRule(patternIterator->first,rules,cls);
+		if(cls!=-1)
+		{
+			resultRules.push_back(temp);
+			ruleClass.push_back(cls);
+		}
+		
+		
+	}
+	findProbability(resultRules,ruleClass,result);
+	string resultString;
+	ifstream classFile((dataPath+"\\index.txt").c_str());
+	int resultClass=0;
+	resultSet.push_back(result[0]);
+	for(int i=1;i<classSize;++i)
+	{
+		if(result[i]>result[resultClass])
+			resultClass=i;	
+		resultSet.push_back(result[i]);
+	}
+	
+	for(int i=0;i<=resultClass;++i)
+	{
+		resultString="";
+		getline(classFile,resultString);
+	}
+	classFile.close();
+	return resultString;
+
+}
+Rule* Classifier::findRule(vector<int>pattern,vector< vector<Rule*> >&rules,int & cls)
+{
+	vector<int>classes;
+	vector<Rule*>tempRules;
+	Rule* result;
+	for(int i=0;i<rules.size();++i)
+	{
+		for(int j=0;j<rules[i].size();++j)
+		{
+			vector<int> p = rules[i][j]->pattern;
+			statistic stat=rules[i][j]->stat;
+			if (pattern.size()!=p.size())
+				continue;
+			int k;
+			for( k=0;k<p.size();++k)
+			{
+				if(p[k]!=pattern[k])
+					break;
+			}
+			if(k==pattern.size())
+			{
+				tempRules.push_back(rules[i][j]);
+				classes.push_back(i);
+			}
+		}
+	}
+	if(tempRules.empty())
+	{
+		cls=-1;
+		return new Rule();
+	}
+	result=tempRules[0];
+	cls=classes[0];
+	for(int i=1;i<tempRules.size();++i)
+	{
+		if(tempRules[i]->stat.count>result->stat.count)
+		{
+			cls=classes[i];
+			result=tempRules[i];
+		}
+	}
+	return result;
+}
+void Classifier::findProbability(vector<Rule*>& rules,vector<int>& ruleClass,float* probability)
+{
+	for(int i=0;i<classSize;++i)
+		probability[i]=0;
+	
+	for(int i=0;i<rules.size();++i)
+	{
+		probability[ruleClass[i]]+=rules[i]->stat.sup;
+	}
+}

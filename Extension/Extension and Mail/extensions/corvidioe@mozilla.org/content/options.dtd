@@ -1,0 +1,26 @@
+<!ENTITY extension.name "CORVID - Intelligent Email Processor">
+
+
+<!ENTITY options.title "Options">
+<!ENTITY options.general "General">
+<!ENTITY options.filtration "Filtration">
+<!ENTITY options.classification "Classification">
+<!ENTITY options.summarization "Summarization">
+<!ENTITY options.advancedButton "Advanced Settings">
+
+<!ENTITY options.general.description "This is description">
+
+<!ENTITY options.filtration.caption "Filtration Settings">
+<!ENTITY options.filtration.description "This is email filtration description">
+<!ENTITY options.filtration.spamThreshold "Spam Threshold">
+<!ENTITY options.filtration.learningRate "Learning Rate  ">
+
+<!ENTITY options.classification.description "This is email classification description">
+<!ENTITY options.classification.noOfClasses "No of classes">
+<!ENTITY options.classification.listOfClasses "List of classes">
+<!ENTITY options.classification.addNewClass "Add new Class">
+<!ENTITY options.classification.add "Add">
+
+<!ENTITY options.summarization.description "This is email summarization description">
+<!ENTITY options.summarization.lengthOfSummary "Length of Summary ">
+

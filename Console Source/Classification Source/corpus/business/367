@@ -1,0 +1,20 @@
+
+It looks to me like another case of an obvious error (i.e. the counterparty 
+should have known it was a mistake).  I&apos;m afraid we&apos;ve just been lucky that 
+the numbers have been so far off - some day we&apos;re going to have one that is 
+too close to call obvious.
+
+	Torrey Moorer
+		 
+
+I&apos;ve reviewed the PG&amp;E trade in question again and the spread value is 
+actually $4.62, rather than $9. Given the fact that a typical spread trade 
+for Nat Gas is aroung 5 or 6 cents, I know that this correction is not much 
+of a consolation, but I wanted to clarify the pricing nonetheless.
+
+Deal Number Q75763.1, .2
+Leg 1 = 9.38
+Leg 2 = 4.76
+
+Spread valueon trade = 4.62
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/stopwords.txt
+END
+personal
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/personal
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/index.txt
+END
+rules.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/rules.txt
+END
+itemSupport.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/itemSupport.txt
+END
+tokenmap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/tokenmap.txt
+END
+entertainment
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/entertainment
+END
+classificationcontext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/classificationcontext.txt
+END
+tokenCounter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/corvidioe/!svn/ver/20/extension/corvidioe@mozilla.org/data/classification/tokenCounter.txt
+END

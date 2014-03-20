@@ -1,0 +1,37 @@
+<!ENTITY quickquote.options.wayofworking         "Way of Working">
+<!ENTITY quickquote.options.getselection         "Use GetSelection (less accurate)">
+<!ENTITY quickquote.options.clipboardlose        "Use Clipboard but lose html formatting">
+<!ENTITY quickquote.options.clipboardkeep        "Use Clipboard and maintain html formatting">
+<!ENTITY quickquote.options.rewrap               "Rewrap quoted text to col">
+<!ENTITY quickquote.options.quotestring          "Quotation Prefix">
+<!ENTITY quickquote.options.quotestring.tt       "At the beginning of each line">
+<!ENTITY quickquote.options.quotestring2         "Quotation Suffix">
+<!ENTITY quickquote.options.quotestring2.tt      "At the end of each line">
+<!ENTITY quickquote.options.replystring          "Reply To String">
+<!ENTITY quickquote.options.replystring.tt       "Prefix of a reply-to message subject">
+<!ENTITY quickquote.options.beforestring         "Before Quotation">
+<!ENTITY quickquote.options.beforestring.tt      "Before quoted text">
+<!ENTITY quickquote.options.afterstring          "After Quotation">
+<!ENTITY quickquote.options.afterstring.tt       "After quoted text">
+<!ENTITY quickquote.options.title                "QuickQuote - Options">
+<!ENTITY quickquote.options.subnew               "Copy original subject when quoting in new message">
+<!ENTITY quickquote.options.delay                "Selection or signature insertion delay">
+<!ENTITY quickquote.options.offset               "Selection offset">
+<!ENTITY quickquote.options.quotereply           "Reply to Sender">
+<!ENTITY quickquote.options.quotereplyall        "Reply To All">
+<!ENTITY quickquote.options.buttonreplace        "Toolbar Button Command Replacement">
+<!ENTITY quickquote.options.advanced             "Advanced">
+
+<!ENTITY quickquote.newmessage.label             "Quote in New Message">
+<!ENTITY quickquote.newmessage.accesskey         "Q">
+<!ENTITY quickquote.compmessage.label            "Quote in Compose Message">
+<!ENTITY quickquote.compmessage.accesskey        "C">
+<!ENTITY quickquote.reply.label                  "Quote in Reply">
+<!ENTITY quickquote.reply.accesskey              "U">
+<!ENTITY quickquote.replyall.label             	"Quote in Reply To All">
+<!ENTITY quickquote.replyall.accesskey           "A">
+<!ENTITY quickquote.newsmessage.label            "Quote in Reply To Newsgroup">
+<!ENTITY quickquote.newsmessage.accesskey        "N">
+
+<!ENTITY quickquote.currmessage.label            "Quote in Current Message">
+<!ENTITY quickquote.currmessage.accesskey        "C">
